@@ -33,7 +33,7 @@ public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputE
 
 <details>
   
-####<summary>Inherited Members</summary>
+<summary>Inherited Members</summary>
 
 [UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
 [ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
