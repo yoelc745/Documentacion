@@ -14,6 +14,9 @@ public class LectorTCP
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [LectorTCP](LectorFEIG.LectorTCP.md)
 
+<details open>
+  <summary> Methods </summary>
+
 #### Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
@@ -23,6 +26,7 @@ public class LectorTCP
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Constructors
 
