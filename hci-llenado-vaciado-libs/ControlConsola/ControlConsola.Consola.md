@@ -8,7 +8,7 @@ Componente que crea la consola para ir mostrando mensajes de estado.
 ```csharp
 public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputElement, ISupportInitialize, IQueryAmbient, IAddChild
 ```
-
+<details>
 <summary>#### Inheritance</summary>
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
@@ -675,7 +675,7 @@ public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputE
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
-
+</details>
 
 ## Constructors
 
