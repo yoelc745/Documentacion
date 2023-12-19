@@ -8,8 +8,8 @@ Componente que crea la consola para ir mostrando mensajes de estado.
 ```csharp
 public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputElement, ISupportInitialize, IQueryAmbient, IAddChild
 ```
-<details>
-<summary> #### Inheritance </summary>
+
+#### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject) ← 
@@ -31,7 +31,8 @@ public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputE
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
-#### Inherited Members
+<details>
+<summary> #### Inherited Members </summary>
 
 [UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
 [ContentControl.ContentProperty](https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty), 
