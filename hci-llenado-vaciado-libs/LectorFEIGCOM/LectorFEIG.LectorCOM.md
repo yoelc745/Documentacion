@@ -15,9 +15,7 @@ public class LectorCOM
 [LectorCOM](LectorFEIG.LectorCOM.md)
 
 <details open>
-  <summary> Methods </summary>
-
-#### Inherited Members
+  <summary> Inherited Members </summary>
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
