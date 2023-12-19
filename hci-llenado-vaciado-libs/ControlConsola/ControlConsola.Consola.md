@@ -32,6 +32,7 @@ public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputE
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
 <details>
+  
 <summary> #### Inherited Members </summary>
 
 [UserControl.OnCreateAutomationPeer\(\)](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer), 
