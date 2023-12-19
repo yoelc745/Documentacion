@@ -22,6 +22,7 @@ public class DuplicatedTagException : Exception, ISerializable, _Exception
 
 <details open>
   <summary> Methods </summary>
+  
 #### Inherited Members
 
 [Exception.GetBaseException\(\)](https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception), 
