@@ -12,7 +12,8 @@ public class Usuario
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Usuario](SQLHandler.Usuario.md)
 
-#### Inherited Members
+<details open>
+  <summary> Inherited Members </summary>
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -21,6 +22,7 @@ public class Usuario
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Constructors
 
