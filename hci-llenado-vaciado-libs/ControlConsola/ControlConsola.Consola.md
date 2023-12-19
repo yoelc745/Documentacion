@@ -9,7 +9,7 @@ Componente que crea la consola para ir mostrando mensajes de estado.
 public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputElement, ISupportInitialize, IQueryAmbient, IAddChild
 ```
 
-#### Inheritance
+<summary>#### Inheritance</summary>
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject) ← 
