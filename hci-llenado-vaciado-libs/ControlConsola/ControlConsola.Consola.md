@@ -31,7 +31,7 @@ public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputE
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
-<details open>
+<details>
   
 <summary>Inherited Members</summary>
 
