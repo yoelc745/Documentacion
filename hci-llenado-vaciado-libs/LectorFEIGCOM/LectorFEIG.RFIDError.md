@@ -21,9 +21,7 @@ public class RFIDError : Exception, ISerializable, _Exception
 [\_Exception](https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.\_exception)
 
 <details open>
-  <summary> Methods </summary>
-
-#### Inherited Members
+  <summary> Inherited Members </summary>
 
 [Exception.GetBaseException\(\)](https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception), 
 [Exception.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.exception.tostring), 
