@@ -20,6 +20,9 @@ public class ErrorConnectingException : Exception, ISerializable, _Exception
 [ISerializable](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable), 
 [\_Exception](https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.\_exception)
 
+<details open>
+  <summary> Methods </summary>
+
 #### Inherited Members
 
 [Exception.GetBaseException\(\)](https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception), 
@@ -42,6 +45,7 @@ public class ErrorConnectingException : Exception, ISerializable, _Exception
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Constructors
 
