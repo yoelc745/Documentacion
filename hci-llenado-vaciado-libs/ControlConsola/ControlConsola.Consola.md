@@ -9,7 +9,7 @@ Componente que crea la consola para ir mostrando mensajes de estado.
 public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputElement, ISupportInitialize, IQueryAmbient, IAddChild
 ```
 
-#### Inheritance
+### Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DispatcherObject](https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject) ← 
@@ -22,7 +22,7 @@ public class Consola : UserControl, IAnimatable, IFrameworkInputElement, IInputE
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol) ← 
 [Consola](ControlConsola.Consola.md)
 
-#### Implements
+### Implements
 
 [IAnimatable](https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable), 
 [IFrameworkInputElement](https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement), 
