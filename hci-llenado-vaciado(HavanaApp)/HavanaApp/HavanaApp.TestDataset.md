@@ -28,7 +28,9 @@ public class TestDataset : DataSet, IComponent, IDisposable, IServiceProvider, I
 [ISupportInitialize](https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize), 
 [ISerializable](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable)
 
-#### Inherited Members
+<details>
+  
+<summary>Inherited Members</summary>
 
 [DataSet.IsBinarySerialized\(SerializationInfo, StreamingContext\)](https://learn.microsoft.com/dotnet/api/system.data.dataset.isbinaryserialized), 
 [DataSet.DetermineSchemaSerializationMode\(SerializationInfo, StreamingContext\)](https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode\#system\-data\-dataset\-determineschemaserializationmode\(system\-runtime\-serialization\-serializationinfo\-system\-runtime\-serialization\-streamingcontext\)), 
@@ -136,6 +138,7 @@ public class TestDataset : DataSet, IComponent, IDisposable, IServiceProvider, I
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Constructors
 
