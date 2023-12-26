@@ -29,7 +29,9 @@ public class Index : Window, IAnimatable, IFrameworkInputElement, IInputElement,
 [IQueryAmbient](https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient), 
 [IAddChild](https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild)
 
-#### Inherited Members
+<details>
+  
+<summary>Inherited Members</summary>
 
 [Window.TaskbarItemInfoProperty](https://learn.microsoft.com/dotnet/api/system.windows.window.taskbariteminfoproperty), 
 [Window.DpiChangedEvent](https://learn.microsoft.com/dotnet/api/system.windows.window.dpichangedevent), 
@@ -739,6 +741,7 @@ public class Index : Window, IAnimatable, IFrameworkInputElement, IInputElement,
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Constructors
 
