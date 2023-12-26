@@ -15,7 +15,9 @@ public class TestDataset.IdentificacionesRow : DataRow
 [DataRow](https://learn.microsoft.com/dotnet/api/system.data.datarow) ← 
 [TestDataset.IdentificacionesRow](HavanaApp.TestDataset.IdentificacionesRow.md)
 
-#### Inherited Members
+<details>
+  
+<summary>Inherited Members</summary>
 
 [DataRow.AcceptChanges\(\)](https://learn.microsoft.com/dotnet/api/system.data.datarow.acceptchanges), 
 [DataRow.BeginEdit\(\)](https://learn.microsoft.com/dotnet/api/system.data.datarow.beginedit), 
@@ -71,6 +73,7 @@ public class TestDataset.IdentificacionesRow : DataRow
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Properties
 
