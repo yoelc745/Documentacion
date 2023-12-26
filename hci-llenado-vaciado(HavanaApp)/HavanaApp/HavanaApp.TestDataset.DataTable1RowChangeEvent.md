@@ -15,7 +15,9 @@ public class TestDataset.DataTable1RowChangeEvent : EventArgs
 [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
 [TestDataset.DataTable1RowChangeEvent](HavanaApp.TestDataset.DataTable1RowChangeEvent.md)
 
-#### Inherited Members
+<details open>
+  
+<summary>Inherited Members</summary>
 
 [EventArgs.Empty](https://learn.microsoft.com/dotnet/api/system.eventargs.empty), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
@@ -25,7 +27,8 @@ public class TestDataset.DataTable1RowChangeEvent : EventArgs
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
-
+<details>
+ 
 ## Constructors
 
 ### <a id="HavanaApp_TestDataset_DataTable1RowChangeEvent__ctor_HavanaApp_TestDataset_DataTable1Row_System_Data_DataRowAction_"></a> DataTable1RowChangeEvent\(DataTable1Row, DataRowAction\)
