@@ -31,7 +31,9 @@ public class TestDataset.IdentificacionesDataTable : TypedTableBase<TestDataset.
 [IEnumerable<TestDataset.IdentificacionesRow\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+<details>
+  
+<summary>Inherited Members</summary>
 
 [TypedTableBase<TestDataset.IdentificacionesRow\>.GetEnumerator\(\)](https://learn.microsoft.com/dotnet/api/system.data.typedtablebase\-1.getenumerator), 
 [TypedTableBase<TestDataset.IdentificacionesRow\>.Cast<TResult\>\(\)](https://learn.microsoft.com/dotnet/api/system.data.typedtablebase\-1.cast), 
@@ -163,6 +165,7 @@ public class TestDataset.IdentificacionesDataTable : TypedTableBase<TestDataset.
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Constructors
 
