@@ -14,7 +14,7 @@ public class ConfiguracionSQL
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ConfiguracionSQL](HavanaTablet.ConfiguracionSQL.md)
 
-<details>
+<details open>
   
 <summary>Inherited Members</summary>
 
