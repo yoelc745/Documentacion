@@ -20,7 +20,9 @@ public class TagInsertionError : Exception, ISerializable, _Exception
 [ISerializable](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable), 
 [\_Exception](https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.\_exception)
 
-#### Inherited Members
+<details open>
+  
+<summary>Inherited Members</summary>
 
 [Exception.GetBaseException\(\)](https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception), 
 [Exception.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.exception.tostring), 
@@ -42,6 +44,7 @@ public class TagInsertionError : Exception, ISerializable, _Exception
 [object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
 [object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+</details>
 
 ## Constructors
 
