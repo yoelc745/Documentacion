@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class RFIDFunctions | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class RFIDFunctions | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="RFID_RFIDFunctions"> Class RFIDFunctions</h1>
+
+<p>Namespace: <a href="RFID.html">RFID</a><br>
+Assembly: RFID.dll</p>
+<p>Funciones externas asociadas al RFID, no necesita ser instanciado.</p>
+<pre><code class="lang-csharp">public static class RFIDFunctions
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="RFID.RFIDFunctions.html">RFIDFunctions</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="RFID_RFIDFunctions_ClearDBDataFromTag_System_Data_SqlClient_SqlConnection_System_String_System_Boolean_"> ClearDBDataFromTag(SqlConnection, string, bool)</h3>
+<p>Borra los datos de la base de datos asociados a una etiqueta.</p>
+<pre><code class="lang-csharp">public static bool ClearDBDataFromTag(SqlConnection Connection, string IDTag, bool FromTablet = false)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>Connection</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>Conexión a la base de datos.</p>
+<p><code>IDTag</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Identificador de la etiqueta.</p>
+<p><code>FromTablet</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Indica si la eliminación se realizó desde una tableta.</p>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Verdadero si se eliminaron los datos correctamente, falso en caso contrario.</p>
+<h3 id="RFID_RFIDFunctions_EncodeData_System_String_"> EncodeData(string)</h3>
+<p>Codifica los datos en Brotli para introducirlos en el transponder.</p>
+<pre><code class="lang-csharp">public static string EncodeData(string Data)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>Data</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>String a codificar.</p>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Representacion en Base64 de la cadena codificada en Brotli</p>
+<h3 id="RFID_RFIDFunctions_Hash256String_System_String_"> Hash256String(string)</h3>
+<p>Calcula el hash SHA256 de una cadena de texto.</p>
+<pre><code class="lang-csharp">public static string Hash256String(string value)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>value</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Cadena de texto a la que se le calculará el hash.</p>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El hash SHA256 de la cadena de texto.</p>
+<h3 id="RFID_RFIDFunctions_LoadTagFromDB_System_Data_SqlClient_SqlConnection_System_String_"> LoadTagFromDB(SqlConnection, string)</h3>
+<p>Obtiene la información del tag especificado desde la base de datos.</p>
+<pre><code class="lang-csharp">public static TagRFID LoadTagFromDB(SqlConnection Connection, string IDTag)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>Connection</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p><code>IDTag</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h4 id="returns-3">Returns</h4>
+<p><a href="RFID.TagRFID.html">TagRFID</a></p>
+<p>Un objeto <code>Tag</code> o <code>null</code> si no existe.</p>
+<h4 id="exceptions">Exceptions</h4>
+<p><a href="RFID.DuplicatedTagException.html">DuplicatedTagException</a></p>
+<p>Si existe más de un tag</p>
+<h3 id="RFID_RFIDFunctions_SubstituteTagData_System_Data_SqlClient_SqlConnection_System_String_System_String_System_Boolean_"> SubstituteTagData(SqlConnection, string, string, bool)</h3>
+<p>Reemplaza los datos de una etiqueta por los de otra en la base de datos.</p>
+<pre><code class="lang-csharp">public static bool SubstituteTagData(SqlConnection Connection, string OldTag, string NewTag, bool FromTablet = false)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>Connection</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>Conexión a la base de datos.</p>
+<p><code>OldTag</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Identificador de la etiqueta a reemplazar.</p>
+<p><code>NewTag</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Identificador de la nueva etiqueta.</p>
+<p><code>FromTablet</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Indica si el reemplazo se realizó desde una tableta.</p>
+<h4 id="returns-4">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Verdadero si se reemplazaron los datos correctamente, falso en caso contrario.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

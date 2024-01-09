@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class PLCLegacy | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class PLCLegacy | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="PLCs_PLCLegacy"> Class PLCLegacy</h1>
+
+<p>Namespace: <a href="PLCs.html">PLCs</a><br>
+Assembly: PLC.dll</p>
+<p>Gestiona la comunicación con un PLC legado.</p>
+<pre><code class="lang-csharp">public class PLCLegacy
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="PLCs.PLCLegacy.html">PLCLegacy</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="PLCs_PLCLegacy__ctor_System_String_System_Int16_System_Int16_"> PLCLegacy(string, short, short)</h3>
+<p>Inicializa una nueva instancia de la clase PLCLegacy y establece una conexión con el PLC utilizando la dirección IP, el Rack y el Slot especificados.</p>
+<pre><code class="lang-csharp">public PLCLegacy(string IP, short Rack, short Slot)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>IP</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Dirección IP del PLC.</p>
+<p><code>Rack</code> <a href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></p>
+<p>Número de rack del PLC.</p>
+<p><code>Slot</code> <a href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></p>
+<p>Número de slot del PLC.</p>
+<h2 id="fields">Fields</h2>
+<h3 id="PLCs_PLCLegacy_BufferPLC"> BufferPLC</h3>
+<p>Lista que contiene datos del PLC en el buffer.</p>
+<pre><code class="lang-csharp">public List&lt;EstructurasPLC.DatosPLC&gt; BufferPLC
+</code></pre>
+<h4 id="field-value">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="PLCs.EstructurasPLC.html">EstructurasPLC</a>.<a href="PLCs.EstructurasPLC.DatosPLC.html">DatosPLC</a>&gt;</p>
+<h3 id="PLCs_PLCLegacy_IsWorkingBuffer"> IsWorkingBuffer</h3>
+<p>Indicador del estado del búfer de trabajo.</p>
+<pre><code class="lang-csharp">public bool IsWorkingBuffer
+</code></pre>
+<h4 id="field-value-1">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="PLCs_PLCLegacy_Log"> Log</h3>
+<p>Logger para registrar información.</p>
+<pre><code class="lang-csharp">public ILog Log
+</code></pre>
+<h4 id="field-value-2">Field Value</h4>
+<p>ILog</p>
+<h3 id="PLCs_PLCLegacy_plc"> plc</h3>
+<p>Controlador PLC.</p>
+<pre><code class="lang-csharp">public Plc plc
+</code></pre>
+<h4 id="field-value-3">Field Value</h4>
+<p>Plc</p>
+<h2 id="methods">Methods</h2>
+<h3 id="PLCs_PLCLegacy_Disconnect"> Disconnect()</h3>
+<p>Intenta desconectar el PLC si está actualmente conectado.</p>
+<pre><code class="lang-csharp">public bool Disconnect()
+</code></pre>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Devuelve verdadero si se desconecta correctamente, de lo contrario, falso.</p>
+<h3 id="PLCs_PLCLegacy_IsConnected"> IsConnected()</h3>
+<p>Verifica si la conexión con el PLC está activa.</p>
+<pre><code class="lang-csharp">public bool IsConnected()
+</code></pre>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Booleano que indica si la conexión está activa (true) o no (false).</p>
+<h3 id="PLCs_PLCLegacy_OnBufferProcesado_PLCs_EstructurasPLC_DatosPLC_"> OnBufferProcesado(DatosPLC)</h3>
+<pre><code class="lang-csharp">protected virtual void OnBufferProcesado(EstructurasPLC.DatosPLC Data)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>Data</code> <a href="PLCs.EstructurasPLC.html">EstructurasPLC</a>.<a href="PLCs.EstructurasPLC.DatosPLC.html">DatosPLC</a></p>
+<h3 id="PLCs_PLCLegacy_ReadAllVars_SQLHandler_ConfiguracionZona_"> ReadAllVars(ConfiguracionZona)</h3>
+<p>Lee todas las variables del PLC especificadas en la configuración de la zona y devuelve un objeto PLCData con los valores obtenidos.</p>
+<pre><code class="lang-csharp">public PLCLegacy.PLCData ReadAllVars(ConfiguracionZona ConfigZona)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>ConfigZona</code> ConfiguracionZona</p>
+<p>Configuración de la zona que contiene las direcciones de memoria a leer.</p>
+<h4 id="returns-2">Returns</h4>
+<p><a href="PLCs.PLCLegacy.html">PLCLegacy</a>.<a href="PLCs.PLCLegacy.PLCData.html">PLCData</a></p>
+<p>Objeto PLCData con los valores leídos del PLC.</p>
+<h3 id="PLCs_PLCLegacy_ReadVariable_System_String_PLCs_PLCLegacy_TipoDato_"> ReadVariable(string, TipoDato)</h3>
+<p>Lee el valor de la variable especificada del PLC y devuelve un objeto del tipo especificado por 'Tipo'.</p>
+<pre><code class="lang-csharp">public object ReadVariable(string Variable, PLCLegacy.TipoDato Tipo)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>Variable</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Variable a leer en el formato 'VarType.Address'.</p>
+<p><code>Tipo</code> <a href="PLCs.PLCLegacy.html">PLCLegacy</a>.<a href="PLCs.PLCLegacy.TipoDato.html">TipoDato</a></p>
+<p>Tipo de dato que se espera obtener de la lectura (Bit, Byte, DWord, Real).</p>
+<h4 id="returns-3">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>Objeto con el valor leído del PLC según el tipo especificado.</p>
+<h4 id="exceptions">Exceptions</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></p>
+<p>Se lanza una excepción si hay un error al leer la variable del PLC.</p>
+<h3 id="PLCs_PLCLegacy_ReadVars_System_String_"> ReadVars(string)</h3>
+<p>Lee las variables especificadas en una cadena separada por ';' del PLC y devuelve un objeto PLCData con los valores obtenidos.</p>
+<pre><code class="lang-csharp">public PLCLegacy.PLCData ReadVars(string Vars)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>Vars</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Cadena de variables a leer en formato 'VarType.Address' separadas por ';'.</p>
+<h4 id="returns-4">Returns</h4>
+<p><a href="PLCs.PLCLegacy.html">PLCLegacy</a>.<a href="PLCs.PLCLegacy.PLCData.html">PLCData</a></p>
+<p>Objeto PLCData con los valores leídos del PLC.</p>
+<h3 id="PLCs_PLCLegacy_SetBufferMode_System_Boolean_"> SetBufferMode(bool)</h3>
+<p>Establece el modo del buffer para el PLC.</p>
+<pre><code class="lang-csharp">public void SetBufferMode(bool Status)
+</code></pre>
+<h4 id="parameters-5">Parameters</h4>
+<p><code>Status</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Estado que indica si el modo de buffer está activado (true) o desactivado (false).</p>
+<h3 id="PLCs_PLCLegacy_StartBufferMode"> StartBufferMode()</h3>
+<p>Inicia el modo buffer del PLC para la lectura/escritura infinita de variables</p>
+<pre><code class="lang-csharp">public void StartBufferMode()
+</code></pre>
+<h4 id="remarks">Remarks</h4>
+<p>Este método utiliza un bucle para procesar los elementos del buffer PLC, escribiendo o leyendo valores según la operación definida.</p>
+<h4 id="see-also">See Also</h4>
+<p><a href="PLCs.PLCLegacy.html">PLCLegacy</a>.<a href="PLCs.PLCLegacy.html#PLCs_PLCLegacy_SetBufferMode_System_Boolean_">SetBufferMode</a>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>),
+<a href="PLCs.PLCLegacy.html">PLCLegacy</a>.<a href="PLCs.PLCLegacy.html#PLCs_PLCLegacy_WriteVariable_System_String_System_Object_">WriteVariable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a>),
+<a href="PLCs.PLCLegacy.html">PLCLegacy</a>.<a href="PLCs.PLCLegacy.html#PLCs_PLCLegacy_ReadVariable_System_String_PLCs_PLCLegacy_TipoDato_">ReadVariable</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a href="PLCs.PLCLegacy.html">PLCLegacy</a>.<a href="PLCs.PLCLegacy.TipoDato.html">TipoDato</a>)</p>
+<h3 id="PLCs_PLCLegacy_WaitForAddressChange_System_String_System_Boolean_"> WaitForAddressChange(string, bool)</h3>
+<p>Espera a que una dirección de memoria cambie para continuar con el código.</p>
+<pre><code class="lang-csharp">public Task WaitForAddressChange(string Variable, bool Value)
+</code></pre>
+<h4 id="parameters-6">Parameters</h4>
+<p><code>Variable</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Variable que estará escuchando el PLC (ej: M157.0).</p>
+<p><code>Value</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Valor que espera para continuar con el código.</p>
+<h4 id="returns-5">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<h3 id="PLCs_PLCLegacy_WriteVariable_System_String_System_Object_"> WriteVariable(string, object)</h3>
+<p>Escribe el valor especificado en la variable especificada.</p>
+<pre><code class="lang-csharp">public void WriteVariable(string Variable, object value)
+</code></pre>
+<h4 id="parameters-7">Parameters</h4>
+<p><code>Variable</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Variable especificada (ej: M157.0)</p>
+<p><code>value</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>Valor a escribir en el PLC.</p>
+<h3 id="PLCs_PLCLegacy_BufferProcesado"> BufferProcesado</h3>
+<p>Evento que se activa cuando se procesa un buffer.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;EstructurasPLC.DatosPLC&gt; BufferProcesado
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="PLCs.EstructurasPLC.html">EstructurasPLC</a>.<a href="PLCs.EstructurasPLC.DatosPLC.html">DatosPLC</a>&gt;</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

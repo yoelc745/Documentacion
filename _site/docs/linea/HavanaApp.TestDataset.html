@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class TestDataset | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class TestDataset | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="HavanaApp_TestDataset"> Class TestDataset</h1>
+
+<p>Namespace: <a href="HavanaApp.html">HavanaApp</a><br>
+Assembly: HavanaApp.dll</p>
+<p>Represents a strongly typed in-memory cache of data.</p>
+<pre><code class="lang-csharp">[Serializable]
+public class TestDataset : DataSet, IComponent, IDisposable, IServiceProvider, IListSource, IXmlSerializable, ISupportInitializeNotification, ISupportInitialize, ISerializable
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent">MarshalByValueComponent</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset">DataSet</a> ←
+<a href="HavanaApp.TestDataset.html">TestDataset</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent">IComponent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.ilistsource">IListSource</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable">IXmlSerializable</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitializenotification">ISupportInitializeNotification</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize">ISupportInitialize</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.isbinaryserialized">DataSet.IsBinarySerialized(SerializationInfo, StreamingContext)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-runtime-serialization-serializationinfo-system-runtime-serialization-streamingcontext)">DataSet.DetermineSchemaSerializationMode(SerializationInfo, StreamingContext)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.determineschemaserializationmode#system-data-dataset-determineschemaserializationmode(system-xml-xmlreader)">DataSet.DetermineSchemaSerializationMode(XmlReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getserializationdata">DataSet.GetSerializationData(SerializationInfo, StreamingContext)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getobjectdata">DataSet.GetObjectData(SerializationInfo, StreamingContext)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.initializederiveddataset">DataSet.InitializeDerivedDataSet()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializerelations">DataSet.ShouldSerializeRelations()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.shouldserializetables">DataSet.ShouldSerializeTables()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.acceptchanges">DataSet.AcceptChanges()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.begininit">DataSet.BeginInit()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.endinit">DataSet.EndInit()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.clear">DataSet.Clear()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.clone">DataSet.Clone()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.copy">DataSet.Copy()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges">DataSet.GetChanges()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getchanges#system-data-dataset-getchanges(system-data-datarowstate)">DataSet.GetChanges(DataRowState)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getxml">DataSet.GetXml()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getxmlschema">DataSet.GetXmlSchema()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges">DataSet.HasChanges()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.haschanges#system-data-dataset-haschanges(system-data-datarowstate)">DataSet.HasChanges(DataRowState)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-xml-xmlreader-system-string())">DataSet.InferXmlSchema(XmlReader, string[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-stream-system-string())">DataSet.InferXmlSchema(Stream, string[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-io-textreader-system-string())">DataSet.InferXmlSchema(TextReader, string[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.inferxmlschema#system-data-dataset-inferxmlschema(system-string-system-string())">DataSet.InferXmlSchema(string, string[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-xml-xmlreader)">DataSet.ReadXmlSchema(XmlReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-stream)">DataSet.ReadXmlSchema(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-io-textreader)">DataSet.ReadXmlSchema(TextReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlschema#system-data-dataset-readxmlschema(system-string)">DataSet.ReadXmlSchema(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream)">DataSet.WriteXmlSchema(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-stream-system-converter((system-type-system-string)))">DataSet.WriteXmlSchema(Stream, Converter&lt;Type, string&gt;)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string)">DataSet.WriteXmlSchema(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-string-system-converter((system-type-system-string)))">DataSet.WriteXmlSchema(string, Converter&lt;Type, string&gt;)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter)">DataSet.WriteXmlSchema(TextWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-io-textwriter-system-converter((system-type-system-string)))">DataSet.WriteXmlSchema(TextWriter, Converter&lt;Type, string&gt;)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter)">DataSet.WriteXmlSchema(XmlWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexmlschema#system-data-dataset-writexmlschema(system-xml-xmlwriter-system-converter((system-type-system-string)))">DataSet.WriteXmlSchema(XmlWriter, Converter&lt;Type, string&gt;)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader)">DataSet.ReadXml(XmlReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream)">DataSet.ReadXml(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader)">DataSet.ReadXml(TextReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string)">DataSet.ReadXml(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-xml-xmlreader-system-data-xmlreadmode)">DataSet.ReadXml(XmlReader, XmlReadMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-stream-system-data-xmlreadmode)">DataSet.ReadXml(Stream, XmlReadMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-io-textreader-system-data-xmlreadmode)">DataSet.ReadXml(TextReader, XmlReadMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxml#system-data-dataset-readxml(system-string-system-data-xmlreadmode)">DataSet.ReadXml(string, XmlReadMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream)">DataSet.WriteXml(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter)">DataSet.WriteXml(TextWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter)">DataSet.WriteXml(XmlWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string)">DataSet.WriteXml(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-stream-system-data-xmlwritemode)">DataSet.WriteXml(Stream, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-io-textwriter-system-data-xmlwritemode)">DataSet.WriteXml(TextWriter, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-xml-xmlwriter-system-data-xmlwritemode)">DataSet.WriteXml(XmlWriter, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.writexml#system-data-dataset-writexml(system-string-system-data-xmlwritemode)">DataSet.WriteXml(string, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset)">DataSet.Merge(DataSet)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean)">DataSet.Merge(DataSet, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-dataset-system-boolean-system-data-missingschemaaction)">DataSet.Merge(DataSet, bool, MissingSchemaAction)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable)">DataSet.Merge(DataTable)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datatable-system-boolean-system-data-missingschemaaction)">DataSet.Merge(DataTable, bool, MissingSchemaAction)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow())">DataSet.Merge(DataRow[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.merge#system-data-dataset-merge(system-data-datarow()-system-boolean-system-data-missingschemaaction)">DataSet.Merge(DataRow[], bool, MissingSchemaAction)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.onpropertychanging">DataSet.OnPropertyChanging(PropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.onremovetable">DataSet.OnRemoveTable(DataTable)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.onremoverelation">DataSet.OnRemoveRelation(DataRelation)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.raisepropertychanging">DataSet.RaisePropertyChanging(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.rejectchanges">DataSet.RejectChanges()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.reset">DataSet.Reset()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.readxmlserializable">DataSet.ReadXmlSerializable(XmlReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getschemaserializable">DataSet.GetSchemaSerializable()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.getdatasetschema">DataSet.GetDataSetSchema(XmlSchemaSet)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-fillerroreventhandler-system-data-datatable())">DataSet.Load(IDataReader, LoadOption, FillErrorEventHandler, params DataTable[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-data-datatable())">DataSet.Load(IDataReader, LoadOption, params DataTable[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.load#system-data-dataset-load(system-data-idatareader-system-data-loadoption-system-string())">DataSet.Load(IDataReader, LoadOption, params string[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader">DataSet.CreateDataReader()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.createdatareader#system-data-dataset-createdatareader(system-data-datatable())">DataSet.CreateDataReader(params DataTable[])</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.remotingformat">DataSet.RemotingFormat</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.schemaserializationmode">DataSet.SchemaSerializationMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.casesensitive">DataSet.CaseSensitive</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.defaultviewmanager">DataSet.DefaultViewManager</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.enforceconstraints">DataSet.EnforceConstraints</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.datasetname">DataSet.DataSetName</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.namespace">DataSet.Namespace</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.prefix">DataSet.Prefix</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.extendedproperties">DataSet.ExtendedProperties</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.haserrors">DataSet.HasErrors</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.isinitialized">DataSet.IsInitialized</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.locale">DataSet.Locale</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.site">DataSet.Site</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.relations">DataSet.Relations</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.tables">DataSet.Tables</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.mergefailed">DataSet.MergeFailed</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.dataset.initialized">DataSet.Initialized</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose">MarshalByValueComponent.Dispose()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose(system-boolean)">MarshalByValueComponent.Dispose(bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.getservice">MarshalByValueComponent.GetService(Type)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.tostring">MarshalByValueComponent.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.events">MarshalByValueComponent.Events</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.site">MarshalByValueComponent.Site</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.container">MarshalByValueComponent.Container</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.designmode">MarshalByValueComponent.DesignMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.disposed">MarshalByValueComponent.Disposed</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="HavanaApp_TestDataset__ctor"> TestDataset()</h3>
+<pre><code class="lang-csharp">public TestDataset()
+</code></pre>
+<h3 id="HavanaApp_TestDataset__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"> TestDataset(SerializationInfo, StreamingContext)</h3>
+<pre><code class="lang-csharp">protected TestDataset(SerializationInfo info, StreamingContext context)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>info</code> <a href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a></p>
+<p><code>context</code> <a href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext">StreamingContext</a></p>
+<h2 id="properties">Properties</h2>
+<h3 id="HavanaApp_TestDataset_DataTable1"> DataTable1</h3>
+<pre><code class="lang-csharp">[Browsable(false)]
+public TestDataset.DataTable1DataTable DataTable1 { get; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1DataTable.html">DataTable1DataTable</a></p>
+<h3 id="HavanaApp_TestDataset_Identificaciones"> Identificaciones</h3>
+<pre><code class="lang-csharp">[Browsable(false)]
+public TestDataset.IdentificacionesDataTable Identificaciones { get; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.IdentificacionesDataTable.html">IdentificacionesDataTable</a></p>
+<h3 id="HavanaApp_TestDataset_Relations"> Relations</h3>
+<pre><code class="lang-csharp">public DataRelationCollection Relations { get; }
+</code></pre>
+<h4 id="property-value-2">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datarelationcollection">DataRelationCollection</a></p>
+<h3 id="HavanaApp_TestDataset_SchemaSerializationMode"> SchemaSerializationMode</h3>
+<p>Gets or sets a <span class="xref">System.Data.SchemaSerializationMode</span> for a <span class="xref">System.Data.DataSet</span>.</p>
+<pre><code class="lang-csharp">[Browsable(true)]
+public override SchemaSerializationMode SchemaSerializationMode { get; set; }
+</code></pre>
+<h4 id="property-value-3">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.schemaserializationmode">SchemaSerializationMode</a></p>
+<h3 id="HavanaApp_TestDataset_Tables"> Tables</h3>
+<pre><code class="lang-csharp">public DataTableCollection Tables { get; }
+</code></pre>
+<h4 id="property-value-4">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datatablecollection">DataTableCollection</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="HavanaApp_TestDataset_Clone"> Clone()</h3>
+<p>Copies the structure of the <span class="xref">System.Data.DataSet</span>, including all <span class="xref">System.Data.DataTable</span> schemas, relations, and constraints. Does not copy any data.</p>
+<pre><code class="lang-csharp">public override DataSet Clone()
+</code></pre>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.dataset">DataSet</a></p>
+<p>A new <span class="xref">System.Data.DataSet</span> with the same schema as the current <span class="xref">System.Data.DataSet</span>, but none of the data.</p>
+<h3 id="HavanaApp_TestDataset_GetSchemaSerializable"> GetSchemaSerializable()</h3>
+<p>Returns a serializable <span class="xref">System.Xml.Schema.XmlSchema</span> instance.</p>
+<pre><code class="lang-csharp">protected override XmlSchema GetSchemaSerializable()
+</code></pre>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema">XmlSchema</a></p>
+<p>The <span class="xref">System.Xml.Schema.XmlSchema</span> instance.</p>
+<h3 id="HavanaApp_TestDataset_GetTypedDataSetSchema_System_Xml_Schema_XmlSchemaSet_"> GetTypedDataSetSchema(XmlSchemaSet)</h3>
+<pre><code class="lang-csharp">public static XmlSchemaComplexType GetTypedDataSetSchema(XmlSchemaSet xs)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>xs</code> <a href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemaset">XmlSchemaSet</a></p>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemacomplextype">XmlSchemaComplexType</a></p>
+<h3 id="HavanaApp_TestDataset_InitializeDerivedDataSet"> InitializeDerivedDataSet()</h3>
+<p>Deserialize all of the tables data of the DataSet from the binary or XML stream.</p>
+<pre><code class="lang-csharp">protected override void InitializeDerivedDataSet()
+</code></pre>
+<h3 id="HavanaApp_TestDataset_ReadXmlSerializable_System_Xml_XmlReader_"> ReadXmlSerializable(XmlReader)</h3>
+<p>Ignores attributes and returns an empty DataSet.</p>
+<pre><code class="lang-csharp">protected override void ReadXmlSerializable(XmlReader reader)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>reader</code> <a href="https://learn.microsoft.com/dotnet/api/system.xml.xmlreader">XmlReader</a></p>
+<p>The specified XML reader.</p>
+<h3 id="HavanaApp_TestDataset_ShouldSerializeRelations"> ShouldSerializeRelations()</h3>
+<p>Gets a value indicating whether <span class="xref">System.Data.DataSet.Relations</span> property should be persisted.</p>
+<pre><code class="lang-csharp">protected override bool ShouldSerializeRelations()
+</code></pre>
+<h4 id="returns-3">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property value has been changed from its default; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+<h3 id="HavanaApp_TestDataset_ShouldSerializeTables"> ShouldSerializeTables()</h3>
+<p>Gets a value indicating whether <span class="xref">System.Data.DataSet.Tables</span> property should be persisted.</p>
+<pre><code class="lang-csharp">protected override bool ShouldSerializeTables()
+</code></pre>
+<h4 id="returns-4">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the property value has been changed from its default; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

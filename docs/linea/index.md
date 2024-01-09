@@ -1,0 +1,1 @@
+Esta documentación hace referencia a la aplicación de línea del proceso de llenado y vaciado.

@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class RegistroPesaje | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class RegistroPesaje | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="SQLHandler_RegistroPesaje"> Class RegistroPesaje</h1>
+
+<p>Namespace: <a href="SQLHandler.html">SQLHandler</a><br>
+Assembly: SQLHandler.dll</p>
+<p>Representa un registro de pesaje.</p>
+<pre><code class="lang-csharp">public class RegistroPesaje : INotifyPropertyChanged
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="properties">Properties</h2>
+<h3 id="SQLHandler_RegistroPesaje_Fecha"> Fecha</h3>
+<p>Obtiene o establece la fecha del registro.</p>
+<pre><code class="lang-csharp">public DateTime Fecha { get; set; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></p>
+<h3 id="SQLHandler_RegistroPesaje_Id_Zona"> Id_Zona</h3>
+<p>Obtiene o establece el ID de la zona del registro.</p>
+<pre><code class="lang-csharp">public int Id_Zona { get; set; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_RegistroPesaje_Numero_Lote"> Numero_Lote</h3>
+<p>Obtiene o establece el número de lote del registro.</p>
+<pre><code class="lang-csharp">public string Numero_Lote { get; set; }
+</code></pre>
+<h4 id="property-value-2">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_RegistroPesaje_Peso"> Peso</h3>
+<p>Obtiene o establece el peso del registro.</p>
+<pre><code class="lang-csharp">public int Peso { get; set; }
+</code></pre>
+<h4 id="property-value-3">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_RegistroPesaje_Tag"> Tag</h3>
+<p>Obtiene o establece el tag del registro.</p>
+<pre><code class="lang-csharp">public string Tag { get; set; }
+</code></pre>
+<h4 id="property-value-4">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_RegistroPesaje_Uuid"> Uuid</h3>
+<p>Obtiene o establece el UUID del registro.</p>
+<pre><code class="lang-csharp">public string Uuid { get; set; }
+</code></pre>
+<h4 id="property-value-5">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="SQLHandler_RegistroPesaje_ComprobarExistenciaRegistro_System_Data_SqlClient_SqlConnection_SQLHandler_RegistroPesaje_"> ComprobarExistenciaRegistro(SqlConnection, RegistroPesaje)</h3>
+<p>Comprueba si existe un registro de pesaje para un determinado tag en la base de datos.</p>
+<pre><code class="lang-csharp">public static bool ComprobarExistenciaRegistro(SqlConnection dbconn, RegistroPesaje RegistroAComprobar)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>dbconn</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a la base de datos.</p>
+<p><code>RegistroAComprobar</code> <a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a></p>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>True si existe un registro de pesaje asociado al tag especificado, False de lo contrario.</p>
+<h3 id="SQLHandler_RegistroPesaje_GuardarRegistroBd_System_Data_SqlClient_SqlConnection_"> GuardarRegistroBd(SqlConnection)</h3>
+<p>Guarda un registro de pesaje en la base de datos.</p>
+<pre><code class="lang-csharp">public bool GuardarRegistroBd(SqlConnection Conn)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>Conn</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a la base de datos.</p>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>True si el registro se guarda exitosamente, False en caso contrario.</p>
+<h3 id="SQLHandler_RegistroPesaje_ObtenerRegistroByUuid_System_Data_SqlClient_SqlConnection_System_String_"> ObtenerRegistroByUuid(SqlConnection, string)</h3>
+<p>Obtiene un registro de pesaje por su UUID desde la base de datos.</p>
+<pre><code class="lang-csharp">public static RegistroPesaje ObtenerRegistroByUuid(SqlConnection dbconn, string Uuid)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>dbconn</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a la base de datos.</p>
+<p><code>Uuid</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h4 id="returns-2">Returns</h4>
+<p><a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a></p>
+<p>El registro de pesaje asociado al UUID especificado, o null si no se encontró ningún registro.</p>
+<h3 id="SQLHandler_RegistroPesaje_ObtenerRegistrosFromTag_System_Data_SqlClient_SqlConnection_System_String_"> ObtenerRegistrosFromTag(SqlConnection, string)</h3>
+<p>Obtiene el último registro de pesaje para un determinado tag desde la base de datos.</p>
+<pre><code class="lang-csharp">public static RegistroPesaje ObtenerRegistrosFromTag(SqlConnection dbconn, string Tag)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>dbconn</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a la base de datos.</p>
+<p><code>Tag</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El tag para el cual se obtendrá el registro.</p>
+<h4 id="returns-3">Returns</h4>
+<p><a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a></p>
+<p>El último registro de pesaje asociado al tag especificado, o null si no se encontró ningún registro.</p>
+<h3 id="SQLHandler_RegistroPesaje_ObtenerUltimosRegistrosFromTag_System_Data_SqlClient_SqlConnection_System_String_"> ObtenerUltimosRegistrosFromTag(SqlConnection, string)</h3>
+<p>Obtiene los últimos registros de pesaje para un determinado tag desde la base de datos.</p>
+<pre><code class="lang-csharp">public static List&lt;RegistroPesaje&gt; ObtenerUltimosRegistrosFromTag(SqlConnection dbconn, string Tag)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>dbconn</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a la base de datos.</p>
+<p><code>Tag</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El tag para el cual se obtendrán los registros.</p>
+<h4 id="returns-4">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a>&gt;</p>
+<p>Una lista de los últimos registros de pesaje asociados al tag especificado.</p>
+<h3 id="SQLHandler_RegistroPesaje_ObtenerUltimosXRegistros_System_Data_SqlClient_SqlConnection_System_Int32_"> ObtenerUltimosXRegistros(SqlConnection, int)</h3>
+<p>Obtiene los últimos X registros de pesaje desde la base de datos.</p>
+<pre><code class="lang-csharp">public static List&lt;RegistroPesaje&gt; ObtenerUltimosXRegistros(SqlConnection dbconn, int Count)
+</code></pre>
+<h4 id="parameters-5">Parameters</h4>
+<p><code>dbconn</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a la base de datos.</p>
+<p><code>Count</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h4 id="returns-5">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a>&gt;</p>
+<p>Una lista de los últimos X registros de pesaje.</p>
+<h3 id="SQLHandler_RegistroPesaje_OnPropertyChanged_System_String_"> OnPropertyChanged(string)</h3>
+<p>Llama al evento PropertyChanged cuando cambia una propiedad de la clase.</p>
+<pre><code class="lang-csharp">protected void OnPropertyChanged(string PropertyName)
+</code></pre>
+<h4 id="parameters-6">Parameters</h4>
+<p><code>PropertyName</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El nombre de la propiedad que ha cambiado.</p>
+<h3 id="SQLHandler_RegistroPesaje_ToString"> ToString()</h3>
+<p>Retorna una representación en forma de cadena de este objeto.</p>
+<pre><code class="lang-csharp">public override string ToString()
+</code></pre>
+<h4 id="returns-6">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Una cadena que representa el objeto actual.</p>
+<h3 id="SQLHandler_RegistroPesaje_PropertyChanged"> PropertyChanged</h3>
+<p>Se produce cuando cambia una propiedad de la clase.</p>
+<pre><code class="lang-csharp">public event PropertyChangedEventHandler PropertyChanged
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

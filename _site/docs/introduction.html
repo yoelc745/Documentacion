@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Introducci&#243;n | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introducci&#243;n | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="introducción">Introducción</h1>
+
+<h2 id="lista-de-dependencias-del-sistema">Lista de dependencias del sistema</h2>
+<p>Framework</p>
+<ul>
+<li>.NetFramework 4.8: Es un entorno de ejecución administrado para Windows que proporciona diversos servicios a las aplicaciones en ejecución. Consta de dos componentes principales: Common Language Runtime (CLR), que es el motor de ejecución que controla las aplicaciones en ejecución, y la biblioteca de clases de .NET Framework, que proporciona una biblioteca de código probado y reutilizable al que pueden llamar los desarrolladores desde sus propias aplicaciones.</li>
+</ul>
+<p>Bibliotecas de terceros</p>
+<ul>
+<li><p>DevExpress: Es una herramienta que ofrece a los desarrolladores de aplicaciones una de las suites más completas de componentes de interfaz de usuario (UI) en todas las plataformas. NET tales como Windows Forms, MVC, ASP.NET, Silverlight y Windows XAML.</p>
+</li>
+<li><p>Nuget.org: Es el administrador de paquetes para .NET. Permite a los desarrolladores crear, compartir y consumir archivos útiles. Bibliotecas NET. Las herramientas cliente de NuGet brindan la capacidad de producir y consumir estas bibliotecas como &quot;paquetes&quot;.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Biblioteca</th>
+<th style="text-align: center;">Versión utilizada</th>
+<th style="text-align: center;">Proyecto en el que se utiliza</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">DbDataReaderMapper</td>
+<td style="text-align: center;">1.1.0</td>
+<td style="text-align: center;">SQLHandler</td>
+</tr>
+<tr>
+<td style="text-align: center;">DevExpress.Wpf</td>
+<td style="text-align: center;">22.1.5</td>
+<td style="text-align: center;">Zonas</td>
+</tr>
+<tr>
+<td style="text-align: center;">log4net</td>
+<td style="text-align: center;">22.0.12</td>
+<td style="text-align: center;">HavanaApp, PLC, SQLHandler, Zonas, Utiles</td>
+</tr>
+<tr>
+<td style="text-align: center;">MaiKit</td>
+<td style="text-align: center;">2.11.1</td>
+<td style="text-align: center;">SMTPClient</td>
+</tr>
+<tr>
+<td style="text-align: center;">MimeKit</td>
+<td style="text-align: center;">2.11.0</td>
+<td style="text-align: center;">SMTPClient</td>
+</tr>
+<tr>
+<td style="text-align: center;">OxyPlot.Core</td>
+<td style="text-align: center;">2.0.0</td>
+<td style="text-align: center;">Zonas</td>
+</tr>
+<tr>
+<td style="text-align: center;">OxyPlot.WPF</td>
+<td style="text-align: center;">2.0.0</td>
+<td style="text-align: center;">Zonas</td>
+</tr>
+<tr>
+<td style="text-align: center;">Portable.BouncyCastle</td>
+<td style="text-align: center;">1.8.10</td>
+<td style="text-align: center;">SMTPClient</td>
+</tr>
+<tr>
+<td style="text-align: center;">S7netplus</td>
+<td style="text-align: center;">0.13.0</td>
+<td style="text-align: center;">PLC</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sharp7</td>
+<td style="text-align: center;">1.1.75</td>
+<td style="text-align: center;">PLC</td>
+</tr>
+<tr>
+<td style="text-align: center;">SonarAnalyzer.CSharp</td>
+<td style="text-align: center;">8.55.0.65544</td>
+<td style="text-align: center;">Lector FEIGCOM, ControlConsola</td>
+</tr>
+<tr>
+<td style="text-align: center;">BrotliSharpLib</td>
+<td style="text-align: center;">0.3.3</td>
+<td style="text-align: center;">Lector FEIGCOM</td>
+</tr>
+<tr>
+<td style="text-align: center;">SqlDataReaderMapper</td>
+<td style="text-align: center;">1.0.5</td>
+<td style="text-align: center;">SQLHandler</td>
+</tr>
+</tbody>
+</table>
+<h2 id="herramientas-utilizadas">Herramientas Utilizadas</h2>
+<h3 id="edición-y-revisión-de-código">Edición y revisión de código</h3>
+<p>Para la edición e identificación del código se utilizó Visual Studio 2022.
+Las principales características de Visual Studio son su multiplataforma, lenguajes de programación, integración con herramientas de desarrollo, depuración avanzada, diseño visual, pruebas automatizadas e integración con la nube.</p>
+<h3 id="modelado-de-datos">Modelado de datos</h3>
+<p>Para la generación de diagramas se utilizaron herramientas como Altova UModel Enterprise Edition versión 2024, Visual Studio Ultimate 2022, Visual Parading versión web, Draw.io versión colaborativa.</p>
+<p>En resumen, el objetivo principal de las herramientas de diseño UML es proporcionar una forma estandarizada y visualmente clara de representar modelos de software, lo que ayuda a los equipos de desarrollo a trabajar en conjunto, acelerar el proceso de desarrollo, reducir errores y diseñar software fácil de entender, mantener y modificar en el futuro.</p>
+<h2 id="diagramas">Diagramas</h2>
+<p><strong>Diagrama de clases:</strong> El objetivo principal de los diagramas de clase es representar la estructura estática de un sistema orientado a objetos. Estos diagramas muestran las clases que componen el sistema, sus atributos, métodos y las relaciones entre ellas. El objetivo es proporcionar una visión general del sistema y ayudar a los desarrolladores a comprender cómo las diferentes clases interactúan entre sí. Además, los diagramas de clase también pueden ser utilizados para documentar el diseño del sistema y para comunicar ideas entre los miembros del equipo de desarrollo.</p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/6772099d-4977-46f8-9e6c-af9535704e2f" alt="APp">
+<em>Diagramas de clases/ Havana App</em></p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/33eda5e8-0989-4f37-85f0-c8351d8995d4" alt="Zona">
+<em>Diagramas de clases/ Zonas</em></p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/1144f0b9-c5a4-4555-b1ae-ade47e3387cd" alt="Visor"></p>
+<p><em>Diagramas de clases/ Visor</em></p>
+<p><strong>Diagrama de flujo:</strong> El objetivo principal de los diagramas de flujo es representar gráficamente el flujo de un proceso o procedimiento. Estos diagramas se utilizan para modelar la secuencia de pasos en un proceso, desde el inicio hasta el fin. Los diagramas de flujo permiten identificar los diferentes pasos que se deben seguir en un proceso, así como los posibles caminos alternativos y las decisiones que se deben tomar en cada etapa. Además, los diagramas de flujo también pueden ser utilizados para documentar un proceso y para comunicar ideas entre los miembros del equipo de trabajo. En resumen, el objetivo principal de los diagramas de flujo es proporcionar una vista clara y detallada del proceso y su secuencia de pasos, lo que ayuda a los usuarios a entender cómo funciona el proceso y cómo se deben realizar las diferentes tareas.</p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/9a7c1cb7-5bb5-46ab-adbc-ccf7193651c4" alt="LogicaEntradaSecuencial_1 1 0-1">
+<em>Entrada Secuencial</em></p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/6488be83-4636-4ecd-855c-6bf0a531e8cf" alt="DiagramaLogicaSalidaSecuencial1 1 0-1">
+<em>Salida Secuencial</em></p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/ab6daba3-7bd9-4f20-ad6a-f4eff0193018" alt="DiagramaLogicaTransfer1 0 0-1">
+<em>Tranfer</em></p>
+<p><strong>Diagrama entidad-relación:</strong> El objetivo principal de los diagramas entidad-relación (ER) es representar la estructura de datos de un sistema en términos de entidades, atributos y relaciones entre ellas. Estos diagramas son utilizados para modelar la información que se almacena en una base de datos y para definir las reglas de negocio que rigen el comportamiento del sistema. Los diagramas ER permiten identificar las entidades clave en el sistema, así como las relaciones entre ellas, lo que ayuda a los desarrolladores a comprender cómo los datos se relacionan entre sí y cómo se deben almacenar en la base de datos. Además, los diagramas ER también pueden ser utilizados para documentar el diseño del sistema y para comunicar ideas entre los miembros del equipo de desarrollo.</p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/2aa9762a-d7de-4a35-894a-b0234718e959" alt="ER">
+<em>Diagramas/ Entidad Relación</em></p>
+<p><strong>Diagrama de componentes:</strong> El objetivo principal de los diagramas de componentes es representar la estructura y las relaciones entre los componentes de un sistema. Estos diagramas son utilizados para modelar la arquitectura de software de un sistema y para describir cómo los componentes se comunican entre sí y con otros sistemas. Los diagramas de componentes permiten identificar los diferentes módulos o componentes que conforman el sistema, así como las interfaces y dependencias entre ellos. Además, los diagramas de componentes también pueden ser utilizados para documentar el diseño del sistema y para comunicar ideas entre los miembros del equipo de desarrollo.
+En resumen, el objetivo principal de los diagramas de componentes es proporcionar una vista clara y detallada de la estructura del sistema y sus componentes, lo que ayuda a los desarrolladores a entender cómo funciona el sistema y cómo se deben implementar los diferentes componentes.</p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/08c63023-d53f-4685-8357-57bec727f70a" alt="Coponentes drawio">
+<em>HCI Componentes</em></p>
+<p><strong>Diagrama de casos de uso:</strong> El objetivo principal de los diagramas de casos de uso es representar gráficamente los diferentes actores que interactúan con un sistema y los diferentes escenarios de uso que se pueden presentar. Estos diagramas se utilizan para modelar la funcionalidad del sistema desde el punto de vista del usuario, es decir, para identificar las diferentes tareas que se pueden realizar con el sistema y cómo se relacionan entre sí. Los diagramas de casos de uso permiten definir los requisitos funcionales del sistema y establecer una base para el diseño y la implementación del mismo. Además, los diagramas de casos de uso también pueden ser utilizados para documentar el comportamiento del sistema y para comunicar ideas entre los miembros del equipo de trabajo.
+En resumen, el objetivo principal de los diagramas de casos de uso es proporcionar una vista clara y detallada de la funcionalidad del sistema y cómo se relaciona con los usuarios, lo que ayuda a los usuarios a entender cómo utilizar el sistema y cómo se deben realizar las diferentes tareas.</p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/c005d9b0-1ed8-45b1-bc87-29792dc178a3" alt="Habana Club">
+<em>HCI Actores</em></p>
+<p><strong>Diagrama de secuencia:</strong> El objetivo principal de los diagramas de secuencia es representar gráficamente la interacción entre diferentes objetos o componentes de un sistema en un escenario específico de uso. Estos diagramas se utilizan para modelar el comportamiento del sistema desde el punto de vista de los objetos o componentes que participan en una determinada tarea. Los diagramas de secuencia permiten definir la secuencia de eventos que ocurren durante la ejecución de una tarea, incluyendo la interacción entre los objetos o componentes y los mensajes que se intercambian entre ellos. Además, los diagramas de secuencia también pueden ser utilizados para identificar posibles errores o problemas en la interacción entre los objetos o componentes del sistema, lo que ayuda a mejorar la calidad y eficiencia del mismo.
+En resumen, el objetivo principal de los diagramas de secuencia es proporcionar una vista detallada y clara de cómo interactúan los diferentes objetos o componentes de un sistema en un escenario específico de uso, lo que ayuda a entender mejor el comportamiento del sistema y a identificar posibles mejoras o problemas en su diseño y funcionamiento.</p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/95868814-64dd-4196-8bec-4d83a8b21e8d" alt="SequenceDiagram BasculaProcess"></p>
+<h3 id="lógica-báscula"><em>Lógica Báscula</em></h3>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/79ace27e-44d4-429f-984d-4befbb958e1e" alt="SequenceDiagram Consola">
+<em>Lógica Consola</em></p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/1c542039-36ce-4dd4-a537-2355f71417c8" alt="SequenceDiagram ZonaLinea">
+<em>Lógica Zonas</em></p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/fc92e63c-9d4f-41da-86a8-5a1bb675d9e3" alt="SequenceDiagram WriteVariable">
+<em>Lógica PLC</em></p>
+<p><strong>Diagrama de actividades:</strong> El objetivo principal de los diagramas de actividades es representar gráficamente el flujo de trabajo o procesos de un sistema, mostrando las actividades y acciones que se realizan en un orden secuencial. Estos diagramas se utilizan para modelar el comportamiento del sistema desde una perspectiva de alto nivel, mostrando cómo se llevan a cabo las actividades y cómo se relacionan entre sí.</p>
+<p>Los diagramas de actividades permiten definir la secuencia de acciones que se llevan a cabo en un proceso, incluyendo las decisiones que se toman y las condiciones que deben cumplirse para avanzar en el flujo de trabajo. Además, los diagramas de actividades también pueden ser utilizados para identificar posibles cuellos de botella o problemas en el proceso, lo que ayuda a mejorar la eficiencia y calidad del mismo.</p>
+<p>En resumen, el objetivo principal de los diagramas de actividades es proporcionar una vista detallada y clara del flujo de trabajo o procesos de un sistema, lo que ayuda a entender mejor su funcionamiento y a identificar posibles mejoras o problemas en su diseño y ejecución.</p>
+<p><img src="https://github.com/yoelc745/Documentacion/assets/150778531/68a6f091-16a5-40b3-b73b-53225935e0b1" alt="Activity-HCI">
+<em>HCI Proceso de Línea</em></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class ConfiguracionZona | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class ConfiguracionZona | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="SQLHandler_ConfiguracionZona"> Class ConfiguracionZona</h1>
+
+<p>Namespace: <a href="SQLHandler.html">SQLHandler</a><br>
+Assembly: SQLHandler.dll</p>
+<p>Clase que alberga la estructura con la configuración de la zona.</p>
+<pre><code class="lang-csharp">public class ConfiguracionZona : INotifyPropertyChanged
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="SQLHandler.ConfiguracionZona.html">ConfiguracionZona</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="properties">Properties</h2>
+<h3 id="SQLHandler_ConfiguracionZona_Activa"> Activa</h3>
+<p>Especifica si la zona está activa o no.</p>
+<pre><code class="lang-csharp">public bool Activa { get; set; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Address_Watchdog"> Address_Watchdog</h3>
+<p>Dirección IP del Watchdog del PLC.</p>
+<pre><code class="lang-csharp">public string Address_Watchdog { get; set; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Bascula_MinPeso"> Bascula_MinPeso</h3>
+<p>Peso mínimo para que la báscula lo reconozca.</p>
+<pre><code class="lang-csharp">public int Bascula_MinPeso { get; set; }
+</code></pre>
+<h4 id="property-value-2">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Bascula_PesaEstable"> Bascula_PesaEstable</h3>
+<p>Especifica si la báscula tiene que pesar cuando está estable o no.</p>
+<pre><code class="lang-csharp">public bool Bascula_PesaEstable { get; set; }
+</code></pre>
+<h4 id="property-value-3">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Bascula_PesaMin"> Bascula_PesaMin</h3>
+<p>Especifica si la báscula tiene un peso mínimo para funcionar.</p>
+<pre><code class="lang-csharp">public bool Bascula_PesaMin { get; set; }
+</code></pre>
+<h4 id="property-value-4">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_DensidadRon"> DensidadRon</h3>
+<p>Especifica la constante de la densidad del ron en cada zona.</p>
+<pre><code class="lang-csharp">public float DensidadRon { get; set; }
+</code></pre>
+<h4 id="property-value-5">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.single">float</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Desc_Zona"> Desc_Zona</h3>
+<p>Descripción de la zona.</p>
+<pre><code class="lang-csharp">public string? Desc_Zona { get; set; }
+</code></pre>
+<h4 id="property-value-6">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>?</p>
+<h3 id="SQLHandler_ConfiguracionZona_EsZonaDeEntrada"> EsZonaDeEntrada</h3>
+<p>Especifica la constante de la densidad del ron en cada zona.</p>
+<pre><code class="lang-csharp">public int EsZonaDeEntrada { get; set; }
+</code></pre>
+<h4 id="property-value-7">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_ID_Zona"> ID_Zona</h3>
+<p>ID númerico de la zona.</p>
+<pre><code class="lang-csharp">public int ID_Zona { get; set; }
+</code></pre>
+<h4 id="property-value-8">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_IP_Bascula"> IP_Bascula</h3>
+<p>Dirección IP de la báscula.</p>
+<pre><code class="lang-csharp">public string IP_Bascula { get; set; }
+</code></pre>
+<h4 id="property-value-9">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_IP_PLC"> IP_PLC</h3>
+<p>Dirección IP del PLC.</p>
+<pre><code class="lang-csharp">public string IP_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-10">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_IP_RFID"> IP_RFID</h3>
+<p>Dirección IP del RFID.</p>
+<pre><code class="lang-csharp">public string IP_RFID { get; set; }
+</code></pre>
+<h4 id="property-value-11">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Log_Prefix_Zona"> Log_Prefix_Zona</h3>
+<p>Prefijo del archivo de log de la zona.</p>
+<pre><code class="lang-csharp">public string Log_Prefix_Zona { get; set; }
+</code></pre>
+<h4 id="property-value-12">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_PLC_EstadoLinea"> PLC_EstadoLinea</h3>
+<p>Especifica la variable del PLC donde se leerá el estado de la línea.</p>
+<pre><code class="lang-csharp">public string PLC_EstadoLinea { get; set; }
+</code></pre>
+<h4 id="property-value-13">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_PLC_FinalZona"> PLC_FinalZona</h3>
+<p>Especifica la variable del PLC que nos avisará de presencia en la fotocélula.</p>
+<pre><code class="lang-csharp">public string PLC_FinalZona { get; set; }
+</code></pre>
+<h4 id="property-value-14">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_PLC_PesajeOK"> PLC_PesajeOK</h3>
+<p>Especifica la variable del PLC a la cuál se le mandará la opción de avance.</p>
+<pre><code class="lang-csharp">public string PLC_PesajeOK { get; set; }
+</code></pre>
+<h4 id="property-value-15">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_PLC_PesajeRDY"> PLC_PesajeRDY</h3>
+<p>Especifica la variable que recibe cuando el PLC envía la señal de que la zona está lista para pesar.</p>
+<pre><code class="lang-csharp">public string PLC_PesajeRDY { get; set; }
+</code></pre>
+<h4 id="property-value-16">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_PLC_Transfer"> PLC_Transfer</h3>
+<pre><code class="lang-csharp">public string PLC_Transfer { get; set; }
+</code></pre>
+<h4 id="property-value-17">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_PLC_Transponder_Leido"> PLC_Transponder_Leido</h3>
+<p>Esoecifica la variable del PLC a la cuál se enviará el evento de transponder reconocido.</p>
+<pre><code class="lang-csharp">public string PLC_Transponder_Leido { get; set; }
+</code></pre>
+<h4 id="property-value-18">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Pass_PLC"> Pass_PLC</h3>
+<p>Contraseña del PLC.</p>
+<pre><code class="lang-csharp">public string Pass_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-19">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Port_Bascula"> Port_Bascula</h3>
+<p>Puerto activo de la báscula.</p>
+<pre><code class="lang-csharp">public int Port_Bascula { get; set; }
+</code></pre>
+<h4 id="property-value-20">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Port_RFID"> Port_RFID</h3>
+<p>Puerto activo del RFID</p>
+<pre><code class="lang-csharp">public int Port_RFID { get; set; }
+</code></pre>
+<h4 id="property-value-21">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Puerto_PLC"> Puerto_PLC</h3>
+<p>Puerto activo del PLC.</p>
+<pre><code class="lang-csharp">public int Puerto_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-22">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Rack_PLC"> Rack_PLC</h3>
+<p>Rack al cuál conectarse del PLC.</p>
+<pre><code class="lang-csharp">public int Rack_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-23">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Slot_PLC"> Slot_PLC</h3>
+<p>Slot al cuál conectarse del PLC.</p>
+<pre><code class="lang-csharp">public int Slot_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-24">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Tag_Test_Der"> Tag_Test_Der</h3>
+<pre><code class="lang-csharp">public string Tag_Test_Der { get; set; }
+</code></pre>
+<h4 id="property-value-25">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Tag_Test_Izq"> Tag_Test_Izq</h3>
+<pre><code class="lang-csharp">public string Tag_Test_Izq { get; set; }
+</code></pre>
+<h4 id="property-value-26">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_TimeoutBascula"> TimeoutBascula</h3>
+<p>Tiempo en milisegundos de espera de la báscula.</p>
+<pre><code class="lang-csharp">public int? TimeoutBascula { get; set; }
+</code></pre>
+<h4 id="property-value-27">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</p>
+<h3 id="SQLHandler_ConfiguracionZona_TimeoutPLC"> TimeoutPLC</h3>
+<p>Tiempo en milisegundos de espera del PLC.</p>
+<pre><code class="lang-csharp">public int? TimeoutPLC { get; set; }
+</code></pre>
+<h4 id="property-value-28">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</p>
+<h3 id="SQLHandler_ConfiguracionZona_TimeoutRFID"> TimeoutRFID</h3>
+<p>Tiempo en milisegundos de espera del RFID.</p>
+<pre><code class="lang-csharp">public int? TimeoutRFID { get; set; }
+</code></pre>
+<h4 id="property-value-29">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</p>
+<h3 id="SQLHandler_ConfiguracionZona_Timer_Bascula"> Timer_Bascula</h3>
+<p>Milisegundos del bucle interno de la báscula.</p>
+<pre><code class="lang-csharp">public int Timer_Bascula { get; set; }
+</code></pre>
+<h4 id="property-value-30">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Timer_RFID"> Timer_RFID</h3>
+<p>Milisegundos del bucle interno del RFID.</p>
+<pre><code class="lang-csharp">public int Timer_RFID { get; set; }
+</code></pre>
+<h4 id="property-value-31">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Tipo"> Tipo</h3>
+<p>Tipo de la zona.</p>
+<pre><code class="lang-csharp">public int Tipo { get; set; }
+</code></pre>
+<h4 id="property-value-32">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_User_PLC"> User_PLC</h3>
+<p>Usuario del PLC.</p>
+<pre><code class="lang-csharp">public string User_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-33">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Valor_Watchdog_PLC"> Valor_Watchdog_PLC</h3>
+<p>Valor que espera el Watchdog.</p>
+<pre><code class="lang-csharp">public int Valor_Watchdog_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-34">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Watchdog_Activo"> Watchdog_Activo</h3>
+<p>Especifica si el Watchdog está activo o no.</p>
+<pre><code class="lang-csharp">public bool Watchdog_Activo { get; set; }
+</code></pre>
+<h4 id="property-value-35">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Watchdog_FailMax"> Watchdog_FailMax</h3>
+<p>Veces que el Watchdog permite el fallo.</p>
+<pre><code class="lang-csharp">public int Watchdog_FailMax { get; set; }
+</code></pre>
+<h4 id="property-value-36">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_ConfiguracionZona_Watchdog_PLC"> Watchdog_PLC</h3>
+<p>Tiempo de comprobación del Watchdog del PLC.</p>
+<pre><code class="lang-csharp">public int Watchdog_PLC { get; set; }
+</code></pre>
+<h4 id="property-value-37">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="SQLHandler_ConfiguracionZona_NotifyPropertyChanged_System_String_"> NotifyPropertyChanged(string)</h3>
+<p>Notifica que una propiedad ha cambiado.</p>
+<pre><code class="lang-csharp">public void NotifyPropertyChanged(string propertyName)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>propertyName</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Nombre de la propiedad que ha cambiado.</p>
+<h3 id="SQLHandler_ConfiguracionZona_PropertyChanged"> PropertyChanged</h3>
+<p>Evento que se dispara cuando una propiedad cambia.</p>
+<pre><code class="lang-csharp">public event PropertyChangedEventHandler PropertyChanged
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

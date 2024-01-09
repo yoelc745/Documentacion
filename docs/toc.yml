@@ -1,0 +1,383 @@
+- name: Introducción
+  href: introduction.md
+- name: Getting Started
+  href: getting-started.md
+- name: Documentación Técnica
+  href: doc-tec.md
+- name: Informe Técnico
+  href: resultados.md
+- name: Proyectos
+  items:
+  - name: Aplicación de línea
+    href: linea/index.md
+    items:
+      - name: Basculas
+        href: linea/Basculas.md
+        items:
+        - name: Classes
+        - name: Bascula
+          href: linea/Basculas.Bascula.md
+        - name: Structs
+        - name: Bascula.Comandos
+          href: linea/Basculas.Bascula.Comandos.md
+      - name: BotonHexagonal
+        href: linea/BotonHexagonal.md
+        items:
+        - name: Classes
+        - name: Boton
+          href: linea/BotonHexagonal.Boton.md
+      - name: CustomControl
+        href: linea/CustomControl.md
+        items:
+        - name: Classes
+        - name: ExtendedTextBox
+          href: linea/CustomControl.ExtendedTextBox.md
+        - name: Enums
+        - name: ExtendedTextBox.DataType
+          href: linea/CustomControl.ExtendedTextBox.DataType.md
+      - name: HavanaApp
+        href: linea/HavanaApp.md
+        items:
+        - name: Classes
+        - name: App
+          href: linea/HavanaApp.App.md
+        - name: ArrayExtensions
+          href: linea/HavanaApp.ArrayExtensions.md
+        - name: BackupBBDD
+          href: linea/HavanaApp.BackupBBDD.md
+        - name: CrearParte
+          href: linea/HavanaApp.CrearParte.md
+        - name: DiagnosticoDispositivos
+          href: linea/HavanaApp.DiagnosticoDispositivos.md
+        - name: DiagnosticoRFID
+          href: linea/HavanaApp.DiagnosticoRFID.md
+        - name: ErrorModal
+          href: linea/HavanaApp.ErrorModal.md
+        - name: Index
+          href: linea/HavanaApp.Index.md
+        - name: NuevaZona
+          href: linea/HavanaApp.NuevaZona.md
+        - name: TestDataset
+          href: linea/HavanaApp.TestDataset.md
+        - name: TestDataset.DataTable1DataTable
+          href: linea/HavanaApp.TestDataset.DataTable1DataTable.md
+        - name: TestDataset.DataTable1Row
+          href: linea/HavanaApp.TestDataset.DataTable1Row.md
+        - name: TestDataset.DataTable1RowChangeEvent
+          href: linea/HavanaApp.TestDataset.DataTable1RowChangeEvent.md
+        - name: TestDataset.IdentificacionesDataTable
+          href: linea/HavanaApp.TestDataset.IdentificacionesDataTable.md
+        - name: TestDataset.IdentificacionesRow
+          href: linea/HavanaApp.TestDataset.IdentificacionesRow.md
+        - name: TestDataset.IdentificacionesRowChangeEvent
+          href: linea/HavanaApp.TestDataset.IdentificacionesRowChangeEvent.md
+        - name: Trabajo
+          href: linea/HavanaApp.Trabajo.md
+        - name: Trazabilidad
+          href: linea/HavanaApp.Trazabilidad.md
+        - name: Delegates
+        - name: TestDataset.DataTable1RowChangeEventHandler
+          href: linea/HavanaApp.TestDataset.DataTable1RowChangeEventHandler.md
+        - name: TestDataset.IdentificacionesRowChangeEventHandler
+          href: linea/HavanaApp.TestDataset.IdentificacionesRowChangeEventHandler.md
+      - name: LoginForm
+        href: linea/LoginForm.md
+        items:
+        - name: Classes
+        - name: LoginForm
+          href: linea/LoginForm.LoginForm.md
+      - name: PLCs
+        href: linea/PLCs.md
+        items:
+        - name: Classes
+        - name: EstructurasPLC
+          href: linea/PLCs.EstructurasPLC.md
+        - name: Logger
+          href: linea/PLCs.Logger.md
+        - name: PLCLegacy
+          href: linea/PLCs.PLCLegacy.md
+        - name: PLCLegacy.PLCData
+          href: linea/PLCs.PLCLegacy.PLCData.md
+        - name: Structs
+        - name: EstructurasPLC.DatosPLC
+          href: linea/PLCs.EstructurasPLC.DatosPLC.md
+        - name: Enums
+        - name: EstructurasPLC.TipoOperacion
+          href: linea/PLCs.EstructurasPLC.TipoOperacion.md
+        - name: PLCLegacy.TipoDato
+          href: linea/PLCs.PLCLegacy.TipoDato.md
+      - name: SMTPClient
+        href: linea/SMTPClient.md
+        items:
+        - name: Classes
+        - name: Client
+          href: linea/SMTPClient.Client.md
+        - name: SMTPConnectionException
+          href: linea/SMTPClient.SMTPConnectionException.md
+        - name: SMTPSendException
+          href: linea/SMTPClient.SMTPSendException.md
+      - name: Utils
+        href: linea/Utils.md
+        items:
+        - name: Classes
+        - name: Utiles
+          href: linea/Utils.Utiles.md
+      - name: VisorEventos
+        href: VisorEventos.md
+        items:
+        - name: Classes
+        - name: Visor
+          href: linea/VisorEventos.Visor.md
+      - name: Zonas
+        href: linea/Zonas.md
+        items:
+        - name: Classes
+        - name: DetailsZona
+          href: linea/Zonas.DetailsZona.md
+        - name: RegistroBarrica
+          href: linea/Zonas.RegistroBarrica.md
+        - name: Zona
+          href: linea/Zonas.Zona.md
+        - name: Zona.ExcepcionParadaZona
+          href: linea/Zonas.Zona.ExcepcionParadaZona.md
+        - name: ZonaEntrada
+          href: linea/Zonas.ZonaEntrada.md
+        - name: ZonaEntrada.ReseteoZonaException
+          href: linea/Zonas.ZonaEntrada.ReseteoZonaException.md
+        - name: ZonaLinea
+          href: linea/Zonas.ZonaLinea.md
+        - name: ZonaLinea.ReseteoZonaException
+          href: linea/Zonas.ZonaLinea.ReseteoZonaException.md
+        - name: ZonaTransfer
+          href: linea/Zonas.ZonaTransfer.md
+        - name: ZonaTransfer.LecturaRfidIncorrectaException
+          href: linea/Zonas.ZonaTransfer.LecturaRfidIncorrectaException.md
+        - name: ZonaTransfer.ReseteoZonaException
+          href: linea/Zonas.ZonaTransfer.ReseteoZonaException.md
+        - name: Structs
+        - name: Zona.ExcepcionZona
+          href: linea/Zonas.Zona.ExcepcionZona.md
+        - name: Enums
+        - name: EstadoLinea
+          href: linea/Zonas.EstadoLinea.md
+
+  - name: Aplicación del tablet
+    href: tablet/index.md
+    items:
+      - name: Escaner_Transponders
+        href: tablet/Escaner_Transponders.md
+        items:
+        - name: Classes
+        - name: Escaner
+          href: tablet/Escaner_Transponders.Escaner.md
+        - name: Enums
+        - name: ColoresSemaforo
+          href: tablet/Escaner_Transponders.ColoresSemaforo.md
+      - name: HavanaTablet
+        href: tablet/HavanaTablet.md
+        items:
+        - name: Classes
+        - name: App
+          href: tablet/HavanaTablet.App.md
+        - name: Configuracion
+          href: tablet/HavanaTablet.Configuracion.md
+        - name: ConfiguracionSQL
+          href: tablet/HavanaTablet.ConfiguracionSQL.md
+        - name: LoginWindow
+          href: tablet/HavanaTablet.LoginWindow.md
+        - name: MainWindow
+          href: tablet/HavanaTablet.MainWindow.md
+        - name: MigrarRegistros
+          href: tablet/HavanaTablet.MigrarRegistros.md
+        - name: ReadWriteTag
+          href: tablet/HavanaTablet.ReadWriteTag.md
+        - name: RegrabarTag
+          href: tablet/HavanaTablet.RegrabarTag.md
+        - name: Delegates
+        - name: MigrarRegistros.FormManualSubmit
+          href: tablet/HavanaTablet.MigrarRegistros.FormManualSubmit.md
+        - name: MigrarRegistros.FormSubmit
+          href: tablet/HavanaTablet.MigrarRegistros.FormSubmit.md
+      - name: ModalesApp
+        href: tablet/ModalesApp.md
+        items:
+        - name: Classes
+        - name: DatosTransponder
+          href: tablet/ModalesApp.DatosTransponder.md
+        - name: HistorialBarrica
+          href: tablet/ModalesApp.HistorialBarrica.md
+        - name: SustitucionTag
+          href: tablet/ModalesApp.SustitucionTag.md
+        - name: Delegates
+        - name: DatosTransponder.FormManualSubmit
+          href: tablet/ModalesApp.DatosTransponder.FormManualSubmit.md
+        - name: DatosTransponder.FormSubmit
+          href: tablet/ModalesApp.DatosTransponder.FormSubmit.md
+      - name: RFID
+        href: tablet/RFID.md
+        items:
+        - name: Classes
+        - name: DuplicatedTagException
+          href: tablet/RFID.DuplicatedTagException.md
+        - name: EmptyDataTagException
+          href: tablet/RFID.EmptyDataTagException.md
+        - name: ErrorConnectingException
+          href: tablet/RFID.ErrorConnectingException.md
+        - name: ErrorWritingTagException
+          href: tablet/RFID.ErrorWritingTagException.md
+        - name: RFID
+          href: tablet/RFID.RFID.md
+        - name: RFIDError
+          href: tablet/RFID.RFIDError.md
+        - name: RFIDFunctions
+          href: tablet/RFID.RFIDFunctions.md
+        - name: RFIDNotConnectedException
+          href: tablet/RFID.RFIDNotConnectedException.md
+        - name: SQLsRFID
+          href: tablet/RFID.SQLsRFID.md
+        - name: TagData
+          href: tablet/RFID.TagData.md
+        - name: TagDataOutOfRangeException
+          href: tablet/RFID.TagDataOutOfRangeException.md
+        - name: TagInsertionError
+          href: tablet/RFID.TagInsertionError.md
+        - name: TagIntegrityErrorException
+          href: tablet/RFID.TagIntegrityErrorException.md
+        - name: TagNotSupportedException
+          href: tablet/RFID.TagNotSupportedException.md
+        - name: TagRFID
+          href: tablet/RFID.TagRFID.md
+        - name: TagUpdateError
+          href: tablet/RFID.TagUpdateError.md
+        - name: Enums
+        - name: TagType
+          href: tablet/RFID.TagType.md
+      - name: SocketClient
+        href: tablet/SocketClient.md
+        items:
+        - name: Classes
+        - name: TCPClient
+          href: tablet/SocketClient.TCPClient.md
+
+  - name: Librerías compartidas
+    href: libs/index.md
+    items:
+      - name: ControlConsola
+        href: libs/ControlConsola.md
+        items:
+        - name: Classes
+        - name: Consola
+          href: libs/ControlConsola.Consola.md
+      - name: LectorFEIG
+        href: libs/LectorFEIG.md
+        items:
+        - name: Classes
+        - name: DuplicatedTagException
+          href: libs/LectorFEIG.DuplicatedTagException.md
+        - name: EmptyDataTagException
+          href: libs/LectorFEIG.EmptyDataTagException.md
+        - name: ErrorConnectingException
+          href: libs/LectorFEIG.ErrorConnectingException.md
+        - name: ErrorWritingTagException
+          href: libs/LectorFEIG.ErrorWritingTagException.md
+        - name: LectorCOM
+          href: libs/LectorFEIG.LectorCOM.md
+        - name: LectorTCP
+          href: libs/LectorFEIG.LectorTCP.md
+        - name: RFIDError
+          href: libs/LectorFEIG.RFIDError.md
+        - name: RFIDNotConnectedException
+          href: libs/LectorFEIG.RFIDNotConnectedException.md
+        - name: TagData
+          href: libs/LectorFEIG.TagData.md
+        - name: TagDataOutOfRangeException
+          href: libs/LectorFEIG.TagDataOutOfRangeException.md
+        - name: TagInsertionError
+          href: libs/LectorFEIG.TagInsertionError.md
+        - name: TagIntegrityErrorException
+          href: libs/LectorFEIG.TagIntegrityErrorException.md
+        - name: TagNotSupportedException
+          href: libs/LectorFEIG.TagNotSupportedException.md
+        - name: TagRFID
+          href: libs/LectorFEIG.TagRFID.md
+        - name: TagUpdateError
+          href: libs/LectorFEIG.TagUpdateError.md
+      - name: LectorINI
+        href: libs/LectorINI.md
+        items:
+        - name: Classes
+        - name: INIFileNotFound
+          href: libs/LectorINI.INIFileNotFound.md
+        - name: InvalidFileException
+          href: libs/LectorINI.InvalidFileException.md
+        - name: ParameterNotFound
+          href: libs/LectorINI.ParameterNotFound.md
+        - name: Reader
+          href: libs/LectorINI.Reader.md
+      - name: SQLHandler
+        href: libs/SQLHandler.md
+        items:
+        - name: Classes
+        - name: ConectorSQL
+          href: libs/SQLHandler.ConectorSQL.md
+        - name: ConectorSQL.FuncionesAuxiliares
+          href: libs/SQLHandler.ConectorSQL.FuncionesAuxiliares.md
+        - name: ConfiguracionApp
+          href: libs/SQLHandler.ConfiguracionApp.md
+        - name: ConfiguracionZona
+          href: libs/SQLHandler.ConfiguracionZona.md
+        - name: ConfigurationMissingException
+          href: libs/SQLHandler.ConfigurationMissingException.md
+        - name: DSNConnectionNotFoundException
+          href: libs/SQLHandler.DSNConnectionNotFoundException.md
+        - name: DatosParte
+          href: libs/SQLHandler.DatosParte.md
+        - name: DuplicateKeyValueException
+          href: libs/SQLHandler.DuplicateKeyValueException.md
+        - name: HistoricoData
+          href: libs/SQLHandler.HistoricoData.md
+        - name: IdentificacionPalet
+          href: libs/SQLHandler.IdentificacionPalet.md
+        - name: ParametrosApp
+          href: libs/SQLHandler.ParametrosApp.md
+        - name: Parte
+          href: libs/SQLHandler.Parte.md
+        - name: ParteTrabajo
+          href: libs/SQLHandler.ParteTrabajo.md
+        - name: PersistenciaZona
+          href: libs/SQLHandler.PersistenciaZona.md
+        - name: RegistroBarrica
+          href: libs/SQLHandler.RegistroBarrica.md
+        - name: RegistroPesaje
+          href: libs/SQLHandler.RegistroPesaje.md
+        - name: RegistryKeyMissingException
+          href: libs/SQLHandler.RegistryKeyMissingException.md
+        - name: TipoBarril
+          href: libs/SQLHandler.TipoBarril.md
+        - name: TipoPalet
+          href: libs/SQLHandler.TipoPalet.md
+        - name: UIElementConfig
+          href: libs/SQLHandler.UIElementConfig.md
+        - name: Usuario
+          href: libs/SQLHandler.Usuario.md
+        - name: Enums
+        - name: EstadoPersistencia
+          href: libs/SQLHandler.EstadoPersistencia.md
+        - name: Parte.TipoParte
+          href: libs/SQLHandler.Parte.TipoParte.md
+        - name: RegistryKeyType
+          href: libs/SQLHandler.RegistryKeyType.md
+        - name: Usuario.NivelAcceso
+          href: libs/SQLHandler.Usuario.NivelAcceso.md
+      - name: SocketServer
+        href: libs/SocketServer.md
+        items:
+        - name: Classes
+        - name: TCPServer
+          href: libs/SocketServer.TCPServer.md
+      - name: TecladoVirtual
+        href: libs/TecladoVirtual.md
+        items:
+        - name: Classes
+        - name: TecladoVirtual
+          href: libs/TecladoVirtual.TecladoVirtual.md

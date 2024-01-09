@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class App | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class App | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="HavanaTablet_App"> Class App</h1>
+
+<p>Namespace: <a href="HavanaTablet.html">HavanaTablet</a><br>
+Assembly: HavanaTablet.dll</p>
+<p>Clase de aplicación principal que gestiona la lógica global de la aplicación.</p>
+<pre><code class="lang-csharp">public class App : Application, IQueryAmbient
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject">DispatcherObject</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application">Application</a> ←
+<a href="HavanaTablet.App.html">App</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient">IQueryAmbient</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.windows.application.run#system-windows-application-run">Application.Run()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.run#system-windows-application-run(system-windows-window)">Application.Run(Window)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.shutdown#system-windows-application-shutdown">Application.Shutdown()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.shutdown#system-windows-application-shutdown(system-int32)">Application.Shutdown(int)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.findresource">Application.FindResource(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.tryfindresource">Application.TryFindResource(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.loadcomponent#system-windows-application-loadcomponent(system-object-system-uri)">Application.LoadComponent(object, Uri)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.loadcomponent#system-windows-application-loadcomponent(system-uri)">Application.LoadComponent(Uri)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.getresourcestream">Application.GetResourceStream(Uri)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.getcontentstream">Application.GetContentStream(Uri)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.getremotestream">Application.GetRemoteStream(Uri)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.getcookie">Application.GetCookie(Uri)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.setcookie">Application.SetCookie(Uri, string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onstartup">Application.OnStartup(StartupEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onexit">Application.OnExit(ExitEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onactivated">Application.OnActivated(EventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.ondeactivated">Application.OnDeactivated(EventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onsessionending">Application.OnSessionEnding(SessionEndingCancelEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigating">Application.OnNavigating(NavigatingCancelEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigated">Application.OnNavigated(NavigationEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigationprogress">Application.OnNavigationProgress(NavigationProgressEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigationfailed">Application.OnNavigationFailed(NavigationFailedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onloadcompleted">Application.OnLoadCompleted(NavigationEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onnavigationstopped">Application.OnNavigationStopped(NavigationEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.onfragmentnavigation">Application.OnFragmentNavigation(FragmentNavigationEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.current">Application.Current</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.windows">Application.Windows</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.mainwindow">Application.MainWindow</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.shutdownmode">Application.ShutdownMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.resources">Application.Resources</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.startupuri">Application.StartupUri</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.properties">Application.Properties</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.resourceassembly">Application.ResourceAssembly</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.startup">Application.Startup</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.exit">Application.Exit</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.activated">Application.Activated</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.deactivated">Application.Deactivated</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.sessionending">Application.SessionEnding</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.dispatcherunhandledexception">Application.DispatcherUnhandledException</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.navigating">Application.Navigating</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.navigated">Application.Navigated</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.navigationprogress">Application.NavigationProgress</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.navigationfailed">Application.NavigationFailed</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.loadcompleted">Application.LoadCompleted</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.navigationstopped">Application.NavigationStopped</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.application.fragmentnavigation">Application.FragmentNavigation</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher">DispatcherObject.Dispatcher</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="HavanaTablet_App__ctor"> App()</h3>
+<p>Constructor de la clase App.</p>
+<pre><code class="lang-csharp">public App()
+</code></pre>
+<h2 id="fields">Fields</h2>
+<h3 id="HavanaTablet_App_ConfigActual"> ConfigActual</h3>
+<p>Lista que contiene la configuración actual de la aplicación.</p>
+<pre><code class="lang-csharp">public static List&lt;Configuracion&gt; ConfigActual
+</code></pre>
+<h4 id="field-value">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="HavanaTablet.Configuracion.html">Configuracion</a>&gt;</p>
+<h3 id="HavanaTablet_App_DatosDBOffline"> DatosDBOffline</h3>
+<p>Datos de configuración de la base de datos en modo fuera de línea.</p>
+<pre><code class="lang-csharp">public static ConfiguracionSQL DatosDBOffline
+</code></pre>
+<h4 id="field-value-1">Field Value</h4>
+<p><a href="HavanaTablet.ConfiguracionSQL.html">ConfiguracionSQL</a></p>
+<h3 id="HavanaTablet_App_DatosDBOnline"> DatosDBOnline</h3>
+<p>Datos de configuración de la base de datos en modo en línea.</p>
+<pre><code class="lang-csharp">public static ConfiguracionSQL DatosDBOnline
+</code></pre>
+<h4 id="field-value-2">Field Value</h4>
+<p><a href="HavanaTablet.ConfiguracionSQL.html">ConfiguracionSQL</a></p>
+<h2 id="properties">Properties</h2>
+<h3 id="HavanaTablet_App_AntenaRFID"> AntenaRFID</h3>
+<p>Dispositivo de antena RFID para la lectura.</p>
+<pre><code class="lang-csharp">public static LectorCOM AntenaRFID { get; set; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p>LectorCOM</p>
+<h3 id="HavanaTablet_App_IsOfflineMode"> IsOfflineMode</h3>
+<p>Indica si la aplicación está en modo fuera de línea.</p>
+<pre><code class="lang-csharp">public static bool IsOfflineMode { get; set; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="HavanaTablet_App_SQLDataset"> SQLDataset</h3>
+<p>Conjunto de datos SQL para la gestión de datos.</p>
+<pre><code class="lang-csharp">public static DataSet SQLDataset { get; set; }
+</code></pre>
+<h4 id="property-value-2">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.dataset">DataSet</a></p>
+<h3 id="HavanaTablet_App_SQLHandler"> SQLHandler</h3>
+<p>Manejador SQL para la conexión y manipulación de la base de datos.</p>
+<pre><code class="lang-csharp">public static ConectorSQL SQLHandler { get; set; }
+</code></pre>
+<h4 id="property-value-3">Property Value</h4>
+<p>ConectorSQL</p>
+<h3 id="HavanaTablet_App_SqlAdapterOnline"> SqlAdapterOnline</h3>
+<p>Manejador de adaptadores de SQL para la conexión en línea.</p>
+<pre><code class="lang-csharp">public static SqlDataAdapter SqlAdapterOnline { get; set; }
+</code></pre>
+<h4 id="property-value-4">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqldataadapter">SqlDataAdapter</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="HavanaTablet_App_ConectarSQL_System_Boolean_"> ConectarSQL(bool)</h3>
+<p>Conecta la aplicación con la base de datos SQL Server.</p>
+<pre><code class="lang-csharp">public object ConectarSQL(bool Online)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>Online</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Booleano que indica si la conexión es en línea.</p>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>Un objeto con el handler de la base de datos, si no puede conectarse, null.</p>
+<h3 id="HavanaTablet_App_GetValueFromConfigKey_System_String_"> GetValueFromConfigKey(string)</h3>
+<p>Obtiene el valor de configuración para el nombre especificado.</p>
+<pre><code class="lang-csharp">public static string GetValueFromConfigKey(string Nombre)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>Nombre</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Nombre de la configuración deseada.</p>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El valor de configuración correspondiente al nombre especificado.</p>
+<h3 id="HavanaTablet_App_IsInternetAvailable_System_String_"> IsInternetAvailable(string)</h3>
+<p>Verifica la disponibilidad de conexión a Internet.</p>
+<pre><code class="lang-csharp">public static bool IsInternetAvailable(string Host)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>Host</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El host al que se realiza el ping.</p>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Booleano que indica la disponibilidad de conexión.</p>
+<h3 id="HavanaTablet_App_LoadConfiguracion_System_Collections_Generic_Dictionary_System_String_System_String__"> LoadConfiguracion(Dictionary&lt;string, string&gt;)</h3>
+<p>Carga la configuración inicial de la aplicación desde el archivo .ini.</p>
+<pre><code class="lang-csharp">public void LoadConfiguracion(Dictionary&lt;string, string&gt; ConfigData)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>ConfigData</code> <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<p>Diccionario que contiene los datos de configuración.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1641 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class Zona | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class Zona | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="Zonas_Zona"> Class Zona</h1>
+
+<p>Namespace: <a href="Zonas.html">Zonas</a><br>
+Assembly: Zonas.dll</p>
+<p>Lógica de interacción para Zona.xaml</p>
+<pre><code class="lang-csharp">public class Zona : UserControl, IAnimatable, IFrameworkInputElement, IInputElement, ISupportInitialize, IQueryAmbient, IAddChild
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject">DispatcherObject</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual">Visual</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control">Control</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol">ContentControl</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol">UserControl</a> ←
+<a href="Zonas.Zona.html">Zona</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.windows.media.animation.ianimatable">IAnimatable</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.iframeworkinputelement">IFrameworkInputElement</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.iinputelement">IInputElement</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize">ISupportInitialize</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.markup.iqueryambient">IQueryAmbient</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.markup.iaddchild">IAddChild</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.usercontrol.oncreateautomationpeer">UserControl.OnCreateAutomationPeer()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentproperty">ContentControl.ContentProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontentproperty">ContentControl.HasContentProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateproperty">ContentControl.ContentTemplateProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselectorproperty">ContentControl.ContentTemplateSelectorProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformatproperty">ContentControl.ContentStringFormatProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addchild">ContentControl.AddChild(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.addtext">ContentControl.AddText(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentchanged">ContentControl.OnContentChanged(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplatechanged">ContentControl.OnContentTemplateChanged(DataTemplate, DataTemplate)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontenttemplateselectorchanged">ContentControl.OnContentTemplateSelectorChanged(DataTemplateSelector, DataTemplateSelector)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.oncontentstringformatchanged">ContentControl.OnContentStringFormatChanged(string, string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.logicalchildren">ContentControl.LogicalChildren</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.content">ContentControl.Content</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.hascontent">ContentControl.HasContent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplate">ContentControl.ContentTemplate</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contenttemplateselector">ContentControl.ContentTemplateSelector</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.contentcontrol.contentstringformat">ContentControl.ContentStringFormat</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrushproperty">Control.BorderBrushProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthicknessproperty">Control.BorderThicknessProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.backgroundproperty">Control.BackgroundProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foregroundproperty">Control.ForegroundProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamilyproperty">Control.FontFamilyProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsizeproperty">Control.FontSizeProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretchproperty">Control.FontStretchProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyleproperty">Control.FontStyleProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweightproperty">Control.FontWeightProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignmentproperty">Control.HorizontalContentAlignmentProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignmentproperty">Control.VerticalContentAlignmentProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindexproperty">Control.TabIndexProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstopproperty">Control.IsTabStopProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.paddingproperty">Control.PaddingProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.templateproperty">Control.TemplateProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclickevent">Control.PreviewMouseDoubleClickEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclickevent">Control.MouseDoubleClickEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.ontemplatechanged">Control.OnTemplateChanged(ControlTemplate, ControlTemplate)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tostring">Control.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onpreviewmousedoubleclick">Control.OnPreviewMouseDoubleClick(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.onmousedoubleclick">Control.OnMouseDoubleClick(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.measureoverride">Control.MeasureOverride(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.arrangeoverride">Control.ArrangeOverride(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderbrush">Control.BorderBrush</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.borderthickness">Control.BorderThickness</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.background">Control.Background</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.foreground">Control.Foreground</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontfamily">Control.FontFamily</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontsize">Control.FontSize</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstretch">Control.FontStretch</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontstyle">Control.FontStyle</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.fontweight">Control.FontWeight</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.horizontalcontentalignment">Control.HorizontalContentAlignment</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.verticalcontentalignment">Control.VerticalContentAlignment</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.tabindex">Control.TabIndex</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.istabstop">Control.IsTabStop</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.padding">Control.Padding</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.template">Control.Template</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.handlesscrolling">Control.HandlesScrolling</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.previewmousedoubleclick">Control.PreviewMouseDoubleClick</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control.mousedoubleclick">Control.MouseDoubleClick</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.styleproperty">FrameworkElement.StyleProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.overridesdefaultstyleproperty">FrameworkElement.OverridesDefaultStyleProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.uselayoutroundingproperty">FrameworkElement.UseLayoutRoundingProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.defaultstylekeyproperty">FrameworkElement.DefaultStyleKeyProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontextproperty">FrameworkElement.DataContextProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bindinggroupproperty">FrameworkElement.BindingGroupProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.languageproperty">FrameworkElement.LanguageProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.nameproperty">FrameworkElement.NameProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tagproperty">FrameworkElement.TagProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.inputscopeproperty">FrameworkElement.InputScopeProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.requestbringintoviewevent">FrameworkElement.RequestBringIntoViewEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.sizechangedevent">FrameworkElement.SizeChangedEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualwidthproperty">FrameworkElement.ActualWidthProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualheightproperty">FrameworkElement.ActualHeightProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.layouttransformproperty">FrameworkElement.LayoutTransformProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.widthproperty">FrameworkElement.WidthProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minwidthproperty">FrameworkElement.MinWidthProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxwidthproperty">FrameworkElement.MaxWidthProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.heightproperty">FrameworkElement.HeightProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minheightproperty">FrameworkElement.MinHeightProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxheightproperty">FrameworkElement.MaxHeightProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.flowdirectionproperty">FrameworkElement.FlowDirectionProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.marginproperty">FrameworkElement.MarginProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.horizontalalignmentproperty">FrameworkElement.HorizontalAlignmentProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.verticalalignmentproperty">FrameworkElement.VerticalAlignmentProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.focusvisualstyleproperty">FrameworkElement.FocusVisualStyleProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.cursorproperty">FrameworkElement.CursorProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.forcecursorproperty">FrameworkElement.ForceCursorProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.loadedevent">FrameworkElement.LoadedEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.unloadedevent">FrameworkElement.UnloadedEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipproperty">FrameworkElement.ToolTipProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuproperty">FrameworkElement.ContextMenuProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipopeningevent">FrameworkElement.ToolTipOpeningEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipclosingevent">FrameworkElement.ToolTipClosingEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuopeningevent">FrameworkElement.ContextMenuOpeningEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuclosingevent">FrameworkElement.ContextMenuClosingEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onstylechanged">FrameworkElement.OnStyleChanged(Style, Style)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.parentlayoutinvalidated">FrameworkElement.ParentLayoutInvalidated(UIElement)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.applytemplate">FrameworkElement.ApplyTemplate()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onapplytemplate">FrameworkElement.OnApplyTemplate()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.beginstoryboard#system-windows-frameworkelement-beginstoryboard(system-windows-media-animation-storyboard)">FrameworkElement.BeginStoryboard(Storyboard)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.beginstoryboard#system-windows-frameworkelement-beginstoryboard(system-windows-media-animation-storyboard-system-windows-media-animation-handoffbehavior)">FrameworkElement.BeginStoryboard(Storyboard, HandoffBehavior)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.beginstoryboard#system-windows-frameworkelement-beginstoryboard(system-windows-media-animation-storyboard-system-windows-media-animation-handoffbehavior-system-boolean)">FrameworkElement.BeginStoryboard(Storyboard, HandoffBehavior, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getvisualchild">FrameworkElement.GetVisualChild(int)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.gettemplatechild">FrameworkElement.GetTemplateChild(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.findresource">FrameworkElement.FindResource(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tryfindresource">FrameworkElement.TryFindResource(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setresourcereference">FrameworkElement.SetResourceReference(DependencyProperty, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onpropertychanged">FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onvisualparentchanged">FrameworkElement.OnVisualParentChanged(DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getbindingexpression">FrameworkElement.GetBindingExpression(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setbinding#system-windows-frameworkelement-setbinding(system-windows-dependencyproperty-system-windows-data-bindingbase)">FrameworkElement.SetBinding(DependencyProperty, BindingBase)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setbinding#system-windows-frameworkelement-setbinding(system-windows-dependencyproperty-system-string)">FrameworkElement.SetBinding(DependencyProperty, string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getuiparentcore">FrameworkElement.GetUIParentCore()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bringintoview#system-windows-frameworkelement-bringintoview">FrameworkElement.BringIntoView()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bringintoview#system-windows-frameworkelement-bringintoview(system-windows-rect)">FrameworkElement.BringIntoView(Rect)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getflowdirection">FrameworkElement.GetFlowDirection(DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.setflowdirection">FrameworkElement.SetFlowDirection(DependencyObject, FlowDirection)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.measurecore">FrameworkElement.MeasureCore(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.arrangecore">FrameworkElement.ArrangeCore(Rect)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.onrendersizechanged">FrameworkElement.OnRenderSizeChanged(SizeChangedInfo)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.getlayoutclip">FrameworkElement.GetLayoutClip(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.measureoverride">FrameworkElement.MeasureOverride(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.arrangeoverride">FrameworkElement.ArrangeOverride(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.movefocus">FrameworkElement.MoveFocus(TraversalRequest)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.predictfocus">FrameworkElement.PredictFocus(FocusNavigationDirection)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.ongotfocus">FrameworkElement.OnGotFocus(RoutedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.begininit">FrameworkElement.BeginInit()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.endinit">FrameworkElement.EndInit()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.oninitialized">FrameworkElement.OnInitialized(EventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.ontooltipopening">FrameworkElement.OnToolTipOpening(ToolTipEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.ontooltipclosing">FrameworkElement.OnToolTipClosing(ToolTipEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.oncontextmenuopening">FrameworkElement.OnContextMenuOpening(ContextMenuEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.oncontextmenuclosing">FrameworkElement.OnContextMenuClosing(ContextMenuEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.registername">FrameworkElement.RegisterName(string, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.unregistername">FrameworkElement.UnregisterName(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.findname">FrameworkElement.FindName(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.updatedefaultstyle">FrameworkElement.UpdateDefaultStyle()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.addlogicalchild">FrameworkElement.AddLogicalChild(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.removelogicalchild">FrameworkElement.RemoveLogicalChild(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.style">FrameworkElement.Style</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.overridesdefaultstyle">FrameworkElement.OverridesDefaultStyle</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.uselayoutrounding">FrameworkElement.UseLayoutRounding</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.defaultstylekey">FrameworkElement.DefaultStyleKey</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.triggers">FrameworkElement.Triggers</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.templatedparent">FrameworkElement.TemplatedParent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.visualchildrencount">FrameworkElement.VisualChildrenCount</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.resources">FrameworkElement.Resources</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.inheritancebehavior">FrameworkElement.InheritanceBehavior</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontext">FrameworkElement.DataContext</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.bindinggroup">FrameworkElement.BindingGroup</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.language">FrameworkElement.Language</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.name">FrameworkElement.Name</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tag">FrameworkElement.Tag</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.inputscope">FrameworkElement.InputScope</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualwidth">FrameworkElement.ActualWidth</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.actualheight">FrameworkElement.ActualHeight</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.layouttransform">FrameworkElement.LayoutTransform</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.width">FrameworkElement.Width</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minwidth">FrameworkElement.MinWidth</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxwidth">FrameworkElement.MaxWidth</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.height">FrameworkElement.Height</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.minheight">FrameworkElement.MinHeight</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.maxheight">FrameworkElement.MaxHeight</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.flowdirection">FrameworkElement.FlowDirection</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.margin">FrameworkElement.Margin</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.horizontalalignment">FrameworkElement.HorizontalAlignment</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.verticalalignment">FrameworkElement.VerticalAlignment</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.focusvisualstyle">FrameworkElement.FocusVisualStyle</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.cursor">FrameworkElement.Cursor</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.forcecursor">FrameworkElement.ForceCursor</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.isinitialized">FrameworkElement.IsInitialized</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.isloaded">FrameworkElement.IsLoaded</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltip">FrameworkElement.ToolTip</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenu">FrameworkElement.ContextMenu</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.parent">FrameworkElement.Parent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.logicalchildren">FrameworkElement.LogicalChildren</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.targetupdated">FrameworkElement.TargetUpdated</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.sourceupdated">FrameworkElement.SourceUpdated</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.datacontextchanged">FrameworkElement.DataContextChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.requestbringintoview">FrameworkElement.RequestBringIntoView</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.sizechanged">FrameworkElement.SizeChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.initialized">FrameworkElement.Initialized</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.loaded">FrameworkElement.Loaded</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.unloaded">FrameworkElement.Unloaded</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipopening">FrameworkElement.ToolTipOpening</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.tooltipclosing">FrameworkElement.ToolTipClosing</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuopening">FrameworkElement.ContextMenuOpening</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement.contextmenuclosing">FrameworkElement.ContextMenuClosing</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousedownevent">UIElement.PreviewMouseDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousedownevent">UIElement.MouseDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseupevent">UIElement.PreviewMouseUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseupevent">UIElement.MouseUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttondownevent">UIElement.PreviewMouseLeftButtonDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttondownevent">UIElement.MouseLeftButtonDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttonupevent">UIElement.PreviewMouseLeftButtonUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttonupevent">UIElement.MouseLeftButtonUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttondownevent">UIElement.PreviewMouseRightButtonDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttondownevent">UIElement.MouseRightButtonDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttonupevent">UIElement.PreviewMouseRightButtonUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttonupevent">UIElement.MouseRightButtonUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousemoveevent">UIElement.PreviewMouseMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousemoveevent">UIElement.MouseMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousewheelevent">UIElement.PreviewMouseWheelEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousewheelevent">UIElement.MouseWheelEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseenterevent">UIElement.MouseEnterEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleaveevent">UIElement.MouseLeaveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotmousecaptureevent">UIElement.GotMouseCaptureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostmousecaptureevent">UIElement.LostMouseCaptureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycursorevent">UIElement.QueryCursorEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusdownevent">UIElement.PreviewStylusDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusdownevent">UIElement.StylusDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusupevent">UIElement.PreviewStylusUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusupevent">UIElement.StylusUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusmoveevent">UIElement.PreviewStylusMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusmoveevent">UIElement.StylusMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinairmoveevent">UIElement.PreviewStylusInAirMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinairmoveevent">UIElement.StylusInAirMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusenterevent">UIElement.StylusEnterEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusleaveevent">UIElement.StylusLeaveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinrangeevent">UIElement.PreviewStylusInRangeEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinrangeevent">UIElement.StylusInRangeEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusoutofrangeevent">UIElement.PreviewStylusOutOfRangeEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusoutofrangeevent">UIElement.StylusOutOfRangeEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylussystemgestureevent">UIElement.PreviewStylusSystemGestureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylussystemgestureevent">UIElement.StylusSystemGestureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotstyluscaptureevent">UIElement.GotStylusCaptureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.loststyluscaptureevent">UIElement.LostStylusCaptureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttondownevent">UIElement.StylusButtonDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttonupevent">UIElement.StylusButtonUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttondownevent">UIElement.PreviewStylusButtonDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttonupevent">UIElement.PreviewStylusButtonUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeydownevent">UIElement.PreviewKeyDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.keydownevent">UIElement.KeyDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeyupevent">UIElement.PreviewKeyUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.keyupevent">UIElement.KeyUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgotkeyboardfocusevent">UIElement.PreviewGotKeyboardFocusEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotkeyboardfocusevent">UIElement.GotKeyboardFocusEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewlostkeyboardfocusevent">UIElement.PreviewLostKeyboardFocusEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostkeyboardfocusevent">UIElement.LostKeyboardFocusEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtextinputevent">UIElement.PreviewTextInputEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.textinputevent">UIElement.TextInputEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewquerycontinuedragevent">UIElement.PreviewQueryContinueDragEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycontinuedragevent">UIElement.QueryContinueDragEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgivefeedbackevent">UIElement.PreviewGiveFeedbackEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.givefeedbackevent">UIElement.GiveFeedbackEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragenterevent">UIElement.PreviewDragEnterEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragenterevent">UIElement.DragEnterEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragoverevent">UIElement.PreviewDragOverEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragoverevent">UIElement.DragOverEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragleaveevent">UIElement.PreviewDragLeaveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragleaveevent">UIElement.DragLeaveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdropevent">UIElement.PreviewDropEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.dropevent">UIElement.DropEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchdownevent">UIElement.PreviewTouchDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchdownevent">UIElement.TouchDownEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchmoveevent">UIElement.PreviewTouchMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchmoveevent">UIElement.TouchMoveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchupevent">UIElement.PreviewTouchUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchupevent">UIElement.TouchUpEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gottouchcaptureevent">UIElement.GotTouchCaptureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.losttouchcaptureevent">UIElement.LostTouchCaptureEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchenterevent">UIElement.TouchEnterEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchleaveevent">UIElement.TouchLeaveEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousedirectlyoverproperty">UIElement.IsMouseDirectlyOverProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismouseoverproperty">UIElement.IsMouseOverProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusoverproperty">UIElement.IsStylusOverProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocuswithinproperty">UIElement.IsKeyboardFocusWithinProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturedproperty">UIElement.IsMouseCapturedProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturewithinproperty">UIElement.IsMouseCaptureWithinProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusdirectlyoverproperty">UIElement.IsStylusDirectlyOverProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturedproperty">UIElement.IsStylusCapturedProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturewithinproperty">UIElement.IsStylusCaptureWithinProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocusedproperty">UIElement.IsKeyboardFocusedProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesdirectlyoverproperty">UIElement.AreAnyTouchesDirectlyOverProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesoverproperty">UIElement.AreAnyTouchesOverProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescapturedproperty">UIElement.AreAnyTouchesCapturedProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescapturedwithinproperty">UIElement.AreAnyTouchesCapturedWithinProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.allowdropproperty">UIElement.AllowDropProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransformproperty">UIElement.RenderTransformProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransformoriginproperty">UIElement.RenderTransformOriginProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacityproperty">UIElement.OpacityProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacitymaskproperty">UIElement.OpacityMaskProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffectproperty">UIElement.BitmapEffectProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.effectproperty">UIElement.EffectProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffectinputproperty">UIElement.BitmapEffectInputProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.cachemodeproperty">UIElement.CacheModeProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.uidproperty">UIElement.UidProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.visibilityproperty">UIElement.VisibilityProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.cliptoboundsproperty">UIElement.ClipToBoundsProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.clipproperty">UIElement.ClipProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.snapstodevicepixelsproperty">UIElement.SnapsToDevicePixelsProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotfocusevent">UIElement.GotFocusEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostfocusevent">UIElement.LostFocusEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isfocusedproperty">UIElement.IsFocusedProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabledproperty">UIElement.IsEnabledProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ishittestvisibleproperty">UIElement.IsHitTestVisibleProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isvisibleproperty">UIElement.IsVisibleProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.focusableproperty">UIElement.FocusableProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismanipulationenabledproperty">UIElement.IsManipulationEnabledProperty</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstartingevent">UIElement.ManipulationStartingEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstartedevent">UIElement.ManipulationStartedEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationdeltaevent">UIElement.ManipulationDeltaEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationinertiastartingevent">UIElement.ManipulationInertiaStartingEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationboundaryfeedbackevent">UIElement.ManipulationBoundaryFeedbackEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationcompletedevent">UIElement.ManipulationCompletedEvent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.applyanimationclock#system-windows-uielement-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock)">UIElement.ApplyAnimationClock(DependencyProperty, AnimationClock)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.applyanimationclock#system-windows-uielement-applyanimationclock(system-windows-dependencyproperty-system-windows-media-animation-animationclock-system-windows-media-animation-handoffbehavior)">UIElement.ApplyAnimationClock(DependencyProperty, AnimationClock, HandoffBehavior)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.beginanimation#system-windows-uielement-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline)">UIElement.BeginAnimation(DependencyProperty, AnimationTimeline)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.beginanimation#system-windows-uielement-beginanimation(system-windows-dependencyproperty-system-windows-media-animation-animationtimeline-system-windows-media-animation-handoffbehavior)">UIElement.BeginAnimation(DependencyProperty, AnimationTimeline, HandoffBehavior)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.getanimationbasevalue">UIElement.GetAnimationBaseValue(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.raiseevent">UIElement.RaiseEvent(RoutedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.addhandler#system-windows-uielement-addhandler(system-windows-routedevent-system-delegate)">UIElement.AddHandler(RoutedEvent, Delegate)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.addhandler#system-windows-uielement-addhandler(system-windows-routedevent-system-delegate-system-boolean)">UIElement.AddHandler(RoutedEvent, Delegate, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.removehandler">UIElement.RemoveHandler(RoutedEvent, Delegate)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.addtoeventroute">UIElement.AddToEventRoute(EventRoute, RoutedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmousedown">UIElement.OnPreviewMouseDown(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmousedown">UIElement.OnMouseDown(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouseup">UIElement.OnPreviewMouseUp(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseup">UIElement.OnMouseUp(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouseleftbuttondown">UIElement.OnPreviewMouseLeftButtonDown(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseleftbuttondown">UIElement.OnMouseLeftButtonDown(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouseleftbuttonup">UIElement.OnPreviewMouseLeftButtonUp(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseleftbuttonup">UIElement.OnMouseLeftButtonUp(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouserightbuttondown">UIElement.OnPreviewMouseRightButtonDown(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouserightbuttondown">UIElement.OnMouseRightButtonDown(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmouserightbuttonup">UIElement.OnPreviewMouseRightButtonUp(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouserightbuttonup">UIElement.OnMouseRightButtonUp(MouseButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmousemove">UIElement.OnPreviewMouseMove(MouseEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmousemove">UIElement.OnMouseMove(MouseEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewmousewheel">UIElement.OnPreviewMouseWheel(MouseWheelEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmousewheel">UIElement.OnMouseWheel(MouseWheelEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseenter">UIElement.OnMouseEnter(MouseEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmouseleave">UIElement.OnMouseLeave(MouseEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotmousecapture">UIElement.OnGotMouseCapture(MouseEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlostmousecapture">UIElement.OnLostMouseCapture(MouseEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onquerycursor">UIElement.OnQueryCursor(QueryCursorEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusdown">UIElement.OnPreviewStylusDown(StylusDownEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusdown">UIElement.OnStylusDown(StylusDownEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusup">UIElement.OnPreviewStylusUp(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusup">UIElement.OnStylusUp(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusmove">UIElement.OnPreviewStylusMove(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusmove">UIElement.OnStylusMove(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusinairmove">UIElement.OnPreviewStylusInAirMove(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusinairmove">UIElement.OnStylusInAirMove(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusenter">UIElement.OnStylusEnter(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusleave">UIElement.OnStylusLeave(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusinrange">UIElement.OnPreviewStylusInRange(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusinrange">UIElement.OnStylusInRange(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusoutofrange">UIElement.OnPreviewStylusOutOfRange(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusoutofrange">UIElement.OnStylusOutOfRange(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylussystemgesture">UIElement.OnPreviewStylusSystemGesture(StylusSystemGestureEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylussystemgesture">UIElement.OnStylusSystemGesture(StylusSystemGestureEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotstyluscapture">UIElement.OnGotStylusCapture(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onloststyluscapture">UIElement.OnLostStylusCapture(StylusEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusbuttondown">UIElement.OnStylusButtonDown(StylusButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onstylusbuttonup">UIElement.OnStylusButtonUp(StylusButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusbuttondown">UIElement.OnPreviewStylusButtonDown(StylusButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewstylusbuttonup">UIElement.OnPreviewStylusButtonUp(StylusButtonEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewkeydown">UIElement.OnPreviewKeyDown(KeyEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onkeydown">UIElement.OnKeyDown(KeyEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewkeyup">UIElement.OnPreviewKeyUp(KeyEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onkeyup">UIElement.OnKeyUp(KeyEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewgotkeyboardfocus">UIElement.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotkeyboardfocus">UIElement.OnGotKeyboardFocus(KeyboardFocusChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewlostkeyboardfocus">UIElement.OnPreviewLostKeyboardFocus(KeyboardFocusChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlostkeyboardfocus">UIElement.OnLostKeyboardFocus(KeyboardFocusChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtextinput">UIElement.OnPreviewTextInput(TextCompositionEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontextinput">UIElement.OnTextInput(TextCompositionEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewquerycontinuedrag">UIElement.OnPreviewQueryContinueDrag(QueryContinueDragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onquerycontinuedrag">UIElement.OnQueryContinueDrag(QueryContinueDragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewgivefeedback">UIElement.OnPreviewGiveFeedback(GiveFeedbackEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongivefeedback">UIElement.OnGiveFeedback(GiveFeedbackEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdragenter">UIElement.OnPreviewDragEnter(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondragenter">UIElement.OnDragEnter(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdragover">UIElement.OnPreviewDragOver(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondragover">UIElement.OnDragOver(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdragleave">UIElement.OnPreviewDragLeave(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondragleave">UIElement.OnDragLeave(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewdrop">UIElement.OnPreviewDrop(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ondrop">UIElement.OnDrop(DragEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtouchdown">UIElement.OnPreviewTouchDown(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchdown">UIElement.OnTouchDown(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtouchmove">UIElement.OnPreviewTouchMove(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchmove">UIElement.OnTouchMove(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onpreviewtouchup">UIElement.OnPreviewTouchUp(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchup">UIElement.OnTouchUp(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongottouchcapture">UIElement.OnGotTouchCapture(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlosttouchcapture">UIElement.OnLostTouchCapture(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchenter">UIElement.OnTouchEnter(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ontouchleave">UIElement.OnTouchLeave(TouchEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onismousedirectlyoverchanged">UIElement.OnIsMouseDirectlyOverChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.oniskeyboardfocuswithinchanged">UIElement.OnIsKeyboardFocusWithinChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onismousecapturedchanged">UIElement.OnIsMouseCapturedChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onismousecapturewithinchanged">UIElement.OnIsMouseCaptureWithinChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onisstylusdirectlyoverchanged">UIElement.OnIsStylusDirectlyOverChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onisstyluscapturedchanged">UIElement.OnIsStylusCapturedChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onisstyluscapturewithinchanged">UIElement.OnIsStylusCaptureWithinChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.oniskeyboardfocusedchanged">UIElement.OnIsKeyboardFocusedChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.invalidatemeasure">UIElement.InvalidateMeasure()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.invalidatearrange">UIElement.InvalidateArrange()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.invalidatevisual">UIElement.InvalidateVisual()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onchilddesiredsizechanged">UIElement.OnChildDesiredSizeChanged(UIElement)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.measure">UIElement.Measure(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.arrange">UIElement.Arrange(Rect)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onrender">UIElement.OnRender(DrawingContext)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onrendersizechanged">UIElement.OnRenderSizeChanged(SizeChangedInfo)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.measurecore">UIElement.MeasureCore(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.arrangecore">UIElement.ArrangeCore(Rect)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onvisualparentchanged">UIElement.OnVisualParentChanged(DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.getuiparentcore">UIElement.GetUIParentCore()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.updatelayout">UIElement.UpdateLayout()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.translatepoint">UIElement.TranslatePoint(Point, UIElement)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.inputhittest">UIElement.InputHitTest(Point)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.capturemouse">UIElement.CaptureMouse()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasemousecapture">UIElement.ReleaseMouseCapture()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.capturestylus">UIElement.CaptureStylus()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasestyluscapture">UIElement.ReleaseStylusCapture()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.focus">UIElement.Focus()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.movefocus">UIElement.MoveFocus(TraversalRequest)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.predictfocus">UIElement.PredictFocus(FocusNavigationDirection)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onaccesskey">UIElement.OnAccessKey(AccessKeyEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.hittestcore#system-windows-uielement-hittestcore(system-windows-media-pointhittestparameters)">UIElement.HitTestCore(PointHitTestParameters)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.hittestcore#system-windows-uielement-hittestcore(system-windows-media-geometryhittestparameters)">UIElement.HitTestCore(GeometryHitTestParameters)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.getlayoutclip">UIElement.GetLayoutClip(Size)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ongotfocus">UIElement.OnGotFocus(RoutedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onlostfocus">UIElement.OnLostFocus(RoutedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.oncreateautomationpeer">UIElement.OnCreateAutomationPeer()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationstarting">UIElement.OnManipulationStarting(ManipulationStartingEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationstarted">UIElement.OnManipulationStarted(ManipulationStartedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationdelta">UIElement.OnManipulationDelta(ManipulationDeltaEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationinertiastarting">UIElement.OnManipulationInertiaStarting(ManipulationInertiaStartingEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationboundaryfeedback">UIElement.OnManipulationBoundaryFeedback(ManipulationBoundaryFeedbackEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.onmanipulationcompleted">UIElement.OnManipulationCompleted(ManipulationCompletedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.capturetouch">UIElement.CaptureTouch(TouchDevice)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasetouchcapture">UIElement.ReleaseTouchCapture(TouchDevice)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.releasealltouchcaptures">UIElement.ReleaseAllTouchCaptures()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.hasanimatedproperties">UIElement.HasAnimatedProperties</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.inputbindings">UIElement.InputBindings</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.commandbindings">UIElement.CommandBindings</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.allowdrop">UIElement.AllowDrop</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusplugins">UIElement.StylusPlugIns</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.desiredsize">UIElement.DesiredSize</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismeasurevalid">UIElement.IsMeasureValid</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isarrangevalid">UIElement.IsArrangeValid</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendersize">UIElement.RenderSize</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransform">UIElement.RenderTransform</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.rendertransformorigin">UIElement.RenderTransformOrigin</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousedirectlyover">UIElement.IsMouseDirectlyOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismouseover">UIElement.IsMouseOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusover">UIElement.IsStylusOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocuswithin">UIElement.IsKeyboardFocusWithin</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecaptured">UIElement.IsMouseCaptured</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturewithin">UIElement.IsMouseCaptureWithin</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusdirectlyover">UIElement.IsStylusDirectlyOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscaptured">UIElement.IsStylusCaptured</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturewithin">UIElement.IsStylusCaptureWithin</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocused">UIElement.IsKeyboardFocused</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isinputmethodenabled">UIElement.IsInputMethodEnabled</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacity">UIElement.Opacity</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.opacitymask">UIElement.OpacityMask</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffect">UIElement.BitmapEffect</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.effect">UIElement.Effect</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.bitmapeffectinput">UIElement.BitmapEffectInput</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.cachemode">UIElement.CacheMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.uid">UIElement.Uid</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.visibility">UIElement.Visibility</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.cliptobounds">UIElement.ClipToBounds</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.clip">UIElement.Clip</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.snapstodevicepixels">UIElement.SnapsToDevicePixels</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.haseffectivekeyboardfocus">UIElement.HasEffectiveKeyboardFocus</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isfocused">UIElement.IsFocused</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabled">UIElement.IsEnabled</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabledcore">UIElement.IsEnabledCore</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ishittestvisible">UIElement.IsHitTestVisible</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isvisible">UIElement.IsVisible</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.focusable">UIElement.Focusable</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.persistid">UIElement.PersistId</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismanipulationenabled">UIElement.IsManipulationEnabled</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesover">UIElement.AreAnyTouchesOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchesdirectlyover">UIElement.AreAnyTouchesDirectlyOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescapturedwithin">UIElement.AreAnyTouchesCapturedWithin</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.areanytouchescaptured">UIElement.AreAnyTouchesCaptured</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchescaptured">UIElement.TouchesCaptured</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchescapturedwithin">UIElement.TouchesCapturedWithin</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchesover">UIElement.TouchesOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchesdirectlyover">UIElement.TouchesDirectlyOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousedown">UIElement.PreviewMouseDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousedown">UIElement.MouseDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseup">UIElement.PreviewMouseUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseup">UIElement.MouseUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttondown">UIElement.PreviewMouseLeftButtonDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttondown">UIElement.MouseLeftButtonDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouseleftbuttonup">UIElement.PreviewMouseLeftButtonUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleftbuttonup">UIElement.MouseLeftButtonUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttondown">UIElement.PreviewMouseRightButtonDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttondown">UIElement.MouseRightButtonDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmouserightbuttonup">UIElement.PreviewMouseRightButtonUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouserightbuttonup">UIElement.MouseRightButtonUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousemove">UIElement.PreviewMouseMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousemove">UIElement.MouseMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewmousewheel">UIElement.PreviewMouseWheel</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mousewheel">UIElement.MouseWheel</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseenter">UIElement.MouseEnter</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.mouseleave">UIElement.MouseLeave</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotmousecapture">UIElement.GotMouseCapture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostmousecapture">UIElement.LostMouseCapture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycursor">UIElement.QueryCursor</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusdown">UIElement.PreviewStylusDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusdown">UIElement.StylusDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusup">UIElement.PreviewStylusUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusup">UIElement.StylusUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusmove">UIElement.PreviewStylusMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusmove">UIElement.StylusMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinairmove">UIElement.PreviewStylusInAirMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinairmove">UIElement.StylusInAirMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusenter">UIElement.StylusEnter</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusleave">UIElement.StylusLeave</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusinrange">UIElement.PreviewStylusInRange</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusinrange">UIElement.StylusInRange</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusoutofrange">UIElement.PreviewStylusOutOfRange</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusoutofrange">UIElement.StylusOutOfRange</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylussystemgesture">UIElement.PreviewStylusSystemGesture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylussystemgesture">UIElement.StylusSystemGesture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotstyluscapture">UIElement.GotStylusCapture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.loststyluscapture">UIElement.LostStylusCapture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttondown">UIElement.StylusButtonDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.stylusbuttonup">UIElement.StylusButtonUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttondown">UIElement.PreviewStylusButtonDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewstylusbuttonup">UIElement.PreviewStylusButtonUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeydown">UIElement.PreviewKeyDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.keydown">UIElement.KeyDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewkeyup">UIElement.PreviewKeyUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.keyup">UIElement.KeyUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgotkeyboardfocus">UIElement.PreviewGotKeyboardFocus</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotkeyboardfocus">UIElement.GotKeyboardFocus</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewlostkeyboardfocus">UIElement.PreviewLostKeyboardFocus</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostkeyboardfocus">UIElement.LostKeyboardFocus</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtextinput">UIElement.PreviewTextInput</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.textinput">UIElement.TextInput</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewquerycontinuedrag">UIElement.PreviewQueryContinueDrag</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.querycontinuedrag">UIElement.QueryContinueDrag</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewgivefeedback">UIElement.PreviewGiveFeedback</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.givefeedback">UIElement.GiveFeedback</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragenter">UIElement.PreviewDragEnter</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragenter">UIElement.DragEnter</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragover">UIElement.PreviewDragOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragover">UIElement.DragOver</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdragleave">UIElement.PreviewDragLeave</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.dragleave">UIElement.DragLeave</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewdrop">UIElement.PreviewDrop</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.drop">UIElement.Drop</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchdown">UIElement.PreviewTouchDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchdown">UIElement.TouchDown</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchmove">UIElement.PreviewTouchMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchmove">UIElement.TouchMove</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.previewtouchup">UIElement.PreviewTouchUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchup">UIElement.TouchUp</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gottouchcapture">UIElement.GotTouchCapture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.losttouchcapture">UIElement.LostTouchCapture</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchenter">UIElement.TouchEnter</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.touchleave">UIElement.TouchLeave</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousedirectlyoverchanged">UIElement.IsMouseDirectlyOverChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocuswithinchanged">UIElement.IsKeyboardFocusWithinChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturedchanged">UIElement.IsMouseCapturedChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ismousecapturewithinchanged">UIElement.IsMouseCaptureWithinChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstylusdirectlyoverchanged">UIElement.IsStylusDirectlyOverChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturedchanged">UIElement.IsStylusCapturedChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isstyluscapturewithinchanged">UIElement.IsStylusCaptureWithinChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.iskeyboardfocusedchanged">UIElement.IsKeyboardFocusedChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.layoutupdated">UIElement.LayoutUpdated</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.gotfocus">UIElement.GotFocus</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.lostfocus">UIElement.LostFocus</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isenabledchanged">UIElement.IsEnabledChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.ishittestvisiblechanged">UIElement.IsHitTestVisibleChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.isvisiblechanged">UIElement.IsVisibleChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.focusablechanged">UIElement.FocusableChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstarting">UIElement.ManipulationStarting</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationstarted">UIElement.ManipulationStarted</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationdelta">UIElement.ManipulationDelta</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationinertiastarting">UIElement.ManipulationInertiaStarting</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationboundaryfeedback">UIElement.ManipulationBoundaryFeedback</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.uielement.manipulationcompleted">UIElement.ManipulationCompleted</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.hittestcore#system-windows-media-visual-hittestcore(system-windows-media-pointhittestparameters)">Visual.HitTestCore(PointHitTestParameters)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.hittestcore#system-windows-media-visual-hittestcore(system-windows-media-geometryhittestparameters)">Visual.HitTestCore(GeometryHitTestParameters)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.getvisualchild">Visual.GetVisualChild(int)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.addvisualchild">Visual.AddVisualChild(Visual)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.removevisualchild">Visual.RemoveVisualChild(Visual)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.onvisualparentchanged">Visual.OnVisualParentChanged(DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.onvisualchildrenchanged">Visual.OnVisualChildrenChanged(DependencyObject, DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.ondpichanged">Visual.OnDpiChanged(DpiScale, DpiScale)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.isancestorof">Visual.IsAncestorOf(DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.isdescendantof">Visual.IsDescendantOf(DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.findcommonvisualancestor">Visual.FindCommonVisualAncestor(DependencyObject)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtoancestor#system-windows-media-visual-transformtoancestor(system-windows-media-visual)">Visual.TransformToAncestor(Visual)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtoancestor#system-windows-media-visual-transformtoancestor(system-windows-media-media3d-visual3d)">Visual.TransformToAncestor(Visual3D)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtodescendant">Visual.TransformToDescendant(Visual)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.transformtovisual">Visual.TransformToVisual(Visual)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.pointtoscreen">Visual.PointToScreen(Point)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.pointfromscreen">Visual.PointFromScreen(Point)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualchildrencount">Visual.VisualChildrenCount</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualparent">Visual.VisualParent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualtransform">Visual.VisualTransform</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualeffect">Visual.VisualEffect</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualbitmapeffect">Visual.VisualBitmapEffect</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualbitmapeffectinput">Visual.VisualBitmapEffectInput</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualcachemode">Visual.VisualCacheMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualscrollableareaclip">Visual.VisualScrollableAreaClip</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualclip">Visual.VisualClip</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualoffset">Visual.VisualOffset</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualopacity">Visual.VisualOpacity</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualedgemode">Visual.VisualEdgeMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualbitmapscalingmode">Visual.VisualBitmapScalingMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualcleartypehint">Visual.VisualClearTypeHint</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualtextrenderingmode">Visual.VisualTextRenderingMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualtexthintingmode">Visual.VisualTextHintingMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualopacitymask">Visual.VisualOpacityMask</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualxsnappingguidelines">Visual.VisualXSnappingGuidelines</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.media.visual.visualysnappingguidelines">Visual.VisualYSnappingGuidelines</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.equals">DependencyObject.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.gethashcode">DependencyObject.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getvalue">DependencyObject.GetValue(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencyproperty-system-object)">DependencyObject.SetValue(DependencyProperty, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setcurrentvalue">DependencyObject.SetCurrentValue(DependencyProperty, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencypropertykey-system-object)">DependencyObject.SetValue(DependencyPropertyKey, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencyproperty)">DependencyObject.ClearValue(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencypropertykey)">DependencyObject.ClearValue(DependencyPropertyKey)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.coercevalue">DependencyObject.CoerceValue(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.invalidateproperty">DependencyObject.InvalidateProperty(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.onpropertychanged">DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.shouldserializeproperty">DependencyObject.ShouldSerializeProperty(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.readlocalvalue">DependencyObject.ReadLocalValue(DependencyProperty)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getlocalvalueenumerator">DependencyObject.GetLocalValueEnumerator()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.dependencyobjecttype">DependencyObject.DependencyObjectType</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.issealed">DependencyObject.IsSealed</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher">DispatcherObject.Dispatcher</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="Zonas_Zona__ctor"> Zona()</h3>
+<p>Constructor por defecto de la clase Zona</p>
+<pre><code class="lang-csharp">public Zona()
+</code></pre>
+<h3 id="Zonas_Zona__ctor_System_Int32_SQLHandler_ConectorSQL_SQLHandler_ParametrosApp_System_Boolean_"> Zona(int, ConectorSQL, ParametrosApp, bool)</h3>
+<p>Constructor de la clase Zona</p>
+<pre><code class="lang-csharp">public Zona(int ID, ConectorSQL dbconn, ParametrosApp ConfigActual, bool DebugMode = false)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>ID</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El identificador de la zona</p>
+<p><code>dbconn</code> ConectorSQL</p>
+<p>El conector SQL para la base de datos</p>
+<p><code>ConfigActual</code> ParametrosApp</p>
+<p>Los parámetros de configuración de la aplicación</p>
+<p><code>DebugMode</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si el modo debug está activo o no</p>
+<h2 id="fields">Fields</h2>
+<h3 id="Zonas_Zona_BarrilReparado"> BarrilReparado</h3>
+<p>Obtiene o establece si el barril ha sido reparado o no.</p>
+<pre><code class="lang-csharp">public bool BarrilReparado
+</code></pre>
+<h4 id="field-value">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_BasculaActiva"> BasculaActiva</h3>
+<p>Obtiene o establece si la báscula está activa o no.</p>
+<pre><code class="lang-csharp">public bool BasculaActiva
+</code></pre>
+<h4 id="field-value-1">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_BasculaZona"> BasculaZona</h3>
+<p>Representa la báscula de la zona.</p>
+<pre><code class="lang-csharp">public Bascula BasculaZona
+</code></pre>
+<h4 id="field-value-2">Field Value</h4>
+<p>Bascula</p>
+<h3 id="Zonas_Zona_CicloCorrecto"> CicloCorrecto</h3>
+<p>Obtiene o establece si el ciclo de la zona ha sido correcto o no.</p>
+<pre><code class="lang-csharp">public bool CicloCorrecto
+</code></pre>
+<h4 id="field-value-3">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_ConfiguracionApp"> ConfiguracionApp</h3>
+<p>Representa los parámetros de la aplicación.</p>
+<pre><code class="lang-csharp">public ParametrosApp ConfiguracionApp
+</code></pre>
+<h4 id="field-value-4">Field Value</h4>
+<p>ParametrosApp</p>
+<h3 id="Zonas_Zona_DatosPesaje"> DatosPesaje</h3>
+<p>Representa los datos de pesaje de un palet.</p>
+<pre><code class="lang-csharp">public IdentificacionPalet DatosPesaje
+</code></pre>
+<h4 id="field-value-5">Field Value</h4>
+<p>IdentificacionPalet</p>
+<h3 id="Zonas_Zona_DetallesZona"> DetallesZona</h3>
+<p>Representa los detalles de la zona.</p>
+<pre><code class="lang-csharp">public DetailsZona DetallesZona
+</code></pre>
+<h4 id="field-value-6">Field Value</h4>
+<p><a href="Zonas.DetailsZona.html">DetailsZona</a></p>
+<h3 id="Zonas_Zona_ErroresZona"> ErroresZona</h3>
+<p>Representa el temporizador que controla los errores de la zona.</p>
+<pre><code class="lang-csharp">public Timer ErroresZona
+</code></pre>
+<h4 id="field-value-7">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.timers.timer">Timer</a></p>
+<h3 id="Zonas_Zona_EstaActivaProperty"> EstaActivaProperty</h3>
+<p>Representa la propiedad de dependencia que indica si la zona está activa o no.</p>
+<pre><code class="lang-csharp">public static readonly DependencyProperty EstaActivaProperty
+</code></pre>
+<h4 id="field-value-8">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></p>
+<h3 id="Zonas_Zona_EstadoActualLinea"> EstadoActualLinea</h3>
+<p>Obtiene o establece el estado actual de la línea de producción.</p>
+<pre><code class="lang-csharp">public EstadoLinea EstadoActualLinea
+</code></pre>
+<h4 id="field-value-9">Field Value</h4>
+<p><a href="Zonas.EstadoLinea.html">EstadoLinea</a></p>
+<h3 id="Zonas_Zona_FinalPalet"> FinalPalet</h3>
+<p>Obtiene o establece si el palet ha llegado al final de la zona o no.</p>
+<pre><code class="lang-csharp">public bool FinalPalet
+</code></pre>
+<h4 id="field-value-10">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_HaSidoResetada"> HaSidoResetada</h3>
+<p>Obtiene o establece si la zona ha sido reseteada.</p>
+<pre><code class="lang-csharp">public bool HaSidoResetada
+</code></pre>
+<h4 id="field-value-11">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_ID_Actual"> ID_Actual</h3>
+<p>Obtiene o establece el identificador actual de la zona.</p>
+<pre><code class="lang-csharp">public int ID_Actual
+</code></pre>
+<h4 id="field-value-12">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="Zonas_Zona_IdPesaje"> IdPesaje</h3>
+<pre><code class="lang-csharp">public int IdPesaje
+</code></pre>
+<h4 id="field-value-13">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="Zonas_Zona_IdentificacionCompletada"> IdentificacionCompletada</h3>
+<p>Obtiene o establece si la identificación del palet ha sido completada o no.</p>
+<pre><code class="lang-csharp">public bool IdentificacionCompletada
+</code></pre>
+<h4 id="field-value-14">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_InventarioTags"> InventarioTags</h3>
+<pre><code class="lang-csharp">public ObservableHashSet&lt;string&gt; InventarioTags
+</code></pre>
+<h4 id="field-value-15">Field Value</h4>
+<p>ObservableHashSet&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<h3 id="Zonas_Zona_IsWorkingThreadBascula"> IsWorkingThreadBascula</h3>
+<p>Obtiene o establece si el hilo ThreadBascula está trabajando o no.</p>
+<pre><code class="lang-csharp">public bool IsWorkingThreadBascula
+</code></pre>
+<h4 id="field-value-16">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_IsWorkingThreadIdentification"> IsWorkingThreadIdentification</h3>
+<p>Obtiene o establece si el hilo ThreadIdentificacion está trabajando o no.</p>
+<pre><code class="lang-csharp">public bool IsWorkingThreadIdentification
+</code></pre>
+<h4 id="field-value-17">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_IsWorkingThreadPLCStatus"> IsWorkingThreadPLCStatus</h3>
+<p>Obtiene o establece si el hilo ThreadPLCStatus está trabajando o no.</p>
+<pre><code class="lang-csharp">public bool IsWorkingThreadPLCStatus
+</code></pre>
+<h4 id="field-value-18">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_IsWorkingThreadPLCVariables"> IsWorkingThreadPLCVariables</h3>
+<p>Obtiene o establece si el hilo ThreadPLCVariables está trabajando o no.</p>
+<pre><code class="lang-csharp">public bool IsWorkingThreadPLCVariables
+</code></pre>
+<h4 id="field-value-19">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_IsWorkingThreadRFID"> IsWorkingThreadRFID</h3>
+<p>Obtiene o establece si el hilo ThreadRFID está trabajando o no.</p>
+<pre><code class="lang-csharp">public bool IsWorkingThreadRFID
+</code></pre>
+<h4 id="field-value-20">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_LecturasFotocelulaCorrectasCount"> LecturasFotocelulaCorrectasCount</h3>
+<pre><code class="lang-csharp">public int LecturasFotocelulaCorrectasCount
+</code></pre>
+<h4 id="field-value-21">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="Zonas_Zona_ListaRegistros"> ListaRegistros</h3>
+<pre><code class="lang-csharp">public ObservableCollection&lt;RegistroPesaje&gt; ListaRegistros
+</code></pre>
+<h4 id="field-value-22">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;RegistroPesaje&gt;</p>
+<h3 id="Zonas_Zona_Logger"> Logger</h3>
+<pre><code class="lang-csharp">public ILog Logger
+</code></pre>
+<h4 id="field-value-23">Field Value</h4>
+<p>ILog</p>
+<h3 id="Zonas_Zona_ModoDebug"> ModoDebug</h3>
+<p>Obtiene o establece el modo de depuración de la zona.</p>
+<pre><code class="lang-csharp">public bool ModoDebug
+</code></pre>
+<h4 id="field-value-24">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_NotificadoError"> NotificadoError</h3>
+<p>Obtiene o establece si se ha notificado un error en la zona.</p>
+<pre><code class="lang-csharp">public bool NotificadoError
+</code></pre>
+<h4 id="field-value-25">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_PLC"> PLC</h3>
+<p>Representa el PLC de la zona.</p>
+<pre><code class="lang-csharp">public PLCLegacy PLC
+</code></pre>
+<h4 id="field-value-26">Field Value</h4>
+<p>PLCLegacy</p>
+<h3 id="Zonas_Zona_PLCActivado"> PLCActivado</h3>
+<p>Obtiene o establece si el PLC está activado o no.</p>
+<pre><code class="lang-csharp">public bool PLCActivado
+</code></pre>
+<h4 id="field-value-27">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_PersistenciaZona"> PersistenciaZona</h3>
+<p>Representa la persistencia de la zona en la base de datos.</p>
+<pre><code class="lang-csharp">public PersistenciaZona PersistenciaZona
+</code></pre>
+<h4 id="field-value-28">Field Value</h4>
+<p>PersistenciaZona</p>
+<h3 id="Zonas_Zona_PesosEstables"> PesosEstables</h3>
+<pre><code class="lang-csharp">public List&lt;double&gt; PesosEstables
+</code></pre>
+<h4 id="field-value-29">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</p>
+<h3 id="Zonas_Zona_RFID"> RFID</h3>
+<p>Representa el lector TCP de la zona.</p>
+<pre><code class="lang-csharp">public LectorTCP RFID
+</code></pre>
+<h4 id="field-value-30">Field Value</h4>
+<p>LectorTCP</p>
+<h3 id="Zonas_Zona_RFIDActivo"> RFIDActivo</h3>
+<p>Obtiene o establece si el lector TCP está activo o no.</p>
+<pre><code class="lang-csharp">public bool RFIDActivo
+</code></pre>
+<h4 id="field-value-31">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_ThreadBascula"> ThreadBascula</h3>
+<p>Representa el hilo que se encarga de leer el peso de la báscula de la zona.</p>
+<pre><code class="lang-csharp">public Thread ThreadBascula
+</code></pre>
+<h4 id="field-value-32">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.thread">Thread</a></p>
+<h3 id="Zonas_Zona_ThreadIdentificacion"> ThreadIdentificacion</h3>
+<p>Representa el hilo que se encarga de identificar el palet de la zona.</p>
+<pre><code class="lang-csharp">public Thread ThreadIdentificacion
+</code></pre>
+<h4 id="field-value-33">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.thread">Thread</a></p>
+<h3 id="Zonas_Zona_ThreadPLCStatus"> ThreadPLCStatus</h3>
+<p>Representa el hilo que se encarga de leer el estado del PLC de la zona.</p>
+<pre><code class="lang-csharp">public Thread ThreadPLCStatus
+</code></pre>
+<h4 id="field-value-34">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.thread">Thread</a></p>
+<h3 id="Zonas_Zona_ThreadPLCVariables"> ThreadPLCVariables</h3>
+<p>Representa el hilo que se encarga de leer las variables del PLC de la zona.</p>
+<pre><code class="lang-csharp">public Thread ThreadPLCVariables
+</code></pre>
+<h4 id="field-value-35">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.thread">Thread</a></p>
+<h3 id="Zonas_Zona_ThreadRFID"> ThreadRFID</h3>
+<p>Representa el hilo que se encarga de leer el tag RFID de la zona.</p>
+<pre><code class="lang-csharp">public Thread ThreadRFID
+</code></pre>
+<h4 id="field-value-36">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.thread">Thread</a></p>
+<h3 id="Zonas_Zona_TiempoFuncionamiento"> TiempoFuncionamiento</h3>
+<pre><code class="lang-csharp">public int TiempoFuncionamiento
+</code></pre>
+<h4 id="field-value-37">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="Zonas_Zona_TimeControl"> TimeControl</h3>
+<p>Representa el temporizador que controla el tiempo de la zona.</p>
+<pre><code class="lang-csharp">public Timer TimeControl
+</code></pre>
+<h4 id="field-value-38">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.timers.timer">Timer</a></p>
+<h3 id="Zonas_Zona_ValoresPLCZona"> ValoresPLCZona</h3>
+<p>Representa los valores del PLC de la zona.</p>
+<pre><code class="lang-csharp">public PLCLegacy.PLCData ValoresPLCZona
+</code></pre>
+<h4 id="field-value-39">Field Value</h4>
+<p>PLCLegacy.PLCData</p>
+<h3 id="Zonas_Zona_configZona"> configZona</h3>
+<p>Representa la configuración de la zona.</p>
+<pre><code class="lang-csharp">public ConfiguracionZona configZona
+</code></pre>
+<h4 id="field-value-40">Field Value</h4>
+<p>ConfiguracionZona</p>
+<h3 id="Zonas_Zona_dbconn"> dbconn</h3>
+<p>Representa el conector SQL para la base de datos.</p>
+<pre><code class="lang-csharp">public ConectorSQL dbconn
+</code></pre>
+<h4 id="field-value-41">Field Value</h4>
+<p>ConectorSQL</p>
+<h2 id="properties">Properties</h2>
+<h3 id="Zonas_Zona_ConfigAdicionalZona"> ConfigAdicionalZona</h3>
+<pre><code class="lang-csharp">public Reader ConfigAdicionalZona { get; set; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p>Reader</p>
+<h3 id="Zonas_Zona_DatosTransponderDecodificados"> DatosTransponderDecodificados</h3>
+<p>Obtiene o establece los datos del transponder decodificados.</p>
+<pre><code class="lang-csharp">public string DatosTransponderDecodificados { get; set; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="Zonas_Zona_EsZonaDeSalida"> EsZonaDeSalida</h3>
+<p>Obtiene o establece si la zona es de salida o no.</p>
+<pre><code class="lang-csharp">public bool EsZonaDeSalida { get; set; }
+</code></pre>
+<h4 id="property-value-2">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_EstaActiva"> EstaActiva</h3>
+<p>Obtiene o establece el texto que aparece en la cabecera del control.</p>
+<pre><code class="lang-csharp">public bool EstaActiva { get; set; }
+</code></pre>
+<h4 id="property-value-3">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_FechaPesaje"> FechaPesaje</h3>
+<pre><code class="lang-csharp">public DateTime FechaPesaje { get; set; }
+</code></pre>
+<h4 id="property-value-4">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></p>
+<h3 id="Zonas_Zona_HayPalet"> HayPalet</h3>
+<p>Obtiene o establece si hay un palet en la zona o no.</p>
+<pre><code class="lang-csharp">public bool HayPalet { get; set; }
+</code></pre>
+<h4 id="property-value-5">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_Merma"> Merma</h3>
+<p>Obtiene o establece la merma detectada.</p>
+<pre><code class="lang-csharp">public double Merma { get; set; }
+</code></pre>
+<h4 id="property-value-6">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<h3 id="Zonas_Zona_ModoSimulacion"> ModoSimulacion</h3>
+<p>Obtiene o establece el modo de simulación de la zona.</p>
+<pre><code class="lang-csharp">public bool ModoSimulacion { get; set; }
+</code></pre>
+<h4 id="property-value-7">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_PLC_Activo"> PLC_Activo</h3>
+<p>Obtiene o establece si el PLC está activo o no.</p>
+<pre><code class="lang-csharp">public bool PLC_Activo { get; set; }
+</code></pre>
+<h4 id="property-value-8">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_ParteAsociado"> ParteAsociado</h3>
+<p>Obtiene o establece el parte de trabajo asociado a la zona.</p>
+<pre><code class="lang-csharp">public ParteTrabajo ParteAsociado { get; set; }
+</code></pre>
+<h4 id="property-value-9">Property Value</h4>
+<p>ParteTrabajo</p>
+<h3 id="Zonas_Zona_PesoAnterior"> PesoAnterior</h3>
+<p>Obtiene o establece el peso anterior de la báscula.</p>
+<pre><code class="lang-csharp">public double PesoAnterior { get; set; }
+</code></pre>
+<h4 id="property-value-10">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<h3 id="Zonas_Zona_PesoBasculaValor"> PesoBasculaValor</h3>
+<p>Obtiene o establece el valor del peso de la báscula.</p>
+<pre><code class="lang-csharp">public double PesoBasculaValor { get; set; }
+</code></pre>
+<h4 id="property-value-11">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<h3 id="Zonas_Zona_PesoValido"> PesoValido</h3>
+<p>Obtiene o establece si el peso es válido o no.</p>
+<pre><code class="lang-csharp">public bool PesoValido { get; set; }
+</code></pre>
+<h4 id="property-value-12">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_Peso_Valido_Bascula"> Peso_Valido_Bascula</h3>
+<p>Obtiene o establece el peso válido de la báscula.</p>
+<pre><code class="lang-csharp">public double Peso_Valido_Bascula { get; set; }
+</code></pre>
+<h4 id="property-value-13">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<h3 id="Zonas_Zona_Transponder"> Transponder</h3>
+<p>Obtiene o establece el transponder de la zona.</p>
+<pre><code class="lang-csharp">public string Transponder { get; set; }
+</code></pre>
+<h4 id="property-value-14">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="Zonas_Zona_TransponderReconocido"> TransponderReconocido</h3>
+<p>Obtiene o establece si el transponder ha sido reconocido o no.</p>
+<pre><code class="lang-csharp">public bool TransponderReconocido { get; set; }
+</code></pre>
+<h4 id="property-value-15">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="Zonas_Zona_Zona_Errors"> Zona_Errors</h3>
+<p>Obtiene o establece el conjunto de errores de la zona.</p>
+<pre><code class="lang-csharp">public HashSet&lt;string&gt; Zona_Errors { get; set; }
+</code></pre>
+<h4 id="property-value-16">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<h2 id="methods">Methods</h2>
+<h3 id="Zonas_Zona_ActivarFondo_System_Windows_DependencyObject_System_Windows_DependencyPropertyChangedEventArgs_"> ActivarFondo(DependencyObject, DependencyPropertyChangedEventArgs)</h3>
+<p>Activa el fondo de la zona cuando cambia el valor de la propiedad EstaActiva.</p>
+<pre><code class="lang-csharp">public static void ActivarFondo(DependencyObject source, DependencyPropertyChangedEventArgs e)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>source</code> <a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></p>
+<p>El objeto que origina el cambio.</p>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertychangedeventargs">DependencyPropertyChangedEventArgs</a></p>
+<p>Los datos del evento que contienen el valor anterior y el nuevo.</p>
+<h3 id="Zonas_Zona_ActualizarCajonPeso_System_Object_System_Double_"> ActualizarCajonPeso(object, double)</h3>
+<p>Actualiza el peso del cajón según el valor recibido</p>
+<pre><code class="lang-csharp">public void ActualizarCajonPeso(object sender, double Peso)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que llama al método</p>
+<p><code>Peso</code> <a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<p>El peso en kilogramos</p>
+<h3 id="Zonas_Zona_ActualizarPesoBascula_System_Object_System_Double_"> ActualizarPesoBascula(object, double)</h3>
+<p>Actualiza el peso de la báscula según el valor recibido</p>
+<pre><code class="lang-csharp">public void ActualizarPesoBascula(object sender, double Peso)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que llama al método</p>
+<p><code>Peso</code> <a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<p>El peso en kilogramos</p>
+<h3 id="Zonas_Zona_AddHandlers"> AddHandlers()</h3>
+<p>Añade los manejadores de eventos a las funciones de la zona</p>
+<pre><code class="lang-csharp">public void AddHandlers()
+</code></pre>
+<h3 id="Zonas_Zona_AddLogger_ILog_"> AddLogger(ILog)</h3>
+<p>Añade un logger al objeto</p>
+<pre><code class="lang-csharp">public void AddLogger(ILog Logger)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>Logger</code> ILog</p>
+<p>El logger a añadir</p>
+<h3 id="Zonas_Zona_AddMsgToConsole_System_String_"> AddMsgToConsole(string)</h3>
+<p>Añade un mensaje a la consola</p>
+<pre><code class="lang-csharp">public void AddMsgToConsole(string Message)
+</code></pre>
+<h4 id="parameters-5">Parameters</h4>
+<p><code>Message</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El mensaje a añadir</p>
+<h3 id="Zonas_Zona_AddVariableToPLCBuffer_System_String_PLCs_EstructurasPLC_TipoOperacion_System_Int32_"> AddVariableToPLCBuffer(string, TipoOperacion, int)</h3>
+<p>Añade una variable al buffer del PLC.</p>
+<pre><code class="lang-csharp">public void AddVariableToPLCBuffer(string Address, EstructurasPLC.TipoOperacion TipoOperacion, int Value)
+</code></pre>
+<h4 id="parameters-6">Parameters</h4>
+<p><code>Address</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La dirección de la variable.</p>
+<p><code>TipoOperacion</code> EstructurasPLC.TipoOperacion</p>
+<p>El tipo de operación a realizar.</p>
+<p><code>Value</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El valor de la variable.</p>
+<h3 id="Zonas_Zona_AsociarListaRegistrosTabla_System_Collections_ObjectModel_ObservableCollection_SQLHandler_RegistroPesaje__"> AsociarListaRegistrosTabla(ObservableCollection&lt;RegistroPesaje&gt;)</h3>
+<p>Asocia una lista de registros de pesaje a la tabla</p>
+<pre><code class="lang-csharp">public void AsociarListaRegistrosTabla(ObservableCollection&lt;RegistroPesaje&gt; ListaRegistros)
+</code></pre>
+<h4 id="parameters-7">Parameters</h4>
+<p><code>ListaRegistros</code> <a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;RegistroPesaje&gt;</p>
+<p>La lista de registros de pesaje</p>
+<h3 id="Zonas_Zona_AsociarParteTrabajo_SQLHandler_ParteTrabajo_"> AsociarParteTrabajo(ParteTrabajo)</h3>
+<p>Asocia una parte de trabajo a la zona</p>
+<pre><code class="lang-csharp">public void AsociarParteTrabajo(ParteTrabajo Parte)
+</code></pre>
+<h4 id="parameters-8">Parameters</h4>
+<p><code>Parte</code> ParteTrabajo</p>
+<p>La parte de trabajo a asociar</p>
+<h3 id="Zonas_Zona_AsyncTimer_System_Func_System_Threading_Tasks_Task__System_TimeSpan_System_Threading_CancellationToken_"> AsyncTimer(Func&lt;Task&gt;, TimeSpan, CancellationToken)</h3>
+<p>Recube una tarea cancelable y la ejecuta indefinidamente cada 300 milisegundos</p>
+<pre><code class="lang-csharp">public static Task AsyncTimer(Func&lt;Task&gt; action, TimeSpan interval, CancellationToken cancellationToken = default)
+</code></pre>
+<h4 id="parameters-9">Parameters</h4>
+<p><code>action</code> <a href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</p>
+<p>La tarea a ejecutar</p>
+<p><code>interval</code> <a href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></p>
+<p>(No utilizado) Intervalo de tiempo entre repeticiones</p>
+<p><code>cancellationToken</code> <a href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></p>
+<p>Token de cancelacion para interrumpir la tarea</p>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<h3 id="Zonas_Zona_CheckForErrors"> CheckForErrors()</h3>
+<p>Comprueba si hay errores en la zona</p>
+<pre><code class="lang-csharp">public void CheckForErrors()
+</code></pre>
+<h3 id="Zonas_Zona_CheckIfBarrelIsBroken_SQLHandler_IdentificacionPalet_"> CheckIfBarrelIsBroken(IdentificacionPalet)</h3>
+<p>Comprueba si el barril está roto y ha salido por la zona de &quot;malas&quot;.</p>
+<pre><code class="lang-csharp">public bool CheckIfBarrelIsBroken(IdentificacionPalet LineaParteAbierta)
+</code></pre>
+<h4 id="parameters-10">Parameters</h4>
+<p><code>LineaParteAbierta</code> IdentificacionPalet</p>
+<p>La identificación del palet que tiene la parte abierta.</p>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Verdadero si el barril está roto, falso en caso contrario.</p>
+<h3 id="Zonas_Zona_CheckPesosEstables"> CheckPesosEstables()</h3>
+<p>Comprueba si los pesos del array son estables</p>
+<pre><code class="lang-csharp">public bool CheckPesosEstables()
+</code></pre>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si los pesos son estables o no</p>
+<h3 id="Zonas_Zona_ConnectBascula_ILog_"> ConnectBascula(ILog)</h3>
+<p>Conecta a la báscula de la zona y maneja las posibles excepciones.</p>
+<pre><code class="lang-csharp">public void ConnectBascula(ILog bLogger)
+</code></pre>
+<h4 id="parameters-11">Parameters</h4>
+<p><code>bLogger</code> ILog</p>
+<p>Objeto que implementa la interfaz ILog para registrar los mensajes.</p>
+<h3 id="Zonas_Zona_ConnectPLC_PLCs_PLCLegacy_"> ConnectPLC(PLCLegacy)</h3>
+<p>Conecta al PLC de la zona y maneja las posibles excepciones.</p>
+<pre><code class="lang-csharp">public void ConnectPLC(PLCLegacy PLCAsociado)
+</code></pre>
+<h4 id="parameters-12">Parameters</h4>
+<p><code>PLCAsociado</code> PLCLegacy</p>
+<p>El objeto que representa el PLC de la zona.</p>
+<h3 id="Zonas_Zona_ConnectRFID"> ConnectRFID()</h3>
+<p>Conecta a la antena RFID de la zona y maneja las posibles excepciones.</p>
+<pre><code class="lang-csharp">public void ConnectRFID()
+</code></pre>
+<h3 id="Zonas_Zona_EnviarReseteoBascula"> EnviarReseteoBascula()</h3>
+<p>Función que resetea la báscula.</p>
+<pre><code class="lang-csharp">public void EnviarReseteoBascula()
+</code></pre>
+<h3 id="Zonas_Zona_EnviarSeñalLecturaRFID"> EnviarSeñalLecturaRFID()</h3>
+<p>Envía una señal al PLC para indicar que se ha leído el RFID.</p>
+<pre><code class="lang-csharp">public Task EnviarSeñalLecturaRFID()
+</code></pre>
+<h4 id="returns-3">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<h3 id="Zonas_Zona_EnviarSeñalPesajePlc"> EnviarSeñalPesajePlc()</h3>
+<p>Envía una señal al PLC para indicar que se ha realizado el pesaje.</p>
+<pre><code class="lang-csharp">public Task EnviarSeñalPesajePlc()
+</code></pre>
+<h4 id="returns-4">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<h3 id="Zonas_Zona_EscribirDatosParteEnTag_LectorFEIG_TagRFID_"> EscribirDatosParteEnTag(TagRFID)</h3>
+<p>Escribe los datos del parte en el tag RFID.</p>
+<pre><code class="lang-csharp">public void EscribirDatosParteEnTag(TagRFID Tag)
+</code></pre>
+<h4 id="parameters-13">Parameters</h4>
+<p><code>Tag</code> TagRFID</p>
+<p>El objeto que representa el tag RFID.</p>
+<h3 id="Zonas_Zona_EsperarPesoValidoBascula"> EsperarPesoValidoBascula()</h3>
+<p>Espera a que el peso de la báscula sea válido</p>
+<pre><code class="lang-csharp">public Task&lt;bool&gt; EsperarPesoValidoBascula()
+</code></pre>
+<h4 id="returns-5">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</p>
+<p>Un valor booleano que indica si el peso es válido o no</p>
+<h3 id="Zonas_Zona_EsperarSalidaPalet"> EsperarSalidaPalet()</h3>
+<p>Espera a que el palet salga de la zona</p>
+<pre><code class="lang-csharp">public Task EsperarSalidaPalet()
+</code></pre>
+<h4 id="returns-6">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea asíncrona que se completa cuando el palet sale de la zona</p>
+<h3 id="Zonas_Zona_EventoSalidaPeso_System_Object_System_Boolean_"> EventoSalidaPeso(object, bool)</h3>
+<p>Maneja el evento de salida del peso de la báscula</p>
+<pre><code class="lang-csharp">public void EventoSalidaPeso(object sender, bool Salida)
+</code></pre>
+<h4 id="parameters-14">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que llama al método</p>
+<p><code>Salida</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si el peso ha salido o no</p>
+<h3 id="Zonas_Zona_ForceResetearZona"> ForceResetearZona()</h3>
+<p>Ejecuta un reseteo forzado de la zona</p>
+<pre><code class="lang-csharp">public Task ForceResetearZona()
+</code></pre>
+<h4 id="returns-7">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea asíncrona que se completa cuando la zona se resetea</p>
+<h3 id="Zonas_Zona_GenerarDetallesZona"> GenerarDetallesZona()</h3>
+<p>Genera los detalles de la zona</p>
+<pre><code class="lang-csharp">public void GenerarDetallesZona()
+</code></pre>
+<h3 id="Zonas_Zona_GetAdditionalConfigFromZona"> GetAdditionalConfigFromZona()</h3>
+<p>Obtiene la configuración adicional de la zona según su identificador</p>
+<pre><code class="lang-csharp">public void GetAdditionalConfigFromZona()
+</code></pre>
+<h3 id="Zonas_Zona_GetRFID"> GetRFID()</h3>
+<p>Función de polling de la antena para descubrir los tags.</p>
+<pre><code class="lang-csharp">public Task GetRFID()
+</code></pre>
+<h4 id="returns-8">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<h3 id="Zonas_Zona_GetRFIDSalida"> GetRFIDSalida()</h3>
+<p>Obtiene el RFID de la zona de salida.</p>
+<pre><code class="lang-csharp">public Task GetRFIDSalida()
+</code></pre>
+<h4 id="returns-9">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea asíncrona.</p>
+<h3 id="Zonas_Zona_GetValueFromAdditionalConfigFile_System_String_"> GetValueFromAdditionalConfigFile(string)</h3>
+<p>Obtiene el valor de un parámetro de configuración adicional a partir de una clave de búsqueda.</p>
+<pre><code class="lang-csharp">public string GetValueFromAdditionalConfigFile(string SearchKey)
+</code></pre>
+<h4 id="parameters-15">Parameters</h4>
+<p><code>SearchKey</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La clave de búsqueda del parámetro.</p>
+<h4 id="returns-10">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El valor del parámetro, o null si no se encuentra.</p>
+<h3 id="Zonas_Zona_GuardarDatosPesaje"> GuardarDatosPesaje()</h3>
+<p>Guarda los datos del pesaje en la base de datos.</p>
+<pre><code class="lang-csharp">public bool GuardarDatosPesaje()
+</code></pre>
+<h4 id="returns-11">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si el guardado fue exitoso o no.</p>
+<h3 id="Zonas_Zona_HandleMoreThanOneTransponder_System_Object_System_Collections_Generic_HashSet_System_String__"> HandleMoreThanOneTransponder(object, HashSet&lt;string&gt;)</h3>
+<p>Maneja el caso de que se detecten más de un transpondedor en la zona.</p>
+<pre><code class="lang-csharp">public void HandleMoreThanOneTransponder(object sender, HashSet&lt;string&gt; e)
+</code></pre>
+<h4 id="parameters-16">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que origina el evento.</p>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<p>El conjunto de etiquetas de los transpondedores detectados.</p>
+<h3 id="Zonas_Zona_InitZona"> InitZona()</h3>
+<p>Inicia los temporizadores de la zona.</p>
+<pre><code class="lang-csharp">public void InitZona()
+</code></pre>
+<h3 id="Zonas_Zona_LanzarEventoReseteo"> LanzarEventoReseteo()</h3>
+<p>Método que lanza el evento de reseteo de la zona.</p>
+<pre><code class="lang-csharp">public Task LanzarEventoReseteo()
+</code></pre>
+<h4 id="returns-12">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea asíncrona.</p>
+<h3 id="Zonas_Zona_LanzarEventoSalida"> LanzarEventoSalida()</h3>
+<p>Método que lanza el evento de salida de un palet.</p>
+<pre><code class="lang-csharp">public void LanzarEventoSalida()
+</code></pre>
+<h3 id="Zonas_Zona_LanzarExcepcionZona_System_String_System_String_"> LanzarExcepcionZona(string, string)</h3>
+<p>Lanza una excepción de zona con el mensaje y el título dados</p>
+<pre><code class="lang-csharp">public void LanzarExcepcionZona(string MensajeExcepcion, string Titulo)
+</code></pre>
+<h4 id="parameters-17">Parameters</h4>
+<p><code>MensajeExcepcion</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El mensaje de la excepción</p>
+<p><code>Titulo</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El título de la excepción</p>
+<h3 id="Zonas_Zona_MostrarPesoUIBascula_System_Double_"> MostrarPesoUIBascula(double)</h3>
+<p>Muestra el peso en la interfaz de usuario de la báscula</p>
+<pre><code class="lang-csharp">public void MostrarPesoUIBascula(double Peso)
+</code></pre>
+<h4 id="parameters-18">Parameters</h4>
+<p><code>Peso</code> <a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<p>El peso en kilogramos</p>
+<h3 id="Zonas_Zona_MostrarUIPesoInvalido"> MostrarUIPesoInvalido()</h3>
+<p>Muestra la interfaz de usuario cuando el peso es inválido</p>
+<pre><code class="lang-csharp">public void MostrarUIPesoInvalido()
+</code></pre>
+<h3 id="Zonas_Zona_MostrarUIPesoValido"> MostrarUIPesoValido()</h3>
+<p>Muestra la interfaz de usuario cuando el peso es válido</p>
+<pre><code class="lang-csharp">public void MostrarUIPesoValido()
+</code></pre>
+<h3 id="Zonas_Zona_ObtenerEstadoLinea"> ObtenerEstadoLinea()</h3>
+<p>Obtiene el estado de la línea desde el PLC.</p>
+<pre><code class="lang-csharp">public void ObtenerEstadoLinea()
+</code></pre>
+<h3 id="Zonas_Zona_ObtenerEstadoZonaPLC"> ObtenerEstadoZonaPLC()</h3>
+<p>Obtiene el estado de la zona desde el PLC.</p>
+<pre><code class="lang-csharp">public Task ObtenerEstadoZonaPLC()
+</code></pre>
+<h4 id="returns-13">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea asíncrona.</p>
+<h3 id="Zonas_Zona_ObtenerTag_System_String_"> ObtenerTag(string)</h3>
+<p>Obtiene el Tag de la base de datos, y lo crea si no existe</p>
+<pre><code class="lang-csharp">public TagRFID ObtenerTag(string Transponder)
+</code></pre>
+<h4 id="parameters-19">Parameters</h4>
+<p><code>Transponder</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>ID del tag</p>
+<h4 id="returns-14">Returns</h4>
+<p>TagRFID</p>
+<h3 id="Zonas_Zona_OnIdentificacionValida_System_Boolean_"> OnIdentificacionValida(bool)</h3>
+<p>Método que invoca el evento IdentificacionCompletadaEvent.</p>
+<pre><code class="lang-csharp">public void OnIdentificacionValida(bool IdentificacionCompletada)
+</code></pre>
+<h4 id="parameters-20">Parameters</h4>
+<p><code>IdentificacionCompletada</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Indica si la identificación se ha completado con éxito.</p>
+<h3 id="Zonas_Zona_OnPesoValido_System_Double_"> OnPesoValido(double)</h3>
+<p>Método que invoca el evento OnValidPeso.</p>
+<pre><code class="lang-csharp">public void OnPesoValido(double Peso)
+</code></pre>
+<h4 id="parameters-21">Parameters</h4>
+<p><code>Peso</code> <a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<p>El peso del palet en kilogramos.</p>
+<h3 id="Zonas_Zona_OnSalidaPalet_System_Boolean_"> OnSalidaPalet(bool)</h3>
+<p>Método que invoca el evento SalidaPalet.</p>
+<pre><code class="lang-csharp">public void OnSalidaPalet(bool SalidaPalet)
+</code></pre>
+<h4 id="parameters-22">Parameters</h4>
+<p><code>SalidaPalet</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Indica si se ha producido la salida de un palet.</p>
+<h3 id="Zonas_Zona_OnTieneExcepcion_Zonas_Zona_ExcepcionZona_"> OnTieneExcepcion(ExcepcionZona)</h3>
+<p>Método que invoca el evento TieneExcepcion.</p>
+<pre><code class="lang-csharp">public void OnTieneExcepcion(Zona.ExcepcionZona Excepcion)
+</code></pre>
+<h4 id="parameters-23">Parameters</h4>
+<p><code>Excepcion</code> <a href="Zonas.Zona.html">Zona</a>.<a href="Zonas.Zona.ExcepcionZona.html">ExcepcionZona</a></p>
+<p>La excepción que se ha producido.</p>
+<h3 id="Zonas_Zona_OnZonaDisponible_System_Boolean_"> OnZonaDisponible(bool)</h3>
+<p>Método que invoca el evento ZonaDisponible.</p>
+<pre><code class="lang-csharp">public void OnZonaDisponible(bool ZonaDisponible)
+</code></pre>
+<h4 id="parameters-24">Parameters</h4>
+<p><code>ZonaDisponible</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Indica si la zona está disponible.</p>
+<h3 id="Zonas_Zona_PararTimersZona"> PararTimersZona()</h3>
+<p>Detiene los timers de la zona</p>
+<pre><code class="lang-csharp">public void PararTimersZona()
+</code></pre>
+<h3 id="Zonas_Zona_PesarBascula_System_Object_System_Timers_ElapsedEventArgs_"> PesarBascula(object, ElapsedEventArgs)</h3>
+<p>Pesa la báscula, en dependencia de si el hilo de manejo de la báscula está en ejecucion</p>
+<pre><code class="lang-csharp">public void PesarBascula(object sender, ElapsedEventArgs e)
+</code></pre>
+<h4 id="parameters-25">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que llama al método</p>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.timers.elapsedeventargs">ElapsedEventArgs</a></p>
+<p>Los argumentos del evento</p>
+<h3 id="Zonas_Zona_QuitarSeñalLecturaRFID"> QuitarSeñalLecturaRFID()</h3>
+<p>Quita la señal al PLC que indica que se ha leído el RFID.</p>
+<pre><code class="lang-csharp">public Task QuitarSeñalLecturaRFID()
+</code></pre>
+<h4 id="returns-15">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<h3 id="Zonas_Zona_RaiseExceptionZona_System_String_System_String_System_String_"> RaiseExceptionZona(string, string, string)</h3>
+<p>Genera una excepción de zona con la descripción, el título y el texto de error dados</p>
+<pre><code class="lang-csharp">public void RaiseExceptionZona(string Descripcion, string Titulo, string TextoErrorZona)
+</code></pre>
+<h4 id="parameters-26">Parameters</h4>
+<p><code>Descripcion</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La descripción de la excepción</p>
+<p><code>Titulo</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El título de la excepción</p>
+<p><code>TextoErrorZona</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El texto de error de la zona</p>
+<h3 id="Zonas_Zona_ResetearBascula_System_Object_System_Windows_RoutedEventArgs_"> ResetearBascula(object, RoutedEventArgs)</h3>
+<p>Resetea la báscula a cero</p>
+<pre><code class="lang-csharp">public void ResetearBascula(object sender, RoutedEventArgs e)
+</code></pre>
+<h4 id="parameters-27">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que llama al método</p>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs">RoutedEventArgs</a></p>
+<p>Los argumentos del evento</p>
+<h3 id="Zonas_Zona_ResetearZona"> ResetearZona()</h3>
+<p>Resetea la zona</p>
+<pre><code class="lang-csharp">public Task ResetearZona()
+</code></pre>
+<h4 id="returns-16">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea asíncrona que se completa cuando la zona se resetea</p>
+<h3 id="Zonas_Zona_RunTareasTagEntrada_System_String_"> RunTareasTagEntrada(string)</h3>
+<p>Ejecuta las tareas para procesar la etiqueta RFID en la zona de entrada.</p>
+<pre><code class="lang-csharp">public void RunTareasTagEntrada(string Transponder)
+</code></pre>
+<h4 id="parameters-28">Parameters</h4>
+<p><code>Transponder</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La etiqueta del transpondedor.</p>
+<h3 id="Zonas_Zona_RunTareasTagSalida_System_String_"> RunTareasTagSalida(string)</h3>
+<p>Ejecuta las tareas para la etiqueta RFID en la zona de salida.</p>
+<pre><code class="lang-csharp">public void RunTareasTagSalida(string Transponder)
+</code></pre>
+<h4 id="parameters-29">Parameters</h4>
+<p><code>Transponder</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La etiqueta del transpondedor.</p>
+<h3 id="Zonas_Zona_SafeUIConsoleLog_System_String_"> SafeUIConsoleLog(string)</h3>
+<p>Añade un mensaje al registro de la consola de forma segura</p>
+<pre><code class="lang-csharp">public void SafeUIConsoleLog(string Message)
+</code></pre>
+<h4 id="parameters-30">Parameters</h4>
+<p><code>Message</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El mensaje a añadir</p>
+<h3 id="Zonas_Zona_SafeUIContentText_System_Windows_Controls_Label_System_String_"> SafeUIContentText(Label, string)</h3>
+<p>Establece el contenido de texto de un elemento de la interfaz de usuario de forma segura</p>
+<pre><code class="lang-csharp">public void SafeUIContentText(Label Element, string Content)
+</code></pre>
+<h4 id="parameters-31">Parameters</h4>
+<p><code>Element</code> <a href="https://learn.microsoft.com/dotnet/api/system.windows.controls.label">Label</a></p>
+<p>El elemento de la interfaz de usuario</p>
+<p><code>Content</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El contenido de texto</p>
+<h3 id="Zonas_Zona_SafeUIPLCColors"> SafeUIPLCColors()</h3>
+<p>Cambia el color de la interfaz de usuario según el estado del PLC, en colores verde o rojo segun el estado de las operaciones.</p>
+<pre><code class="lang-csharp">public void SafeUIPLCColors()
+</code></pre>
+<h3 id="Zonas_Zona_SetValidPeso_System_Double_"> SetValidPeso(double)</h3>
+<p>Establece el peso válido según el valor recibido</p>
+<pre><code class="lang-csharp">public Task SetValidPeso(double Peso)
+</code></pre>
+<h4 id="parameters-32">Parameters</h4>
+<p><code>Peso</code> <a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<p>El peso en kilogramos</p>
+<h4 id="returns-17">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea asíncrona que se completa cuando el peso es válido</p>
+<h3 id="Zonas_Zona_SetValidTransponder_System_String_"> SetValidTransponder(string)</h3>
+<p>Establece el transpondedor como válido y envía una señal al PLC.</p>
+<pre><code class="lang-csharp">public void SetValidTransponder(string Tag)
+</code></pre>
+<h4 id="parameters-33">Parameters</h4>
+<p><code>Tag</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La etiqueta del transpondedor.</p>
+<h3 id="Zonas_Zona_ShowErrors_System_Object_System_Windows_Input_MouseButtonEventArgs_"> ShowErrors(object, MouseButtonEventArgs)</h3>
+<p>Muestra los errores de la zona en un mensaje</p>
+<pre><code class="lang-csharp">public void ShowErrors(object sender, MouseButtonEventArgs e)
+</code></pre>
+<h4 id="parameters-34">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que llama al método</p>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a></p>
+<p>Los argumentos del evento</p>
+<h3 id="Zonas_Zona_ShowInfo_System_Object_System_Windows_Input_MouseButtonEventArgs_"> ShowInfo(object, MouseButtonEventArgs)</h3>
+<p>Muestra la información de la zona en una ventana</p>
+<pre><code class="lang-csharp">public void ShowInfo(object sender, MouseButtonEventArgs e)
+</code></pre>
+<h4 id="parameters-35">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p>El objeto que llama al método</p>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.windows.input.mousebuttoneventargs">MouseButtonEventArgs</a></p>
+<p>Los argumentos del evento</p>
+<h3 id="Zonas_Zona_ShowZonaDesactivada"> ShowZonaDesactivada()</h3>
+<p>Muestra la interfaz de usuario cuando la zona está desactivada</p>
+<pre><code class="lang-csharp">public void ShowZonaDesactivada()
+</code></pre>
+<h3 id="Zonas_Zona_StartSimulation"> StartSimulation()</h3>
+<p>Inicia o detiene la simulación de la zona</p>
+<pre><code class="lang-csharp">public void StartSimulation()
+</code></pre>
+<h3 id="Zonas_Zona_StartZona_PLCs_PLCLegacy_"> StartZona(PLCLegacy)</h3>
+<p>Inicia la zona con el PLC asociado</p>
+<pre><code class="lang-csharp">public void StartZona(PLCLegacy PLCAsociado)
+</code></pre>
+<h4 id="parameters-36">Parameters</h4>
+<p><code>PLCAsociado</code> PLCLegacy</p>
+<p>El PLC asociado a la zona</p>
+<h3 id="Zonas_Zona_StopZona"> StopZona()</h3>
+<p>Detiene la zona</p>
+<pre><code class="lang-csharp">public void StopZona()
+</code></pre>
+<h3 id="Zonas_Zona_TransponderReconocidoEnLinea_System_Object_System_Collections_Generic_HashSet_System_String__"> TransponderReconocidoEnLinea(object, HashSet&lt;string&gt;)</h3>
+<p>Evento que se ejecuta cada vez que se detecta un tag en la zona.</p>
+<pre><code class="lang-csharp">public void TransponderReconocidoEnLinea(object sender, HashSet&lt;string&gt; e)
+</code></pre>
+<h4 id="parameters-37">Parameters</h4>
+<p><code>sender</code> <a href="https://learn.microsoft.com/dotnet/api/system.object">object</a></p>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<h3 id="Zonas_Zona_UnsetValidPeso"> UnsetValidPeso()</h3>
+<p>Desestablece el peso válido y lo pone a 0</p>
+<pre><code class="lang-csharp">public void UnsetValidPeso()
+</code></pre>
+<h3 id="Zonas_Zona_UnsetValidTransponder"> UnsetValidTransponder()</h3>
+<p>Desacopla el transponder y elimina la señal del PLC.</p>
+<pre><code class="lang-csharp">public void UnsetValidTransponder()
+</code></pre>
+<h3 id="Zonas_Zona_IdentificacionCompletadaEvent"> IdentificacionCompletadaEvent</h3>
+<p>Evento que se produce cuando se completa la identificación de la zona.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;bool&gt; IdentificacionCompletadaEvent
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</p>
+<h3 id="Zonas_Zona_OnValidPeso"> OnValidPeso</h3>
+<p>Evento que se produce cuando se valida el peso de un palet.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;double&gt; OnValidPeso
+</code></pre>
+<h4 id="event-type-1">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</p>
+<h3 id="Zonas_Zona_SalidaPalet"> SalidaPalet</h3>
+<p>Evento que se produce cuando se produce la salida de un palet.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;bool&gt; SalidaPalet
+</code></pre>
+<h4 id="event-type-2">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</p>
+<h3 id="Zonas_Zona_TieneExcepcion"> TieneExcepcion</h3>
+<p>Evento que se produce cuando se detecta una excepción en la zona.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;Zona.ExcepcionZona&gt; TieneExcepcion
+</code></pre>
+<h4 id="event-type-3">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="Zonas.Zona.html">Zona</a>.<a href="Zonas.Zona.ExcepcionZona.html">ExcepcionZona</a>&gt;</p>
+<h3 id="Zonas_Zona_ZonaDisponible"> ZonaDisponible</h3>
+<p>Evento que se produce cuando la zona está disponible para recibir un palet.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;bool&gt; ZonaDisponible
+</code></pre>
+<h4 id="event-type-4">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

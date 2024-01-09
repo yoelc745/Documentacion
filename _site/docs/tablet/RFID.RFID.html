@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class RFID | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class RFID | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="RFID_RFID"> Class RFID</h1>
+
+<p>Namespace: <a href="RFID.html">RFID</a><br>
+Assembly: RFID.dll</p>
+<p>Clase obsoleta con la versión antigua de lector RFID.</p>
+<pre><code class="lang-csharp">public class RFID
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="RFID.RFID.html">RFID</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="fields">Fields</h2>
+<h3 id="RFID_RFID_SQLConnection"> SQLConnection</h3>
+<p>Obtiene o establece la conexión SQL.</p>
+<pre><code class="lang-csharp">public SqlConnection SQLConnection
+</code></pre>
+<h4 id="field-value">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<h3 id="RFID_RFID_TransponderActual"> TransponderActual</h3>
+<p>Obtiene o establece la etiqueta RFID actual.</p>
+<pre><code class="lang-csharp">public TagRFID TransponderActual
+</code></pre>
+<h4 id="field-value-1">Field Value</h4>
+<p><a href="RFID.TagRFID.html">TagRFID</a></p>
+<h2 id="properties">Properties</h2>
+<h3 id="RFID_RFID_IdTransponder"> IdTransponder</h3>
+<p>Obtiene o establece el identificador del transpondedor.</p>
+<pre><code class="lang-csharp">public string IdTransponder { get; set; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="RFID_RFID_IsReadingBRM"> IsReadingBRM</h3>
+<p>Obtiene o establece un valor que indica si se está leyendo el BRM.</p>
+<pre><code class="lang-csharp">public bool IsReadingBRM { get; set; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="RFID_RFID_OnFewTransponders_ObservableHashSet_System_String__"> OnFewTransponders(ObservableHashSet&lt;string&gt;)</h3>
+<p>Genera el evento <span class="xref">RFID.RFID.FewTransponders</span>.</p>
+<pre><code class="lang-csharp">protected virtual void OnFewTransponders(ObservableHashSet&lt;string&gt; Transponders)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>Transponders</code> ObservableHashSet&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<p>Los transpondedores detectados.</p>
+<h3 id="RFID_RFID_OnTransponderReconocido_ObservableHashSet_System_String__"> OnTransponderReconocido(ObservableHashSet&lt;string&gt;)</h3>
+<p>Genera el evento <span class="xref">RFID.RFID.TransponderReconocido</span>.</p>
+<pre><code class="lang-csharp">protected virtual void OnTransponderReconocido(ObservableHashSet&lt;string&gt; Transponder)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>Transponder</code> ObservableHashSet&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<p>El transpondedor reconocido.</p>
+<h3 id="RFID_RFID_FewTransponders"> FewTransponders</h3>
+<p>Evento que se produce cuando se detectan pocos transpondedores.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;ObservableHashSet&lt;string&gt;&gt; FewTransponders
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;ObservableHashSet&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</p>
+<h3 id="RFID_RFID_TransponderReconocido"> TransponderReconocido</h3>
+<p>Evento que envía el RFID cuando se han reconocido transponders.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;ObservableHashSet&lt;string&gt;&gt; TransponderReconocido
+</code></pre>
+<h4 id="event-type-1">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;ObservableHashSet&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

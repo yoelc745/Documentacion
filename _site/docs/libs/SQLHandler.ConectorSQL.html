@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class ConectorSQL | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class ConectorSQL | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="SQLHandler_ConectorSQL"> Class ConectorSQL</h1>
+
+<p>Namespace: <a href="SQLHandler.html">SQLHandler</a><br>
+Assembly: SQLHandler.dll</p>
+<p>Clase que alberga las funcionalidades de conexión y comunicación con la base de datos.</p>
+<pre><code class="lang-csharp">public class ConectorSQL
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="SQLHandler.ConectorSQL.html">ConectorSQL</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="SQLHandler_ConectorSQL__ctor_System_String_System_String_System_String_System_String_System_Boolean_"> ConectorSQL(string, string, string, string, bool)</h3>
+<p>Conecta a la base de datos especificando los datos.</p>
+<pre><code class="lang-csharp">public ConectorSQL(string Host, string Username, string Password, string DB, bool DebugMode = false)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>Host</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Host donde se encuentra el servidor.</p>
+<p><code>Username</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Usuario de la base de datos.</p>
+<p><code>Password</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Contraseña de la base de datos.</p>
+<p><code>DB</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Base de datos seleccionada por defecto.</p>
+<p><code>DebugMode</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h4 id="exceptions">Exceptions</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></p>
+<h3 id="SQLHandler_ConectorSQL__ctor_System_String_ILog_System_Boolean_"> ConectorSQL(string, ILog, bool)</h3>
+<p>Conecta a la base de datos con la cadena de conexión DSN.</p>
+<pre><code class="lang-csharp">public ConectorSQL(string DSN, ILog Logger = null, bool DebugMode = false)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>DSN</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>DSN de conexión</p>
+<p><code>Logger</code> ILog</p>
+<p><code>DebugMode</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h4 id="exceptions-1">Exceptions</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></p>
+<h2 id="fields">Fields</h2>
+<h3 id="SQLHandler_ConectorSQL_Connection"> Connection</h3>
+<p>Conexión SQL a la base de datos.</p>
+<pre><code class="lang-csharp">protected SqlConnection Connection
+</code></pre>
+<h4 id="field-value">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="SQLHandler_ConectorSQL_ActualizarConfiguracionApp_SQLHandler_ConfiguracionApp_"> ActualizarConfiguracionApp(ConfiguracionApp)</h3>
+<p>Actualiza la configuración de la aplicación.</p>
+<pre><code class="lang-csharp">public void ActualizarConfiguracionApp(ConfiguracionApp item)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>item</code> <a href="SQLHandler.ConfiguracionApp.html">ConfiguracionApp</a></p>
+<h3 id="SQLHandler_ConectorSQL_ActualizarConfiguracionZona_SQLHandler_ConfiguracionZona_"> ActualizarConfiguracionZona(ConfiguracionZona)</h3>
+<p>Actualiza la configuración de la zona especificada.</p>
+<pre><code class="lang-csharp">public void ActualizarConfiguracionZona(ConfiguracionZona ConfigZona)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>ConfigZona</code> <a href="SQLHandler.ConfiguracionZona.html">ConfiguracionZona</a></p>
+<p>Configuracion de la zona</p>
+<h4 id="exceptions-2">Exceptions</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></p>
+<h3 id="SQLHandler_ConectorSQL_CheckStatus"> CheckStatus()</h3>
+<p>Detecta el estado de la conexión de la base de datos.</p>
+<pre><code class="lang-csharp">public bool CheckStatus()
+</code></pre>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>True si está conectado, de lo contrario False</p>
+<h3 id="SQLHandler_ConectorSQL_CheckUpdateParte_System_String_"> CheckUpdateParte(string)</h3>
+<p>CheckUpdateParte es una función que toma un parámetro de tipo string, LoteABuscar,
+y devuelve un string. Esta función verifica si hay actualizaciones en la tabla EK_OrdenesProd
+de la base de datos EKINDATA para un valor de Lote dado. Si se encuentra una actualización,
+devuelve el valor de Lote como string. Si no se encuentra ninguna actualización, devuelve null.</p>
+<pre><code class="lang-csharp">public string CheckUpdateParte(string LoteABuscar)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>LoteABuscar</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El valor de Lote a buscar en la tabla.</p>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El valor de Lote como string si se encuentra una actualización, de lo contrario null.</p>
+<h3 id="SQLHandler_ConectorSQL_Connect"> Connect()</h3>
+<p>Conecta con el destino especificado.</p>
+<pre><code class="lang-csharp">public void Connect()
+</code></pre>
+<h3 id="SQLHandler_ConectorSQL_CrearCopiaSeguridadBD_System_String_System_String_"> CrearCopiaSeguridadBD(string, string)</h3>
+<p>Crea una copia de seguridad de la base de datos especificada en el directorio especificado.</p>
+<pre><code class="lang-csharp">public bool CrearCopiaSeguridadBD(string Database, string Path)
+</code></pre>
+<h4 id="parameters-5">Parameters</h4>
+<p><code>Database</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p><code>Path</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>True si se creó la copia de seguridad correctamente, False en caso contrario.</p>
+<h3 id="SQLHandler_ConectorSQL_CreateEvent_System_String_System_String_System_Int32_"> CreateEvent(string, string, int)</h3>
+<p>Crea un evento con los parámetros dados.</p>
+<pre><code class="lang-csharp">public void CreateEvent(string Tipo, string Descripcion, int Tablet = 0)
+</code></pre>
+<h4 id="parameters-6">Parameters</h4>
+<p><code>Tipo</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El tipo de evento.</p>
+<p><code>Descripcion</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La descripción del evento.</p>
+<p><code>Tablet</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El ID de la tablet asociada con el evento (el valor predeterminado es 0).</p>
+<h3 id="SQLHandler_ConectorSQL_GetConfigApp"> GetConfigApp()</h3>
+<p>Obtiene la configuración de la aplicación.</p>
+<pre><code class="lang-csharp">public ObservableCollection&lt;ConfiguracionApp&gt; GetConfigApp()
+</code></pre>
+<h4 id="returns-3">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a href="SQLHandler.ConfiguracionApp.html">ConfiguracionApp</a>&gt;</p>
+<p>Una ObservableCollection de objetos ConfiguracionApp que representan la configuración de la aplicación.</p>
+<h3 id="SQLHandler_ConectorSQL_GetConfigUIElement_System_String_"> GetConfigUIElement(string)</h3>
+<p>Obtiene la configuración del elemento gráfico.</p>
+<pre><code class="lang-csharp">public UIElementConfig GetConfigUIElement(string xName)
+</code></pre>
+<h4 id="parameters-7">Parameters</h4>
+<p><code>xName</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h4 id="returns-4">Returns</h4>
+<p><a href="SQLHandler.UIElementConfig.html">UIElementConfig</a></p>
+<p>Un objeto UIElementConfig que representa la configuración del elemento gráfico.</p>
+<h3 id="SQLHandler_ConectorSQL_GetConfigZona_System_Int32_"> GetConfigZona(int)</h3>
+<p>Obtenemos la configuración de la zona mediante el número de ID.</p>
+<pre><code class="lang-csharp">public ConfiguracionZona GetConfigZona(int ID)
+</code></pre>
+<h4 id="parameters-8">Parameters</h4>
+<p><code>ID</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>ID de la zona</p>
+<h4 id="returns-5">Returns</h4>
+<p><a href="SQLHandler.ConfiguracionZona.html">ConfiguracionZona</a></p>
+<p>Configuración de la zona</p>
+<h3 id="SQLHandler_ConectorSQL_GetConnection"> GetConnection()</h3>
+<p>Devuelve el objeto de conexión a la base de datos.</p>
+<pre><code class="lang-csharp">public SqlConnection GetConnection()
+</code></pre>
+<h4 id="returns-6">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>El objeto SqlConnection utilizado para la conexión a la base de datos.</p>
+<h3 id="SQLHandler_ConectorSQL_GetHistorialTransponder_System_String_"> GetHistorialTransponder(string)</h3>
+<p>Obtiene el historial del transponder especificado.</p>
+<pre><code class="lang-csharp">public ObservableCollection&lt;RegistroPesaje&gt; GetHistorialTransponder(string Transponder)
+</code></pre>
+<h4 id="parameters-9">Parameters</h4>
+<p><code>Transponder</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h4 id="returns-7">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a>&gt;</p>
+<p>Una ObservableCollection de objetos RegistroPesaje que representan el historial del transponder.</p>
+<h3 id="SQLHandler_ConectorSQL_GetIDsPartesAbiertos"> GetIDsPartesAbiertos()</h3>
+<p>Obtiene la lista de IDs con los partes abiertos.</p>
+<pre><code class="lang-csharp">public List&lt;ParteTrabajo&gt; GetIDsPartesAbiertos()
+</code></pre>
+<h4 id="returns-8">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="SQLHandler.ParteTrabajo.html">ParteTrabajo</a>&gt;</p>
+<p>Una lista de objetos ParteTrabajo que representan los partes abiertos.</p>
+<h3 id="SQLHandler_ConectorSQL_GetLastInsertedID_System_String_"> GetLastInsertedID(string)</h3>
+<p>Obtiene la última ID que se ha introducido en la base de datos.</p>
+<pre><code class="lang-csharp">public string GetLastInsertedID(string TableName)
+</code></pre>
+<h4 id="parameters-10">Parameters</h4>
+<p><code>TableName</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h4 id="returns-9">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConectorSQL_GetLastRegistroByRfid_System_String_"> GetLastRegistroByRfid(string)</h3>
+<p>Recupera el objeto RegistroPesaje más reciente asociado con la etiqueta RFID dada.</p>
+<pre><code class="lang-csharp">public RegistroPesaje GetLastRegistroByRfid(string RFID)
+</code></pre>
+<h4 id="parameters-11">Parameters</h4>
+<p><code>RFID</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La etiqueta RFID a buscar.</p>
+<h4 id="returns-10">Returns</h4>
+<p><a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a></p>
+<p>El objeto RegistroPesaje más reciente con la etiqueta RFID coincidente, o null si no se encuentra.</p>
+<h3 id="SQLHandler_ConectorSQL_GetRegistrosFromParte_System_String_"> GetRegistrosFromParte(string)</h3>
+<p>Obtiene una colección de objetos RegistroPesaje desde la base de datos en función del valor de Lote proporcionado.</p>
+<pre><code class="lang-csharp">public ObservableCollection&lt;RegistroPesaje&gt; GetRegistrosFromParte(string Lote)
+</code></pre>
+<h4 id="parameters-12">Parameters</h4>
+<p><code>Lote</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El valor de Lote utilizado para filtrar los registros.</p>
+<h4 id="returns-11">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a href="SQLHandler.RegistroPesaje.html">RegistroPesaje</a>&gt;</p>
+<p>Una colección ObservableCollection de objetos RegistroPesaje que coinciden con el valor de Lote proporcionado.</p>
+<h4 id="exceptions-3">Exceptions</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></p>
+<p>Si ocurre un error durante el proceso de obtención.</p>
+<h3 id="SQLHandler_ConectorSQL_GetRegistryValue_System_String_SQLHandler_RegistryKeyType_"> GetRegistryValue(string, RegistryKeyType)</h3>
+<p>Obtiene el valor del registro especificado</p>
+<pre><code class="lang-csharp">public static string GetRegistryValue(string Value, RegistryKeyType TipoKey)
+</code></pre>
+<h4 id="parameters-13">Parameters</h4>
+<p><code>Value</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Key del registro a buscar</p>
+<p><code>TipoKey</code> <a href="SQLHandler.RegistryKeyType.html">RegistryKeyType</a></p>
+<h4 id="returns-12">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Los datos de una clave del registro</p>
+<h4 id="exceptions-4">Exceptions</h4>
+<p><a href="SQLHandler.RegistryKeyMissingException.html">RegistryKeyMissingException</a></p>
+<p>Si no se encuentra la clave del registro.</p>
+<h3 id="SQLHandler_ConectorSQL_GuardarConfiguracionZona_SQLHandler_ConfiguracionZona_"> GuardarConfiguracionZona(ConfiguracionZona)</h3>
+<p>Inserta la configuración en la base de datos.</p>
+<pre><code class="lang-csharp">public void GuardarConfiguracionZona(ConfiguracionZona ConfigZona)
+</code></pre>
+<h4 id="parameters-14">Parameters</h4>
+<p><code>ConfigZona</code> <a href="SQLHandler.ConfiguracionZona.html">ConfiguracionZona</a></p>
+<p>Objeto con la configuración de la zona.</p>
+<h4 id="exceptions-5">Exceptions</h4>
+<p><a href="SQLHandler.DuplicateKeyValueException.html">DuplicateKeyValueException</a></p>
+<h3 id="SQLHandler_ConectorSQL_ObtenerColumnas_System_String_System_String_System_String_System_String_"> ObtenerColumnas(string, string, string, string)</h3>
+<p>ObtenerColumnas is a function that retrieves a list of string values from a specified column in a given table of a specified database, with optional conditional statements.</p>
+<pre><code class="lang-csharp">public List&lt;string&gt; ObtenerColumnas(string Columna, string Tabla, string BBDD, string Condicionales = &quot;&quot;)
+</code></pre>
+<h4 id="parameters-15">Parameters</h4>
+<p><code>Columna</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>The name of the column from which to retrieve values.</p>
+<p><code>Tabla</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>The name of the table from which to retrieve values.</p>
+<p><code>BBDD</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>The name of the database from which to retrieve values.</p>
+<p><code>Condicionales</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>(optional) Additional conditional statements to apply to the query.</p>
+<h4 id="returns-13">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<p>A list of string values retrieved from the specified column.</p>
+<h4 id="exceptions-6">Exceptions</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></p>
+<p>Thrown when the specified column does not exist.</p>
+<h3 id="SQLHandler_ConectorSQL_ObtenerConfiguracionZonas"> ObtenerConfiguracionZonas()</h3>
+<p>Obtiene la configuración de las zonas.</p>
+<pre><code class="lang-csharp">public ObservableCollection&lt;ConfiguracionZona&gt; ObtenerConfiguracionZonas()
+</code></pre>
+<h4 id="returns-14">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a href="SQLHandler.ConfiguracionZona.html">ConfiguracionZona</a>&gt;</p>
+<p>Una ObservableCollection de objetos ConfiguracionZona que representan la configuración de las zonas.</p>
+<h3 id="SQLHandler_ConectorSQL_SetConfigDB_System_String_"> SetConfigDB(string)</h3>
+<p>Especifica la base de datos de configuración de la app.</p>
+<pre><code class="lang-csharp">public void SetConfigDB(string DB)
+</code></pre>
+<h4 id="parameters-16">Parameters</h4>
+<p><code>DB</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConectorSQL_SetDataDB_System_String_"> SetDataDB(string)</h3>
+<p>Especifica la base de datos de datos de la app.</p>
+<pre><code class="lang-csharp">public void SetDataDB(string DB)
+</code></pre>
+<h4 id="parameters-17">Parameters</h4>
+<p><code>DB</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_ConectorSQL_UpdateLoteParte_SQLHandler_ParteTrabajo_System_String_System_String_"> UpdateLoteParte(ParteTrabajo, string, string)</h3>
+<p>Actualiza el campo 'Lote' en la tabla 'EK_OrdenesProd' de la base de datos 'EKINDATA'.</p>
+<pre><code class="lang-csharp">public void UpdateLoteParte(ParteTrabajo Parte, string LoteViejo, string LoteNuevo)
+</code></pre>
+<h4 id="parameters-18">Parameters</h4>
+<p><code>Parte</code> <a href="SQLHandler.ParteTrabajo.html">ParteTrabajo</a></p>
+<p>El objeto ParteTrabajo que representa la parte a actualizar.</p>
+<p><code>LoteViejo</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El valor antiguo del campo 'Lote' a reemplazar.</p>
+<p><code>LoteNuevo</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El nuevo valor del campo 'Lote' para reemplazar el valor antiguo.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

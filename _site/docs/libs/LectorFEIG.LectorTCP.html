@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class LectorTCP | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class LectorTCP | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="LectorFEIG_LectorTCP"> Class LectorTCP</h1>
+
+<p>Namespace: <a href="LectorFEIG.html">LectorFEIG</a><br>
+Assembly: LectorFEIGCOM.dll</p>
+<p>Representa una clase que provee métodos para leer y escribir datos desde y hacia un puerto TCP.</p>
+<pre><code class="lang-csharp">public class LectorTCP
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="LectorFEIG.LectorTCP.html">LectorTCP</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="LectorFEIG_LectorTCP__ctor"> LectorTCP()</h3>
+<pre><code class="lang-csharp">public LectorTCP()
+</code></pre>
+<h3 id="LectorFEIG_LectorTCP__ctor_System_Boolean_"> LectorTCP(bool)</h3>
+<p>Inicializa una nueva instancia de la clase LectorTCP con la opción de mantener la conexión activa.</p>
+<pre><code class="lang-csharp">public LectorTCP(bool WithKeepAlive)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>WithKeepAlive</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si se enviará un comando de keep alive al lector cada segundo.</p>
+<h4 id="remarks">Remarks</h4>
+<p>Este constructor crea una instancia de la clase ReaderModule y asigna un manejador de eventos al temporizador KeepAlive.</p>
+<h2 id="fields">Fields</h2>
+<h3 id="LectorFEIG_LectorTCP_AntennaAddress"> AntennaAddress</h3>
+<p>La dirección de la antena que se usará para la comunicación con el lector.</p>
+<pre><code class="lang-csharp">public byte AntennaAddress
+</code></pre>
+<h4 id="field-value">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+<h3 id="LectorFEIG_LectorTCP_DelayAntennas"> DelayAntennas</h3>
+<p>El tiempo de espera en milisegundos entre el cambio de antenas.</p>
+<pre><code class="lang-csharp">public int DelayAntennas
+</code></pre>
+<h4 id="field-value-1">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="LectorFEIG_LectorTCP_InventarioAntenaDos"> InventarioAntenaDos</h3>
+<p>Almacena los identificadores de los transpondedores que han sido leídos por la antena dos del lector.</p>
+<pre><code class="lang-csharp">public HashSet&lt;string&gt; InventarioAntenaDos
+</code></pre>
+<h4 id="field-value-2">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<h3 id="LectorFEIG_LectorTCP_InventarioAntenaUno"> InventarioAntenaUno</h3>
+<p>Almacena los identificadores de los transpondedores que han sido leídos por la antena uno del lector.</p>
+<pre><code class="lang-csharp">public HashSet&lt;string&gt; InventarioAntenaUno
+</code></pre>
+<h4 id="field-value-3">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<h3 id="LectorFEIG_LectorTCP_InventoryTags"> InventoryTags</h3>
+<p>Almacena los identificadores de los transpondedores que han sido leídos por el lector.</p>
+<pre><code class="lang-csharp">public HashSet&lt;string&gt; InventoryTags
+</code></pre>
+<h4 id="field-value-4">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<h3 id="LectorFEIG_LectorTCP_NumberOfAntennas"> NumberOfAntennas</h3>
+<p>El número de antenas que tiene el lector.</p>
+<pre><code class="lang-csharp">public int NumberOfAntennas
+</code></pre>
+<h4 id="field-value-5">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="LectorFEIG_LectorTCP_PayloadAntenaDos"> PayloadAntenaDos</h3>
+<p>La carga útil en bytes para activar la antena dos del lector.</p>
+<pre><code class="lang-csharp">public byte[] PayloadAntenaDos
+</code></pre>
+<h4 id="field-value-6">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</p>
+<h3 id="LectorFEIG_LectorTCP_PayloadAntenaUno"> PayloadAntenaUno</h3>
+<p>La carga útil en bytes para activar la antena uno del lector.</p>
+<pre><code class="lang-csharp">public byte[] PayloadAntenaUno
+</code></pre>
+<h4 id="field-value-7">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</p>
+<h3 id="LectorFEIG_LectorTCP_TagBlockSize"> TagBlockSize</h3>
+<p>El tamaño de bloque en bytes para leer y escribir datos en los transpondedores.</p>
+<pre><code class="lang-csharp">public ulong TagBlockSize
+</code></pre>
+<h4 id="field-value-8">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></p>
+<h3 id="LectorFEIG_LectorTCP_reader"> reader</h3>
+<p>Representa una instancia de la clase ReaderModule que provee métodos para interactuar con el lector TCP.</p>
+<pre><code class="lang-csharp">public ReaderModule reader
+</code></pre>
+<h4 id="field-value-9">Field Value</h4>
+<p>ReaderModule</p>
+<h2 id="methods">Methods</h2>
+<h3 id="LectorFEIG_LectorTCP_AsyncBRMMode"> AsyncBRMMode()</h3>
+<p>Lee el inventario de los transpondedores RFID que se encuentran en el campo del lector usando el modo BRM (Buffer Read Mode) de forma asíncrona.</p>
+<pre><code class="lang-csharp">public Task AsyncBRMMode()
+</code></pre>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea que representa la operación de lectura.</p>
+<h3 id="LectorFEIG_LectorTCP_AsyncReadDataFromTag"> AsyncReadDataFromTag()</h3>
+<p>Lee los datos del transpondedor RFID que se encuentra en el campo del lector de forma asíncrona.</p>
+<pre><code class="lang-csharp">public Task&lt;string&gt; AsyncReadDataFromTag()
+</code></pre>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<p>Una tarea que representa la operación de lectura y que contiene una cadena con los datos del transpondedor.</p>
+<h3 id="LectorFEIG_LectorTCP_AsyncReadInventory"> AsyncReadInventory()</h3>
+<p>Lee el inventario de los transpondedores RFID que se encuentran en el campo del lector de forma asíncrona.</p>
+<pre><code class="lang-csharp">public Task AsyncReadInventory()
+</code></pre>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea que representa la operación de lectura.</p>
+<h3 id="LectorFEIG_LectorTCP_AsyncWriteToTag_System_String_"> AsyncWriteToTag(string)</h3>
+<p>Escribe los datos en el transpondedor RFID que se encuentra en el campo del lector de forma asíncrona.</p>
+<pre><code class="lang-csharp">public Task&lt;bool&gt; AsyncWriteToTag(string Message)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>Message</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El mensaje que se escribirá en el transpondedor.</p>
+<h4 id="returns-3">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</p>
+<p>Una tarea que representa la operación de escritura y que contiene un valor booleano que indica si la escritura fue exitosa o no.</p>
+<h4 id="exceptions">Exceptions</h4>
+<p><a href="LectorFEIG.TagIntegrityErrorException.html">TagIntegrityErrorException</a></p>
+<p>Se produce si se intenta escribir más de 112 bytes en el transpondedor.</p>
+<p><a href="LectorFEIG.ErrorWritingTagException.html">ErrorWritingTagException</a></p>
+<p>Se produce si ocurre un error al escribir en el transpondedor.</p>
+<h3 id="LectorFEIG_LectorTCP_CheckAndDisconnect"> CheckAndDisconnect()</h3>
+<p>Verifica si el lector está conectado al puerto TCP y lo desconecta en caso de que lo esté.</p>
+<pre><code class="lang-csharp">public bool CheckAndDisconnect()
+</code></pre>
+<h4 id="returns-4">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si el lector fue desconectado o no.</p>
+<h3 id="LectorFEIG_LectorTCP_CheckAndReconnectIfDisconnected"> CheckAndReconnectIfDisconnected()</h3>
+<p>Verifica si el lector está conectado al puerto TCP y lo reconecta en caso de que no lo esté.</p>
+<pre><code class="lang-csharp">public bool CheckAndReconnectIfDisconnected()
+</code></pre>
+<h4 id="returns-5">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si el lector está conectado o no.</p>
+<h3 id="LectorFEIG_LectorTCP_ClearMUXBuffer"> ClearMUXBuffer()</h3>
+<p>Limpia el búfer del multiplexor de antenas del lector.</p>
+<pre><code class="lang-csharp">public void ClearMUXBuffer()
+</code></pre>
+<h3 id="LectorFEIG_LectorTCP_ClearTag"> ClearTag()</h3>
+<p>Borra los datos del transpondedor RFID que se encuentra en el campo del lector de forma asíncrona.</p>
+<pre><code class="lang-csharp">public Task ClearTag()
+</code></pre>
+<h4 id="returns-6">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea que representa la operación de borrado.</p>
+<h4 id="exceptions-1">Exceptions</h4>
+<p><a href="LectorFEIG.TagIntegrityErrorException.html">TagIntegrityErrorException</a></p>
+<p>Se produce si se intenta escribir más de 112 bytes en el transpondedor.</p>
+<p><a href="LectorFEIG.ErrorWritingTagException.html">ErrorWritingTagException</a></p>
+<p>Se produce si ocurre un error al escribir en el transpondedor.</p>
+<h3 id="LectorFEIG_LectorTCP_CombineByteArrays_System_Byte___System_Byte___"> CombineByteArrays(byte[], byte[])</h3>
+<p>Combina dos matrices de bytes en una sola matriz de bytes.</p>
+<pre><code class="lang-csharp">public static byte[] CombineByteArrays(byte[] First, byte[] Second)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>First</code> <a href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</p>
+<p>La primera matriz de bytes.</p>
+<p><code>Second</code> <a href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</p>
+<p>La segunda matriz de bytes.</p>
+<h4 id="returns-7">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</p>
+<p>Una matriz de bytes que contiene los elementos de las dos matrices de bytes originales.</p>
+<h3 id="LectorFEIG_LectorTCP_Connect_System_String_System_Int32_"> Connect(string, int)</h3>
+<p>Conecta el lector al puerto TCP especificado.</p>
+<pre><code class="lang-csharp">public bool Connect(string IP, int Port)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>IP</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La dirección IP del lector.</p>
+<p><code>Port</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El puerto TCP del lector.</p>
+<h4 id="returns-8">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si la conexión fue exitosa o no.</p>
+<h3 id="LectorFEIG_LectorTCP_Disconnect"> Disconnect()</h3>
+<p>Desconecta el lector del puerto TCP.</p>
+<pre><code class="lang-csharp">public void Disconnect()
+</code></pre>
+<h3 id="LectorFEIG_LectorTCP_EnableMUXMode_System_Int32_System_Int32_"> EnableMUXMode(int, int)</h3>
+<p>Habilita el modo multiplexor de antenas para el lector.</p>
+<pre><code class="lang-csharp">public void EnableMUXMode(int AntennasNumber, int DelayBetweenAntennas)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>AntennasNumber</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El número de antenas que tiene el lector.</p>
+<p><code>DelayBetweenAntennas</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El tiempo de espera en milisegundos entre el cambio de antenas.</p>
+<h3 id="LectorFEIG_LectorTCP_GetDataFromTag_System_String_"> GetDataFromTag(string)</h3>
+<p>Obtiene los datos del transpondedor RFID que tiene el identificador dado.</p>
+<pre><code class="lang-csharp">public string GetDataFromTag(string IDD)
+</code></pre>
+<h4 id="parameters-5">Parameters</h4>
+<p><code>IDD</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El identificador del transpondedor.</p>
+<h4 id="returns-9">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Una cadena que contiene los datos del transpondedor.</p>
+<h3 id="LectorFEIG_LectorTCP_GetErrorCode"> GetErrorCode()</h3>
+<p>Devuelve el último texto de estado de error del lector.</p>
+<pre><code class="lang-csharp">public string GetErrorCode()
+</code></pre>
+<h4 id="returns-10">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Una cadena que contiene el último texto de estado de error del lector.</p>
+<h3 id="LectorFEIG_LectorTCP_GetStatus"> GetStatus()</h3>
+<p>Devuelve el último texto de estado del lector.</p>
+<pre><code class="lang-csharp">public string GetStatus()
+</code></pre>
+<h4 id="returns-11">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Una cadena que contiene el último texto de estado del lector.</p>
+<h3 id="LectorFEIG_LectorTCP_IsConnected"> IsConnected()</h3>
+<p>Indica si el lector está conectado al puerto TCP o no.</p>
+<pre><code class="lang-csharp">public bool IsConnected()
+</code></pre>
+<h4 id="returns-12">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica el estado de conexión del lector.</p>
+<h3 id="LectorFEIG_LectorTCP_OnAntenaReconectada_System_Boolean_"> OnAntenaReconectada(bool)</h3>
+<pre><code class="lang-csharp">protected virtual void OnAntenaReconectada(bool Reconectada)
+</code></pre>
+<h4 id="parameters-6">Parameters</h4>
+<p><code>Reconectada</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="LectorFEIG_LectorTCP_OnTransponderReconocido_System_Collections_Generic_HashSet_System_String__"> OnTransponderReconocido(HashSet&lt;string&gt;)</h3>
+<pre><code class="lang-csharp">protected virtual void OnTransponderReconocido(HashSet&lt;string&gt; Transponder)
+</code></pre>
+<h4 id="parameters-7">Parameters</h4>
+<p><code>Transponder</code> <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<h3 id="LectorFEIG_LectorTCP_ReadInventory_System_Boolean_"> ReadInventory(bool)</h3>
+<p>Lee el inventario de los transpondedores RFID que se encuentran en el campo del lector y devuelve un conjunto de cadenas con los identificadores de los transpondedores.</p>
+<pre><code class="lang-csharp">public HashSet&lt;string&gt; ReadInventory(bool Return)
+</code></pre>
+<h4 id="parameters-8">Parameters</h4>
+<p><code>Return</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si se devolverá el conjunto de cadenas o no.</p>
+<h4 id="returns-13">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+<p>Un conjunto de cadenas que contienen los identificadores de los transpondedores.</p>
+<h3 id="LectorFEIG_LectorTCP_ReadInventory"> ReadInventory()</h3>
+<p>Lee el inventario de los transpondedores RFID que se encuentran en el campo del lector y almacena los identificadores de los transpondedores en la propiedad InventoryTags.</p>
+<pre><code class="lang-csharp">public void ReadInventory()
+</code></pre>
+<h3 id="LectorFEIG_LectorTCP_ReadMUX"> ReadMUX()</h3>
+<p>Lee el inventario de los transpondedores RFID que se encuentran en el campo del lector usando el multiplexor de antenas.</p>
+<pre><code class="lang-csharp">public Task&lt;HashSet&lt;string&gt;&gt; ReadMUX()
+</code></pre>
+<h4 id="returns-14">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</p>
+<p>Una tarea que representa la operación de lectura y que contiene un conjunto de cadenas con los identificadores de los transpondedores.</p>
+<h3 id="LectorFEIG_LectorTCP_ReconnectReader"> ReconnectReader()</h3>
+<p>Reconecta el lector al puerto TCP.</p>
+<pre><code class="lang-csharp">public void ReconnectReader()
+</code></pre>
+<h3 id="LectorFEIG_LectorTCP_StopBRMMode"> StopBRMMode()</h3>
+<p>Detiene el modo BRM del lector y limpia el búfer y la cola de lectura.</p>
+<pre><code class="lang-csharp">public void StopBRMMode()
+</code></pre>
+<h3 id="LectorFEIG_LectorTCP_StringToByteArray_System_String_"> StringToByteArray(string)</h3>
+<p>Convierte una cadena hexadecimal en una matriz de bytes.</p>
+<pre><code class="lang-csharp">public static byte[] StringToByteArray(string hex)
+</code></pre>
+<h4 id="parameters-9">Parameters</h4>
+<p><code>hex</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La cadena hexadecimal que se convertirá.</p>
+<h4 id="returns-15">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</p>
+<p>Una matriz de bytes que contiene los valores de los caracteres hexadecimales.</p>
+<h3 id="LectorFEIG_LectorTCP_WriteToTag_System_String_"> WriteToTag(string)</h3>
+<p>Escribe los datos en el transpondedor RFID que se encuentra en el campo del lector.</p>
+<pre><code class="lang-csharp">[HandleProcessCorruptedStateExceptions]
+public (bool Estado, string Error) WriteToTag(string Message)
+</code></pre>
+<h4 id="parameters-10">Parameters</h4>
+<p><code>Message</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El mensaje que se escribirá en el transpondedor.</p>
+<h4 id="returns-16">Returns</h4>
+<p>(<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.estado">Estado</a>, <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.string-.error">Error</a>)</p>
+<p>Una tupla que contiene un valor booleano que indica si la escritura fue exitosa o no, y una cadena que contiene el texto de error en caso de que haya ocurrido alguno.</p>
+<h4 id="exceptions-2">Exceptions</h4>
+<p><a href="LectorFEIG.TagIntegrityErrorException.html">TagIntegrityErrorException</a></p>
+<p>Se produce si se intenta escribir más de 112 bytes en el transpondedor.</p>
+<h3 id="LectorFEIG_LectorTCP_AntenaReconectada"> AntenaReconectada</h3>
+<p>Evento que envía el RFID cuando se ha reconectado.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;bool&gt; AntenaReconectada
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</p>
+<h3 id="LectorFEIG_LectorTCP_TransponderReconocido"> TransponderReconocido</h3>
+<p>Evento que envía el RFID cuando se han reconocido transponders.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;HashSet&lt;string&gt;&gt; TransponderReconocido
+</code></pre>
+<h4 id="event-type-1">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

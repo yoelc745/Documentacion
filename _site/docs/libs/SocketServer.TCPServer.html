@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class TCPServer | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class TCPServer | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="SocketServer_TCPServer"> Class TCPServer</h1>
+
+<p>Namespace: <a href="SocketServer.html">SocketServer</a><br>
+Assembly: SocketServer.dll</p>
+<p>Define una clase que representa un servidor TCP que puede aceptar, leer y escribir datos de un cliente.</p>
+<pre><code class="lang-csharp">public class TCPServer
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="SocketServer.TCPServer.html">TCPServer</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="SocketServer_TCPServer__ctor_System_String_System_Int32_"> TCPServer(string, int)</h3>
+<p>Crea una instancia de un servidor TCP que escucha en una dirección IP y un puerto especificados.</p>
+<pre><code class="lang-csharp">public TCPServer(string Host, int Port)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>Host</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>La dirección IP del servidor en formato de cadena.</p>
+<p><code>Port</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El número de puerto del servidor.</p>
+<h2 id="properties">Properties</h2>
+<h3 id="SocketServer_TCPServer_GUIDConexion"> GUIDConexion</h3>
+<p>Obtiene o establece el identificador único de la conexión con el cliente.</p>
+<pre><code class="lang-csharp">public string GUIDConexion { get; set; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="SocketServer_TCPServer_CheckClientStatus"> CheckClientStatus()</h3>
+<p>Comprueba el estado de conexión del cliente y lo cierra y libera si está desconectado.</p>
+<pre><code class="lang-csharp">public bool CheckClientStatus()
+</code></pre>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<p>Un valor booleano que indica si el cliente está conectado, True si está conectado, False en caso contrario.</p>
+<h3 id="SocketServer_TCPServer_OnClientConnected_System_Net_Sockets_TcpClient_"> OnClientConnected(TcpClient)</h3>
+<p>Invoca el evento ClientConnected con el cliente conectado como argumento.</p>
+<pre><code class="lang-csharp">protected virtual void OnClientConnected(TcpClient e)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.net.sockets.tcpclient">TcpClient</a></p>
+<p>El objeto TcpClient que representa al cliente conectado.</p>
+<h3 id="SocketServer_TCPServer_OnDataRecieved_System_String_"> OnDataRecieved(string)</h3>
+<pre><code class="lang-csharp">protected virtual void OnDataRecieved(string e)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SocketServer_TCPServer_ReadData"> ReadData()</h3>
+<p>Lee datos del cliente conectado y los devuelve como una cadena de texto.</p>
+<pre><code class="lang-csharp">public string ReadData()
+</code></pre>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Una cadena de texto que contiene los datos leídos.</p>
+<h3 id="SocketServer_TCPServer_StartReadingAsync_System_Int32_"> StartReadingAsync(int)</h3>
+<p>Inicia una tarea asincrónica que lee datos del cliente conectado cada cierto intervalo de milisegundos, y lanza el evento OnDataReceived si detecta nuevos datos.</p>
+<pre><code class="lang-csharp">public Task StartReadingAsync(int MillisecondsDelay)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>MillisecondsDelay</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<p>El número de milisegundos que se espera entre cada lectura.</p>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea que se completa cuando se cierra o se pierde la conexión con el cliente.</p>
+<h3 id="SocketServer_TCPServer_StopReadingAsync"> StopReadingAsync()</h3>
+<p>Detiene la lectura asíncrona de datos.</p>
+<pre><code class="lang-csharp">public void StopReadingAsync()
+</code></pre>
+<h3 id="SocketServer_TCPServer_WaitForClient"> WaitForClient()</h3>
+<p>Espera de forma asincrónica a que un cliente se conecte al servidor y genera el evento OnClientConnected cuando se conecte.</p>
+<pre><code class="lang-csharp">public Task WaitForClient()
+</code></pre>
+<h4 id="returns-3">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></p>
+<p>Una tarea que se completa cuando se establece la conexión con el cliente.</p>
+<h3 id="SocketServer_TCPServer_WriteData_System_String_"> WriteData(string)</h3>
+<p>Escribe datos en el flujo de datos del cliente conectado.</p>
+<pre><code class="lang-csharp">public void WriteData(string Data)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>Data</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>Los datos que se quieren enviar al cliente.</p>
+<h3 id="SocketServer_TCPServer_ClientConnected"> ClientConnected</h3>
+<p>Evento generado cuando se conecta un cliente en el socket.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;TcpClient&gt; ClientConnected
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.net.sockets.tcpclient">TcpClient</a>&gt;</p>
+<h3 id="SocketServer_TCPServer_DataRecieved"> DataRecieved</h3>
+<p>Evento generado cuando se obtienen nuevos datos en el socket.</p>
+<pre><code class="lang-csharp">public event EventHandler&lt;string&gt; DataRecieved
+</code></pre>
+<h4 id="event-type-1">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

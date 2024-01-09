@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class TestDataset.DataTable1DataTable | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class TestDataset.DataTable1DataTable | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="HavanaApp_TestDataset_DataTable1DataTable"> Class TestDataset.DataTable1DataTable</h1>
+
+<p>Namespace: <a href="HavanaApp.html">HavanaApp</a><br>
+Assembly: HavanaApp.dll</p>
+<p>Represents the strongly named DataTable class.</p>
+<pre><code class="lang-csharp">[Serializable]
+public class TestDataset.DataTable1DataTable : TypedTableBase&lt;TestDataset.DataTable1Row&gt;, IComponent, IDisposable, IServiceProvider, IListSource, ISupportInitializeNotification, ISupportInitialize, ISerializable, IXmlSerializable, IEnumerable&lt;TestDataset.DataTable1Row&gt;, IEnumerable
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent">MarshalByValueComponent</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable">DataTable</a> ←
+<a href="https://learn.microsoft.com/dotnet/api/system.data.typedtablebase-1">TypedTableBase&lt;TestDataset.DataTable1Row&gt;</a> ←
+<a href="HavanaApp.TestDataset.DataTable1DataTable.html">TestDataset.DataTable1DataTable</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent">IComponent</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.ilistsource">IListSource</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitializenotification">ISupportInitializeNotification</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isupportinitialize">ISupportInitialize</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable">IXmlSerializable</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;TestDataset.DataTable1Row&gt;</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.typedtablebase-1.getenumerator">TypedTableBase&lt;TestDataset.DataTable1Row&gt;.GetEnumerator()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.typedtablebase-1.cast">TypedTableBase&lt;TestDataset.DataTable1Row&gt;.Cast&lt;TResult&gt;()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.finitinprogress">DataTable.fInitInProgress</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getobjectdata">DataTable.GetObjectData(SerializationInfo, StreamingContext)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.begininit">DataTable.BeginInit()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.endinit">DataTable.EndInit()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.acceptchanges">DataTable.AcceptChanges()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.createinstance">DataTable.CreateInstance()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.clone">DataTable.Clone()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.copy">DataTable.Copy()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.clear">DataTable.Clear()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.compute">DataTable.Compute(string, string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getchanges#system-data-datatable-getchanges">DataTable.GetChanges()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getchanges#system-data-datatable-getchanges(system-data-datarowstate)">DataTable.GetChanges(DataRowState)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.geterrors">DataTable.GetErrors()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.importrow">DataTable.ImportRow(DataRow)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.newrow">DataTable.NewRow()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.newrowfrombuilder">DataTable.NewRowFromBuilder(DataRowBuilder)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getrowtype">DataTable.GetRowType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.newrowarray">DataTable.NewRowArray(int)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.oncolumnchanging">DataTable.OnColumnChanging(DataColumnChangeEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.oncolumnchanged">DataTable.OnColumnChanged(DataColumnChangeEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onpropertychanging">DataTable.OnPropertyChanging(PropertyChangedEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onremovecolumn">DataTable.OnRemoveColumn(DataColumn)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onrowchanged">DataTable.OnRowChanged(DataRowChangeEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onrowchanging">DataTable.OnRowChanging(DataRowChangeEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onrowdeleting">DataTable.OnRowDeleting(DataRowChangeEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.onrowdeleted">DataTable.OnRowDeleted(DataRowChangeEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.ontablecleared">DataTable.OnTableCleared(DataTableClearEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.ontableclearing">DataTable.OnTableClearing(DataTableClearEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.ontablenewrow">DataTable.OnTableNewRow(DataTableNewRowEventArgs)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rejectchanges">DataTable.RejectChanges()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.reset">DataTable.Reset()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select">DataTable.Select()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select(system-string)">DataTable.Select(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select(system-string-system-string)">DataTable.Select(string, string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.select#system-data-datatable-select(system-string-system-string-system-data-dataviewrowstate)">DataTable.Select(string, string, DataViewRowState)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tostring">DataTable.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.beginloaddata">DataTable.BeginLoadData()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.endloaddata">DataTable.EndLoadData()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.loaddatarow#system-data-datatable-loaddatarow(system-object()-system-boolean)">DataTable.LoadDataRow(object[], bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.loaddatarow#system-data-datatable-loaddatarow(system-object()-system-data-loadoption)">DataTable.LoadDataRow(object[], LoadOption)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.merge#system-data-datatable-merge(system-data-datatable)">DataTable.Merge(DataTable)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.merge#system-data-datatable-merge(system-data-datatable-system-boolean)">DataTable.Merge(DataTable, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.merge#system-data-datatable-merge(system-data-datatable-system-boolean-system-data-missingschemaaction)">DataTable.Merge(DataTable, bool, MissingSchemaAction)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.load#system-data-datatable-load(system-data-idatareader)">DataTable.Load(IDataReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.load#system-data-datatable-load(system-data-idatareader-system-data-loadoption)">DataTable.Load(IDataReader, LoadOption)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.load#system-data-datatable-load(system-data-idatareader-system-data-loadoption-system-data-fillerroreventhandler)">DataTable.Load(IDataReader, LoadOption, FillErrorEventHandler)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.createdatareader">DataTable.CreateDataReader()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream)">DataTable.WriteXml(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream-system-boolean)">DataTable.WriteXml(Stream, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter)">DataTable.WriteXml(TextWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter-system-boolean)">DataTable.WriteXml(TextWriter, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter)">DataTable.WriteXml(XmlWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter-system-boolean)">DataTable.WriteXml(XmlWriter, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string)">DataTable.WriteXml(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string-system-boolean)">DataTable.WriteXml(string, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream-system-data-xmlwritemode)">DataTable.WriteXml(Stream, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-stream-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(Stream, XmlWriteMode, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter-system-data-xmlwritemode)">DataTable.WriteXml(TextWriter, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-io-textwriter-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(TextWriter, XmlWriteMode, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter-system-data-xmlwritemode)">DataTable.WriteXml(XmlWriter, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-xml-xmlwriter-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(XmlWriter, XmlWriteMode, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string-system-data-xmlwritemode)">DataTable.WriteXml(string, XmlWriteMode)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexml#system-data-datatable-writexml(system-string-system-data-xmlwritemode-system-boolean)">DataTable.WriteXml(string, XmlWriteMode, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-stream)">DataTable.WriteXmlSchema(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-stream-system-boolean)">DataTable.WriteXmlSchema(Stream, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-textwriter)">DataTable.WriteXmlSchema(TextWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-io-textwriter-system-boolean)">DataTable.WriteXmlSchema(TextWriter, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-xml-xmlwriter)">DataTable.WriteXmlSchema(XmlWriter)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-xml-xmlwriter-system-boolean)">DataTable.WriteXmlSchema(XmlWriter, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-string)">DataTable.WriteXmlSchema(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.writexmlschema#system-data-datatable-writexmlschema(system-string-system-boolean)">DataTable.WriteXmlSchema(string, bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-io-stream)">DataTable.ReadXml(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-io-textreader)">DataTable.ReadXml(TextReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-string)">DataTable.ReadXml(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxml#system-data-datatable-readxml(system-xml-xmlreader)">DataTable.ReadXml(XmlReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-io-stream)">DataTable.ReadXmlSchema(Stream)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-io-textreader)">DataTable.ReadXmlSchema(TextReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-string)">DataTable.ReadXmlSchema(string)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlschema#system-data-datatable-readxmlschema(system-xml-xmlreader)">DataTable.ReadXmlSchema(XmlReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getdatatableschema">DataTable.GetDataTableSchema(XmlSchemaSet)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.getschema">DataTable.GetSchema()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.readxmlserializable">DataTable.ReadXmlSerializable(XmlReader)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.casesensitive">DataTable.CaseSensitive</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.isinitialized">DataTable.IsInitialized</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.remotingformat">DataTable.RemotingFormat</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.childrelations">DataTable.ChildRelations</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.columns">DataTable.Columns</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.constraints">DataTable.Constraints</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.dataset">DataTable.DataSet</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.defaultview">DataTable.DefaultView</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.displayexpression">DataTable.DisplayExpression</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.extendedproperties">DataTable.ExtendedProperties</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.haserrors">DataTable.HasErrors</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.locale">DataTable.Locale</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.minimumcapacity">DataTable.MinimumCapacity</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.parentrelations">DataTable.ParentRelations</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.primarykey">DataTable.PrimaryKey</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rows">DataTable.Rows</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tablename">DataTable.TableName</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.namespace">DataTable.Namespace</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.prefix">DataTable.Prefix</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.site">DataTable.Site</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.columnchanging">DataTable.ColumnChanging</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.columnchanged">DataTable.ColumnChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.initialized">DataTable.Initialized</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowchanged">DataTable.RowChanged</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowchanging">DataTable.RowChanging</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowdeleting">DataTable.RowDeleting</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.rowdeleted">DataTable.RowDeleted</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tableclearing">DataTable.TableClearing</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tablecleared">DataTable.TableCleared</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.data.datatable.tablenewrow">DataTable.TableNewRow</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose">MarshalByValueComponent.Dispose()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.dispose#system-componentmodel-marshalbyvaluecomponent-dispose(system-boolean)">MarshalByValueComponent.Dispose(bool)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.getservice">MarshalByValueComponent.GetService(Type)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.tostring">MarshalByValueComponent.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.events">MarshalByValueComponent.Events</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.site">MarshalByValueComponent.Site</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.container">MarshalByValueComponent.Container</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.designmode">MarshalByValueComponent.DesignMode</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.marshalbyvaluecomponent.disposed">MarshalByValueComponent.Disposed</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable__ctor"> DataTable1DataTable()</h3>
+<pre><code class="lang-csharp">public DataTable1DataTable()
+</code></pre>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"> DataTable1DataTable(SerializationInfo, StreamingContext)</h3>
+<pre><code class="lang-csharp">protected DataTable1DataTable(SerializationInfo info, StreamingContext context)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>info</code> <a href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a></p>
+<p><code>context</code> <a href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext">StreamingContext</a></p>
+<h2 id="properties">Properties</h2>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_Count"> Count</h3>
+<pre><code class="lang-csharp">[Browsable(false)]
+public int Count { get; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_EmailColumn"> EmailColumn</h3>
+<pre><code class="lang-csharp">public DataColumn EmailColumn { get; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datacolumn">DataColumn</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_IsAdminColumn"> IsAdminColumn</h3>
+<pre><code class="lang-csharp">public DataColumn IsAdminColumn { get; }
+</code></pre>
+<h4 id="property-value-2">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datacolumn">DataColumn</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_NombreColumn"> NombreColumn</h3>
+<pre><code class="lang-csharp">public DataColumn NombreColumn { get; }
+</code></pre>
+<h4 id="property-value-3">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datacolumn">DataColumn</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_Item_System_Int32_"> this[int]</h3>
+<pre><code class="lang-csharp">public TestDataset.DataTable1Row this[int index] { get; }
+</code></pre>
+<h4 id="property-value-4">Property Value</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1Row.html">DataTable1Row</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_AddDataTable1Row_HavanaApp_TestDataset_DataTable1Row_"> AddDataTable1Row(DataTable1Row)</h3>
+<pre><code class="lang-csharp">public void AddDataTable1Row(TestDataset.DataTable1Row row)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>row</code> <a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1Row.html">DataTable1Row</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_AddDataTable1Row_System_String_System_String_System_Boolean_"> AddDataTable1Row(string, string, bool)</h3>
+<pre><code class="lang-csharp">public TestDataset.DataTable1Row AddDataTable1Row(string Nombre, string Email, bool IsAdmin)
+</code></pre>
+<h4 id="parameters-2">Parameters</h4>
+<p><code>Nombre</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p><code>Email</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p><code>IsAdmin</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h4 id="returns">Returns</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1Row.html">DataTable1Row</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_Clone"> Clone()</h3>
+<p>Clones the structure of the <span class="xref">System.Data.DataTable</span>, including all <span class="xref">System.Data.DataTable</span> schemas and constraints.</p>
+<pre><code class="lang-csharp">public override DataTable Clone()
+</code></pre>
+<h4 id="returns-1">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datatable">DataTable</a></p>
+<p>A new <span class="xref">System.Data.DataTable</span> with the same schema as the current <span class="xref">System.Data.DataTable</span>.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_CreateInstance"> CreateInstance()</h3>
+<p>Creates a new instance of <span class="xref">System.Data.DataTable</span>.</p>
+<pre><code class="lang-csharp">protected override DataTable CreateInstance()
+</code></pre>
+<h4 id="returns-2">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datatable">DataTable</a></p>
+<p>The new expression.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_GetRowType"> GetRowType()</h3>
+<p>Gets the row type.</p>
+<pre><code class="lang-csharp">protected override Type GetRowType()
+</code></pre>
+<h4 id="returns-3">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></p>
+<p>The type of the <span class="xref">System.Data.DataRow</span>.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_GetTypedTableSchema_System_Xml_Schema_XmlSchemaSet_"> GetTypedTableSchema(XmlSchemaSet)</h3>
+<pre><code class="lang-csharp">public static XmlSchemaComplexType GetTypedTableSchema(XmlSchemaSet xs)
+</code></pre>
+<h4 id="parameters-3">Parameters</h4>
+<p><code>xs</code> <a href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemaset">XmlSchemaSet</a></p>
+<h4 id="returns-4">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschemacomplextype">XmlSchemaComplexType</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_NewDataTable1Row"> NewDataTable1Row()</h3>
+<pre><code class="lang-csharp">public TestDataset.DataTable1Row NewDataTable1Row()
+</code></pre>
+<h4 id="returns-5">Returns</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1Row.html">DataTable1Row</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_NewRowFromBuilder_System_Data_DataRowBuilder_"> NewRowFromBuilder(DataRowBuilder)</h3>
+<p>Creates a new row from an existing row.</p>
+<pre><code class="lang-csharp">protected override DataRow NewRowFromBuilder(DataRowBuilder builder)
+</code></pre>
+<h4 id="parameters-4">Parameters</h4>
+<p><code>builder</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.datarowbuilder">DataRowBuilder</a></p>
+<p>A <span class="xref">System.Data.DataRowBuilder</span> object.</p>
+<h4 id="returns-6">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.data.datarow">DataRow</a></p>
+<p>A <span class="xref">System.Data.DataRow</span> derived class.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_OnRowChanged_System_Data_DataRowChangeEventArgs_"> OnRowChanged(DataRowChangeEventArgs)</h3>
+<p>Raises the <span class="xref">System.Data.DataTable.RowChanged</span> event.</p>
+<pre><code class="lang-csharp">protected override void OnRowChanged(DataRowChangeEventArgs e)
+</code></pre>
+<h4 id="parameters-5">Parameters</h4>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></p>
+<p>A <span class="xref">System.Data.DataRowChangeEventArgs</span> that contains the event data.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_OnRowChanging_System_Data_DataRowChangeEventArgs_"> OnRowChanging(DataRowChangeEventArgs)</h3>
+<p>Raises the <span class="xref">System.Data.DataTable.RowChanging</span> event.</p>
+<pre><code class="lang-csharp">protected override void OnRowChanging(DataRowChangeEventArgs e)
+</code></pre>
+<h4 id="parameters-6">Parameters</h4>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></p>
+<p>A <span class="xref">System.Data.DataRowChangeEventArgs</span> that contains the event data.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_OnRowDeleted_System_Data_DataRowChangeEventArgs_"> OnRowDeleted(DataRowChangeEventArgs)</h3>
+<p>Raises the <span class="xref">System.Data.DataTable.RowDeleted</span> event.</p>
+<pre><code class="lang-csharp">protected override void OnRowDeleted(DataRowChangeEventArgs e)
+</code></pre>
+<h4 id="parameters-7">Parameters</h4>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></p>
+<p>A <span class="xref">System.Data.DataRowChangeEventArgs</span> that contains the event data.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_OnRowDeleting_System_Data_DataRowChangeEventArgs_"> OnRowDeleting(DataRowChangeEventArgs)</h3>
+<p>Raises the <span class="xref">System.Data.DataTable.RowDeleting</span> event.</p>
+<pre><code class="lang-csharp">protected override void OnRowDeleting(DataRowChangeEventArgs e)
+</code></pre>
+<h4 id="parameters-8">Parameters</h4>
+<p><code>e</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.datarowchangeeventargs">DataRowChangeEventArgs</a></p>
+<p>A <span class="xref">System.Data.DataRowChangeEventArgs</span> that contains the event data.</p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_RemoveDataTable1Row_HavanaApp_TestDataset_DataTable1Row_"> RemoveDataTable1Row(DataTable1Row)</h3>
+<pre><code class="lang-csharp">public void RemoveDataTable1Row(TestDataset.DataTable1Row row)
+</code></pre>
+<h4 id="parameters-9">Parameters</h4>
+<p><code>row</code> <a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1Row.html">DataTable1Row</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_DataTable1RowChanged"> DataTable1RowChanged</h3>
+<pre><code class="lang-csharp">public event TestDataset.DataTable1RowChangeEventHandler DataTable1RowChanged
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1RowChangeEventHandler.html">DataTable1RowChangeEventHandler</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_DataTable1RowChanging"> DataTable1RowChanging</h3>
+<pre><code class="lang-csharp">public event TestDataset.DataTable1RowChangeEventHandler DataTable1RowChanging
+</code></pre>
+<h4 id="event-type-1">Event Type</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1RowChangeEventHandler.html">DataTable1RowChangeEventHandler</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_DataTable1RowDeleted"> DataTable1RowDeleted</h3>
+<pre><code class="lang-csharp">public event TestDataset.DataTable1RowChangeEventHandler DataTable1RowDeleted
+</code></pre>
+<h4 id="event-type-2">Event Type</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1RowChangeEventHandler.html">DataTable1RowChangeEventHandler</a></p>
+<h3 id="HavanaApp_TestDataset_DataTable1DataTable_DataTable1RowDeleting"> DataTable1RowDeleting</h3>
+<pre><code class="lang-csharp">public event TestDataset.DataTable1RowChangeEventHandler DataTable1RowDeleting
+</code></pre>
+<h4 id="event-type-3">Event Type</h4>
+<p><a href="HavanaApp.TestDataset.html">TestDataset</a>.<a href="HavanaApp.TestDataset.DataTable1RowChangeEventHandler.html">DataTable1RowChangeEventHandler</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

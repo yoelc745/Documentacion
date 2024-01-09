@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class UIElementConfig | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class UIElementConfig | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="SQLHandler_UIElementConfig"> Class UIElementConfig</h1>
+
+<p>Namespace: <a href="SQLHandler.html">SQLHandler</a><br>
+Assembly: SQLHandler.dll</p>
+<p>Estructura que recoge la configuración XAML de un elemento UI.</p>
+<pre><code class="lang-csharp">public class UIElementConfig : INotifyPropertyChanged
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="SQLHandler.UIElementConfig.html">UIElementConfig</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="fields">Fields</h2>
+<h3 id="SQLHandler_UIElementConfig_FontSize"> FontSize</h3>
+<p>Tamaño del texto.</p>
+<pre><code class="lang-csharp">public int FontSize
+</code></pre>
+<h4 id="field-value">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_UIElementConfig_Height"> Height</h3>
+<p>Altura del elemento.</p>
+<pre><code class="lang-csharp">public int Height
+</code></pre>
+<h4 id="field-value-1">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_UIElementConfig_HexColorBackground"> HexColorBackground</h3>
+<p>Color del fondo en Hexadecimal</p>
+<pre><code class="lang-csharp">public string HexColorBackground
+</code></pre>
+<h4 id="field-value-2">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_UIElementConfig_ID"> ID</h3>
+<p>ID del elemento.</p>
+<pre><code class="lang-csharp">public int ID
+</code></pre>
+<h4 id="field-value-3">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_UIElementConfig_Name"> Name</h3>
+<p>x:Name del elemento.</p>
+<pre><code class="lang-csharp">public string Name
+</code></pre>
+<h4 id="field-value-4">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_UIElementConfig_PosBottom"> PosBottom</h3>
+<p>Posición relativa abajo.</p>
+<pre><code class="lang-csharp">public int PosBottom
+</code></pre>
+<h4 id="field-value-5">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_UIElementConfig_PosLeft"> PosLeft</h3>
+<p>Posición relativa a la izquierda.</p>
+<pre><code class="lang-csharp">public int PosLeft
+</code></pre>
+<h4 id="field-value-6">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_UIElementConfig_PosRight"> PosRight</h3>
+<p>Posición relativa a la derecha.</p>
+<pre><code class="lang-csharp">public int PosRight
+</code></pre>
+<h4 id="field-value-7">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_UIElementConfig_PosTop"> PosTop</h3>
+<p>Posición relativa arriba.</p>
+<pre><code class="lang-csharp">public int PosTop
+</code></pre>
+<h4 id="field-value-8">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_UIElementConfig_Width"> Width</h3>
+<p>Anchura del elemento.</p>
+<pre><code class="lang-csharp">public int Width
+</code></pre>
+<h4 id="field-value-9">Field Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="SQLHandler_UIElementConfig_NotifyPropertyChanged_System_String_"> NotifyPropertyChanged(string)</h3>
+<p>Notifica a los suscriptores que una propiedad ha cambiado.</p>
+<pre><code class="lang-csharp">public void NotifyPropertyChanged(string propertyName)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>propertyName</code> <a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<p>El nombre de la propiedad que ha cambiado.</p>
+<h3 id="SQLHandler_UIElementConfig_PropertyChanged"> PropertyChanged</h3>
+<pre><code class="lang-csharp">public event PropertyChangedEventHandler PropertyChanged
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> Class PersistenciaZona | HCI LLenado-Vaciado </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" Class PersistenciaZona | HCI LLenado-Vaciado ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="HCI LLenado-Vaciado">
+            HCI LLenado-Vaciado
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="SQLHandler_PersistenciaZona"> Class PersistenciaZona</h1>
+
+<p>Namespace: <a href="SQLHandler.html">SQLHandler</a><br>
+Assembly: SQLHandler.dll</p>
+<p>Clase que representa la persistencia de una zona.</p>
+<pre><code class="lang-csharp">public class PersistenciaZona : INotifyPropertyChanged
+</code></pre>
+<h4 id="inheritance">Inheritance</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object">object</a> ←
+<a href="SQLHandler.PersistenciaZona.html">PersistenciaZona</a></p>
+<h4 id="implements">Implements</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></p>
+<h4 id="inherited-members">Inherited Members</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>,
+<a href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a></p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="SQLHandler_PersistenciaZona__ctor_System_Data_SqlClient_SqlConnection_"> PersistenciaZona(SqlConnection)</h3>
+<p>Inicializa una nueva instancia de la clase <span class="xref">SQLHandler.PersistenciaZona</span>.</p>
+<pre><code class="lang-csharp">public PersistenciaZona(SqlConnection Connection)
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<p><code>Connection</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a SQL.</p>
+<h2 id="properties">Properties</h2>
+<h3 id="SQLHandler_PersistenciaZona_Estado"> Estado</h3>
+<pre><code class="lang-csharp">public EstadoPersistencia Estado { get; set; }
+</code></pre>
+<h4 id="property-value">Property Value</h4>
+<p><a href="SQLHandler.EstadoPersistencia.html">EstadoPersistencia</a></p>
+<h3 id="SQLHandler_PersistenciaZona_Fecha_Peso"> Fecha_Peso</h3>
+<pre><code class="lang-csharp">public string Fecha_Peso { get; set; }
+</code></pre>
+<h4 id="property-value-1">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_PersistenciaZona_Fecha_RFID"> Fecha_RFID</h3>
+<pre><code class="lang-csharp">public string Fecha_RFID { get; set; }
+</code></pre>
+<h4 id="property-value-2">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_PersistenciaZona_Id"> Id</h3>
+<pre><code class="lang-csharp">public int Id { get; set; }
+</code></pre>
+<h4 id="property-value-3">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+<h3 id="SQLHandler_PersistenciaZona_Observaciones"> Observaciones</h3>
+<pre><code class="lang-csharp">public string Observaciones { get; set; }
+</code></pre>
+<h4 id="property-value-4">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_PersistenciaZona_Peso"> Peso</h3>
+<pre><code class="lang-csharp">public double Peso { get; set; }
+</code></pre>
+<h4 id="property-value-5">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.double">double</a></p>
+<h3 id="SQLHandler_PersistenciaZona_Peso_Enviado"> Peso_Enviado</h3>
+<p>Obtiene o establece un valor que indica si el peso ha sido enviado.</p>
+<pre><code class="lang-csharp">public bool Peso_Enviado { get; set; }
+</code></pre>
+<h4 id="property-value-6">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="SQLHandler_PersistenciaZona_RFID"> RFID</h3>
+<pre><code class="lang-csharp">public string RFID { get; set; }
+</code></pre>
+<h4 id="property-value-7">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.string">string</a></p>
+<h3 id="SQLHandler_PersistenciaZona_RFID_Enviado"> RFID_Enviado</h3>
+<pre><code class="lang-csharp">public bool RFID_Enviado { get; set; }
+</code></pre>
+<h4 id="property-value-8">Property Value</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+<h3 id="SQLHandler_PersistenciaZona__Estado"> _Estado</h3>
+<p>Obtiene o establece el estado de persistencia.</p>
+<pre><code class="lang-csharp">public EstadoPersistencia _Estado { get; set; }
+</code></pre>
+<h4 id="property-value-9">Property Value</h4>
+<p><a href="SQLHandler.EstadoPersistencia.html">EstadoPersistencia</a></p>
+<h2 id="methods">Methods</h2>
+<h3 id="SQLHandler_PersistenciaZona_ActualizarDatosTabla"> ActualizarDatosTabla()</h3>
+<p>Actualiza los datos de la tabla de persistencia.</p>
+<pre><code class="lang-csharp">public void ActualizarDatosTabla()
+</code></pre>
+<h3 id="SQLHandler_PersistenciaZona_GetPersistenciasZonas_System_Data_SqlClient_SqlConnection_"> GetPersistenciasZonas(SqlConnection)</h3>
+<p>Obtiene una lista de persistencias de zonas desde la base de datos.</p>
+<pre><code class="lang-csharp">public static List&lt;PersistenciaZona&gt; GetPersistenciasZonas(SqlConnection Connection)
+</code></pre>
+<h4 id="parameters-1">Parameters</h4>
+<p><code>Connection</code> <a href="https://learn.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection">SqlConnection</a></p>
+<p>La conexión a SQL.</p>
+<h4 id="returns">Returns</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a href="SQLHandler.PersistenciaZona.html">PersistenciaZona</a>&gt;</p>
+<p>Una lista de persistencias de zonas.</p>
+<h3 id="SQLHandler_PersistenciaZona_PropertyChanged"> PropertyChanged</h3>
+<p>Evento que se produce cuando una propiedad ha cambiado.</p>
+<pre><code class="lang-csharp">public event PropertyChangedEventHandler PropertyChanged
+</code></pre>
+<h4 id="event-type">Event Type</h4>
+<p><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

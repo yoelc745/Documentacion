@@ -1,0 +1,1678 @@
+{
+  "source_base_path": "D:/Workspace/repos/work/GSI/HabanaClub/website-docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/doc-tec.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/doc-tec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/ControlConsola.Consola.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/ControlConsola.Consola.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/ControlConsola.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/ControlConsola.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.DuplicatedTagException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.DuplicatedTagException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.EmptyDataTagException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.EmptyDataTagException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.ErrorConnectingException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.ErrorConnectingException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.ErrorWritingTagException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.ErrorWritingTagException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.LectorCOM.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.LectorCOM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.LectorTCP.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.LectorTCP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.RFIDError.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.RFIDError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.RFIDNotConnectedException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.RFIDNotConnectedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.TagData.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.TagData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.TagDataOutOfRangeException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.TagDataOutOfRangeException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.TagInsertionError.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.TagInsertionError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.TagIntegrityErrorException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.TagIntegrityErrorException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.TagNotSupportedException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.TagNotSupportedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.TagRFID.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.TagRFID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.TagUpdateError.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.TagUpdateError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorFEIG.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorFEIG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorINI.INIFileNotFound.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorINI.INIFileNotFound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorINI.InvalidFileException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorINI.InvalidFileException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorINI.ParameterNotFound.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorINI.ParameterNotFound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorINI.Reader.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorINI.Reader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/LectorINI.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/LectorINI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.ConectorSQL.FuncionesAuxiliares.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.ConectorSQL.FuncionesAuxiliares.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.ConectorSQL.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.ConectorSQL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.ConfiguracionApp.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.ConfiguracionApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.ConfiguracionZona.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.ConfiguracionZona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.ConfigurationMissingException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.ConfigurationMissingException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.DSNConnectionNotFoundException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.DSNConnectionNotFoundException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.DatosParte.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.DatosParte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.DuplicateKeyValueException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.DuplicateKeyValueException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.EstadoPersistencia.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.EstadoPersistencia.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.HistoricoData.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.HistoricoData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.IdentificacionPalet.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.IdentificacionPalet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.ParametrosApp.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.ParametrosApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.Parte.TipoParte.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.Parte.TipoParte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.Parte.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.Parte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.ParteTrabajo.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.ParteTrabajo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.PersistenciaZona.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.PersistenciaZona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.RegistroBarrica.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.RegistroBarrica.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.RegistroPesaje.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.RegistroPesaje.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.RegistryKeyMissingException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.RegistryKeyMissingException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.RegistryKeyType.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.RegistryKeyType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.TipoBarril.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.TipoBarril.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.TipoPalet.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.TipoPalet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.UIElementConfig.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.UIElementConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.Usuario.NivelAcceso.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.Usuario.NivelAcceso.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.Usuario.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.Usuario.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SQLHandler.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SQLHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SocketServer.TCPServer.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SocketServer.TCPServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/SocketServer.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/SocketServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/TecladoVirtual.TecladoVirtual.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/TecladoVirtual.TecladoVirtual.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/TecladoVirtual.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/TecladoVirtual.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/libs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/libs/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Basculas.Bascula.Comandos.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Basculas.Bascula.Comandos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Basculas.Bascula.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Basculas.Bascula.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Basculas.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Basculas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/BotonHexagonal.Boton.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/BotonHexagonal.Boton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/BotonHexagonal.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/BotonHexagonal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/CustomControl.ExtendedTextBox.DataType.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/CustomControl.ExtendedTextBox.DataType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/CustomControl.ExtendedTextBox.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/CustomControl.ExtendedTextBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/CustomControl.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/CustomControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.App.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.ArrayExtensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.ArrayExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.BackupBBDD.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.BackupBBDD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.CrearParte.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.CrearParte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.DiagnosticoDispositivos.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.DiagnosticoDispositivos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.DiagnosticoRFID.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.DiagnosticoRFID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.ErrorModal.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.ErrorModal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.Index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.NuevaZona.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.NuevaZona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1DataTable.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1DataTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1Row.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1Row.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1RowChangeEvent.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1RowChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1RowChangeEventHandler.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.DataTable1RowChangeEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesDataTable.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesDataTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesRow.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesRow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesRowChangeEvent.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesRowChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesRowChangeEventHandler.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.IdentificacionesRowChangeEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.TestDataset.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.TestDataset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.Trabajo.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.Trabajo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.Trazabilidad.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.Trazabilidad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/HavanaApp.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/HavanaApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/LoginForm.LoginForm.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/LoginForm.LoginForm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/LoginForm.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/LoginForm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.EstructurasPLC.DatosPLC.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.EstructurasPLC.DatosPLC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.EstructurasPLC.TipoOperacion.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.EstructurasPLC.TipoOperacion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.EstructurasPLC.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.EstructurasPLC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.Logger.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.Logger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.PLCLegacy.PLCData.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.PLCLegacy.PLCData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.PLCLegacy.TipoDato.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.PLCLegacy.TipoDato.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.PLCLegacy.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.PLCLegacy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/PLCs.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/PLCs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/SMTPClient.Client.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/SMTPClient.Client.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/SMTPClient.SMTPConnectionException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/SMTPClient.SMTPConnectionException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/SMTPClient.SMTPSendException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/SMTPClient.SMTPSendException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/SMTPClient.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/SMTPClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Utils.Utiles.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Utils.Utiles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Utils.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/VisorEventos.Visor.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/VisorEventos.Visor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/VisorEventos.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/VisorEventos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.DetailsZona.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.DetailsZona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.EstadoLinea.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.EstadoLinea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.RegistroBarrica.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.RegistroBarrica.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.Zona.ExcepcionParadaZona.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.Zona.ExcepcionParadaZona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.Zona.ExcepcionZona.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.Zona.ExcepcionZona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.Zona.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.Zona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.ZonaEntrada.ReseteoZonaException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.ZonaEntrada.ReseteoZonaException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.ZonaEntrada.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.ZonaEntrada.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.ZonaLinea.ReseteoZonaException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.ZonaLinea.ReseteoZonaException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.ZonaLinea.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.ZonaLinea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.ZonaTransfer.LecturaRfidIncorrectaException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.ZonaTransfer.LecturaRfidIncorrectaException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.ZonaTransfer.ReseteoZonaException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.ZonaTransfer.ReseteoZonaException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.ZonaTransfer.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.ZonaTransfer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/Zonas.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/Zonas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/linea/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/linea/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/resultados.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/resultados.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/Escaner_Transponders.ColoresSemaforo.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/Escaner_Transponders.ColoresSemaforo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/Escaner_Transponders.Escaner.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/Escaner_Transponders.Escaner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/Escaner_Transponders.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/Escaner_Transponders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.App.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.Configuracion.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.Configuracion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.ConfiguracionSQL.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.ConfiguracionSQL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.LoginWindow.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.LoginWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.MainWindow.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.MainWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.MigrarRegistros.FormManualSubmit.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.MigrarRegistros.FormManualSubmit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.MigrarRegistros.FormSubmit.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.MigrarRegistros.FormSubmit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.MigrarRegistros.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.MigrarRegistros.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.ReadWriteTag.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.ReadWriteTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.RegrabarTag.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.RegrabarTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/HavanaTablet.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/HavanaTablet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/ModalesApp.DatosTransponder.FormManualSubmit.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/ModalesApp.DatosTransponder.FormManualSubmit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/ModalesApp.DatosTransponder.FormSubmit.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/ModalesApp.DatosTransponder.FormSubmit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/ModalesApp.DatosTransponder.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/ModalesApp.DatosTransponder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/ModalesApp.HistorialBarrica.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/ModalesApp.HistorialBarrica.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/ModalesApp.SustitucionTag.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/ModalesApp.SustitucionTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/ModalesApp.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/ModalesApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.DuplicatedTagException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.DuplicatedTagException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.EmptyDataTagException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.EmptyDataTagException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.ErrorConnectingException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.ErrorConnectingException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.ErrorWritingTagException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.ErrorWritingTagException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.RFID.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.RFID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.RFIDError.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.RFIDError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.RFIDFunctions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.RFIDFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.RFIDNotConnectedException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.RFIDNotConnectedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.SQLsRFID.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.SQLsRFID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagData.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagDataOutOfRangeException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagDataOutOfRangeException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagInsertionError.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagInsertionError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagIntegrityErrorException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagIntegrityErrorException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagNotSupportedException.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagNotSupportedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagRFID.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagRFID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagType.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.TagUpdateError.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.TagUpdateError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/RFID.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/RFID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/SocketClient.TCPClient.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/SocketClient.TCPClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/SocketClient.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/SocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tablet/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tablet/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
